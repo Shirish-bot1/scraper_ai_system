@@ -1,0 +1,695 @@
+province,district,municipality,type,website,email,phone
+
+कोशी प्रदेश,भोजपुर,भोजपुर नगरपालिका,Municipality,http://bhojpurmun.gov.np,info@bhojpurmun.gov.np,029-420102
+कोशी प्रदेश,भोजपुर,षडानन्द नगरपालिका,Municipality,http://shadanandamun.gov.np,shadanandanagarpalika@gmail.com,029-421125
+कोशी प्रदेश,धनकुटा,धनकुटा नगरपालिका,Municipality,http://dhankutamun.gov.np,mundkt@gmail.com,026-520126
+कोशी प्रदेश,धनकुटा,पाख्रिवास नगरपालिका,Municipality,http://pakhribasmun.gov.np,pakhribas.nagarpalika@gmail.com,026-405152
+कोशी प्रदेश,धनकुटा,महालक्ष्मी नगरपालिका,Municipality,http://mahalaxmimundhankuta.gov.np,mahalaxmimunjitpur@gmail.com,026-419000
+कोशी प्रदेश,सुनसरी,इनरुवा नगरपालिका,Municipality,http://inaruwamun.gov.np,info@inaruwamun.gov.np,025-565077
+कोशी प्रदेश,सुनसरी,दुहवी नगरपालिका,Municipality,http://duhabimun.gov.np,info@duhabimun.gov.np,025-540024
+कोशी प्रदेश,सुनसरी,बराहक्षेत्र नगरपालिका,Municipality,http://barahamun.gov.np,barahmun@gmail.com,025-551145
+कोशी प्रदेश,सुनसरी,रामधुनी नगरपालिका,Municipality,http://ramdhunimun.gov.np,ramdhunibhasi@gmail.com,025-562566
+कोशी प्रदेश,मोरङ,लेटाङ नगरपालिका,Municipality,http://letangmun.gov.np,letangmunicipality@gmail.com,021-560666
+कोशी प्रदेश,मोरङ,सुन्दर हरैचा नगरपालिका,Municipality,http://sundarharaichamun.gov.np,sundarharaichamun@gmail.com,021-547727
+कोशी प्रदेश,मोरङ,सुनवर्षी नगरपालिका,Municipality,http://sunawarshimun.gov.np,info@sunawarshimun.gov.np,021-433025
+कोशी प्रदेश,मोरङ,रतुवामाई नगरपालिका,Municipality,http://ratuwamaimun.gov.np,ratuwamaimunicipalityinfo@gmail.com,021-414052
+कोशी प्रदेश,मोरङ,रंगेली नगरपालिका,Municipality,http://rangelimun.gov.np,rangelimun@gmail.com,021-580674
+कोशी प्रदेश,मोरङ,बेलवारी नगरपालिका,Municipality,http://belbarimun.gov.np,info@belbarimun.gov.np,021-434213
+कोशी प्रदेश,मोरङ,पथरी शनिश्चरे नगरपालिका,Municipality,http://patharishanishcharemun.gov.np,patharishanishcharemun@gmail.com,"021-556113,021-555212"
+कोशी प्रदेश,मोरङ,उर्लाबारी नगरपालिका,Municipality,http://urlabarimun.gov.np,info@urlabarimun.gov.np,021540459
+कोशी प्रदेश,सोलुखुम्बु,सोलुदुधकुण्ड नगरपालिका,Municipality,http://solududhkundamun.gov.np,info@solududhkundamun.gov.np,038-520264
+कोशी प्रदेश,खोटाङ,दिक्तेल रुपाकोट मझुवागढी नगरपालिका,Municipality,http://rupakotmajhuwagadhimun.gov.np,rupakotmun@gmail.com,036-420683
+कोशी प्रदेश,खोटाङ,हलेसी तुवाचुङ नगरपालिका,Municipality,http://halesituwachungmun.gov.np,tuwachung.mun@gmail.com,9851009879
+कोशी प्रदेश,उदयपुर,कटारी नगरपालिका,Municipality,http://katarimun.gov.np,info@katarimun.gov.np,035-450039
+कोशी प्रदेश,उदयपुर,चौदण्डीगढी नगरपालिका,Municipality,http://chaudandigadhimun.gov.np,chaudandigadhimun@gmail.com,"035-440247,035-440246"
+कोशी प्रदेश,उदयपुर,त्रियुगा नगरपालिका,Municipality,http://triyugamun.gov.np,triyuga.mun@gmail.com,035-420186
+कोशी प्रदेश,उदयपुर,वेलका नगरपालिका,Municipality,http://belakamun.gov.np,belakamun@gmail.com,"9852835479,9851176291"
+कोशी प्रदेश,ओखलढुंगा,सिद्धिचरण नगरपालिका,Municipality,http://siddhicharanmun.gov.np,info@siddhicharanmun.gov.np,037-520213
+कोशी प्रदेश,ताप्लेजुङ,आठराई त्रिवेणी गाउँपालिका,Rural Municipality,http://aathraitribenimun.gov.np,aathrai.tribenimun@gmail.com,9852660960
+कोशी प्रदेश,ताप्लेजुङ,फक्ताङलुङ गाउँपालिका,Rural Municipality,http://phaktanglungmun.gov.np,phaktanglungmun@gmail.com,021-696491
+कोशी प्रदेश,ताप्लेजुङ,मिक्वाखोला गाउँपालिका,Rural Municipality,http://mikwakholamun.gov.np,info@mikwakholamun.gov.np,9742691943
+कोशी प्रदेश,ताप्लेजुङ,मेरिङदेन गाउँपालिका,Rural Municipality,http://meringdenmun.gov.np,meringden@gmail.com,9852660822
+कोशी प्रदेश,ताप्लेजुङ,मैवाखोला गाउँपालिका,Rural Municipality,http://maiwakholamun.gov.np,info@maiwakholamun.gov.np,9852660937
+कोशी प्रदेश,ताप्लेजुङ,पाथिभरा याङ्वरक गाउँपालिका,Rural Municipality,http://pathivarayangwarakmun.gov.np,pathivarayang@gmail.com,9852660460
+कोशी प्रदेश,ताप्लेजुङ,सिदिङ्वा गाउँपालिका,Rursal Municipality,http://sidingbamun.gov.np,sidingbarmtpj@gmail.com,9852660153
+कोशी प्रदेश,ताप्लेजुङ,सिरीजङ्घा गाउँपालिका,Rural Municipality,http://sirijanghamun.gov.np,sirijangharuralmunicipality@gmail.com,9861991144
+कोशी प्रदेश,पाँचथर,कुम्मायक गाउँपालिका,Rural Municipality,http://kummayakmun.gov.np,info@kummayakmun.gov.np,024413061
+कोशी प्रदेश,पाँचथर,तुम्वेवा गाउँपालिका,Rural Municipality,http://tumwewamun.gov.np,info@tumwewamun.gov.np,9851318144
+कोशी प्रदेश,पाँचथर,फालेलुङ गाउँपालिका,Rural Municipality,http://phalelungmun.gov.np,phalelunggaunpalika@gmail.com,021696490
+कोशी प्रदेश,पाँचथर,फाल्गुनन्द गाउँपालिका,Rural Municipality,http://phalgunandamun.gov.np,info@phalgunandamun.gov.np,9852684384
+कोशी प्रदेश,पाँचथर,मिक्लाजुङ गाउँपालिका,Rural Municipality,http://miklajungmunpanchthar.gov.np,info@miklajungmunpanchthar.gov.np,"024-412115,"
+कोशी प्रदेश,पाँचथर,याङवरक गाउँपालिका,Rural Municipality,http://yangwarakmunpanchthar.gov.np,info@yangwarakmunpanchthar.gov.np,024-410049
+कोशी प्रदेश,पाँचथर,हिलिहाङ गाउँपालिका,Rural Municipality,http://hilihangmun.gov.np,info@hilihangmun.gov.np,9843697622
+कोशी प्रदेश,इलाम,चुलाचुली गाउँपालिका,Rural Municipality,http://chulachulimun.gov.np,chulachuli.ruralmunicipality@gmail.com,9746872425
+कोशी प्रदेश,इलाम,सन्दकपुर गाउँपालिका,Rural Municipality,http://sandakpurmun.gov.np,sandakpurrm@gmail.com,9801451741
+कोशी प्रदेश,इलाम,रोङ गाउँपालिका,Rural Municipality,http://rongmun.gov.np,info@rongmun.gov.np,9852042020
+कोशी प्रदेश,इलाम,माङसेबुङ गाउँपालिका,Rural Municipality,http://mansebungmun.gov.np,mangsebung.ruralmun@gmail.com,9852685445
+कोशी प्रदेश,इलाम,माईजोगमाई गाउँपालिका,Rural Municipality,http://maijogmaimun.gov.np,info@maijogmaimun.gov.np,027-411044
+कोशी प्रदेश,इलाम,फाकफोकथुम गाउँपालिका,Rural Municipality,http://phakphokthummun.gov.np,phakphokthum.ruralmunicipality@gmail.com,०२७६९१४११
+कोशी प्रदेश,झापा,कचनकवल गाउँपालिका,Rural Municipality,http://kachankawalmun.gov.np,kachankawala@gmail.com,9852655210
+कोशी प्रदेश,झापा,कमल गाउँपालिका,Rural Municipality,http://kamalmun.gov.np,info@kamalmun.gov.np,023-475081
+कोशी प्रदेश,झापा,गौरीगञ्‍ज गाउँपालिका,Rural Municipality,http://gaurigunjmun.gov.np,info@gaurigunjmun.gov.np,023-412044
+कोशी प्रदेश,झापा,झापा गाउँपालिका,Rural Municipality,http://jhapamun.gov.np,info@jhapamun.gov.np,9852630900
+कोशी प्रदेश,झापा,बाह्रदशी गाउँपालिका,Rural Municipality,http://bahradashimun.gov.np,bahradashirm@gmail.com,9824002677
+कोशी प्रदेश,झापा,बुद्धशान्ति गाउँपालिका,Rural Municipality,http://buddhashantimun.gov.np,buddhashantimun@gmail.com,023-555044
+कोशी प्रदेश,झापा,हल्दिबारी गाउँपालिका,Rural Municipality,http://haldibarimun.gov.np,haldibariruralmunicipality123@gmail.com,9818957218
+कोशी प्रदेश,संखुवासभा,चिचिला गाउँपालिका,Rural Municipality,http://chichilamun.gov.np,info@chichilamun.gov.np,021-620770
+कोशी प्रदेश,संखुवासभा,भोटखोला गाउँपालिका,Rural Municipality,http://bhotkholamun.gov.np,bhotkholamun@gmail.com,9852086530
+कोशी प्रदेश,संखुवासभा,मकालु गाउँपालिका,Rural Municipality,http://makalumun.gov.np,gaupalikamakalu@gmail.com,9752006670
+कोशी प्रदेश,संखुवासभा,सभापोखरी गाउँपालिका,Rural Municipality,http://savapokharimun.gov.np,savapokharimun@gmail.com,029-413090
+कोशी प्रदेश,संखुवासभा,सिलीचोङ गाउँपालिका,Rural Municipality,http://silichongmun.gov.np,silichonggp74@gmail.com,9752006775
+कोशी प्रदेश,तेह्रथुम,फेदाप गाउँपालिका,Rural Municipality,http://phedapmun.gov.np,info@phedapmun.gov.np,9852080600
+कोशी प्रदेश,तेह्रथुम,मेन्छयायेम गाउँपालिका,Rural Municipality,http://menchhayayemmun.gov.np,info@menchhayayemmun.gov.np,9852082777
+कोशी प्रदेश,तेह्रथुम,छथर गाउँपालिका,Rural Municipality,http://chhatharmun.gov.np,chhathargaupalika@gmail.com,026420099
+कोशी प्रदेश,तेह्रथुम,आठराई गाउँपालिका,Rural Municipality,http://aathraimun.gov.np,aathraigaupalika1@gmail.com,9852684324
+कोशी प्रदेश,भोजपुर,अरुण गाउँपालिका,Rural Municipality,http://arunmun.gov.np,info@arunmun.gov.np,9860604650
+कोशी प्रदेश,भोजपुर,आमचोक गाउँपालिका,Rural Municipality,http://aamchowkmun.gov.np,info@aamchowkmun.gov.np,9852081336
+कोशी प्रदेश,भोजपुर,टेम्केमैयुङ गाउँपालिका,Rural Municipality,http://tyamkemaiyummun.gov.np,temkemunbhp@gmail.com,9852052995
+कोशी प्रदेश,भोजपुर,पौवादुङ्मा गाउँपालिका,Rural Municipality,http://pauwadungmamun.gov.np,info@pauwadungmamun.gov.np,9852075800
+कोशी प्रदेश,भोजपुर,रामप्रसाद राई गाउँपालिका,Rural Municipality,http://ramprasadraimun.gov.np,ramprasadrai.rm@gmail.com,"9852073886,"
+कोशी प्रदेश,भोजपुर,साल्पासिलिछो गाउँपालिका,Rural Municipality,http://salpasilichhomun.gov.np,salpasilichhoruralmunicipality@gmail.com,9818425952
+कोशी प्रदेश,भोजपुर,हतुवागढी गाउँपालिका,Rural Municipality,http://hatuwagadhimun.gov.np,ito.hatuwagadhimun@gmail.com,029-412026
+कोशी प्रदेश,धनकुटा,सहिदभुमि गाउँपालिका,Rural Municipality,https://sahidbhumimun.gov.np,sahidbhumirural@gmail.com,9842080705
+कोशी प्रदेश,धनकुटा,साँगुरीगढी गाउँपालिका,Rural Municipality,http://sangurigadhimun.gov.np,sangurigadhi.ruralmundkt@gmail.com,025-400086
+कोशी प्रदेश,धनकुटा,चौबिसे गाउँपालिका,Rural Municipality,http://choubisemun.gov.np,chaubisegapa@gmail.com,026-411031
+कोशी प्रदेश,सुनसरी,कोशी गाउँपालिका,Rural Municipality,http://koshimun.gov.np,koshigaupalika@gmail.com,025-401066
+कोशी प्रदेश,सुनसरी,गढी गाउँपालिका,Rural Municipality,http://gadhimun.gov.np,ito.gadhiruralmuncipality@gmail.com,0
+कोशी प्रदेश,सुनसरी,देवानगञ्ज गाउँपालिका,Rural Municipality,http://dewanganjmun.gov.np,dewanganjmun@gmail.com,9816387576
+कोशी प्रदेश,सुनसरी,बर्जु गाउँपालिका,Rural Municipality,http://barjumun.gov.np,info@barjumun.gov.np,9852070720
+कोशी प्रदेश,सुनसरी,भोक्राहा नरसिंह गाउँपालिका,Rural Municipality,http://bhokrahamun.gov.np,bhokrahanarsingh.gapa@gmail.com,9852041377
+कोशी प्रदेश,सुनसरी,हरिनगर गाउँपालिका,Rural Municipality,http://harinagaramun.gov.np,harinagargapa@gmail.com,9852038096
+कोशी प्रदेश,मोरङ,कटहरी गाउँपालिका,Rural Municipality,http://kataharimun.gov.np,kataharigaupalika@gmail.com,021-404100
+कोशी प्रदेश,मोरङ,कानेपोखरी गाउँपालिका,Rural Municipality,http://kanepokharimun.gov.np,kanepokharirmun@gmail.com,021-585155
+कोशी प्रदेश,मोरङ,मिक्लाजुङ गाउँपालिका,Rural Municipality,http://miklajungmunmorang.gov.np,miklajungrmun@gmail.com,021-400001
+कोशी प्रदेश,मोरङ,जहदा गाउँपालिका,Rural Municipality,http://jahadamun.gov.np,jahadagaupalika@gmail.com,9805308109
+कोशी प्रदेश,मोरङ,धनपालथान गाउँपालिका,Rural Municipality,http://dhanapalthanmun.gov.np,info@dhanapalthanmun.gov.np,021-565122
+कोशी प्रदेश,मोरङ,बुढीगंगा गाउँपालिका,Rural Municipality,http://budhigangamunmorang.gov.np,buddhigangamun@gmail.com,9851043855
+कोशी प्रदेश,मोरङ,ग्रामथान गाउँपालिका,Rural Municipality,http://gramthanmun.gov.np,info@gramthanmun.gov.np,9800968877
+कोशी प्रदेश,सोलुखुम्बु,लिखु पिके गाउँपालिका,Rural Municipality,http://likhupikemun.gov.np,info@likhupikemun.gov.np,9852882600
+कोशी प्रदेश,सोलुखुम्बु,सोताङ गाउँपालिका,Rural Municipality,http://sotangmun.gov.np,ito@sotangmun.gov.np,038-410124
+कोशी प्रदेश,सोलुखुम्बु,माहाकुलुङ गाउँपालिका,Rural Municipality,http://mahakulungmun.gov.np,mahakulung.rum@gmail.com,9852885000
+कोशी प्रदेश,सोलुखुम्बु,नेचासल्यान गाउँपालिका,Rural Municipality,http://nechasalyanmun.gov.np,nechasalyan345@gmail.com,038-412277
+कोशी प्रदेश,सोलुखुम्बु,थुलुङ दुधकोशी गाउँपालिका,Rural Municipality,http://thulungdudhkoshimun.gov.np,info@thulungdudhkoshimun.gov.np,९८५२८६६१२३
+कोशी प्रदेश,सोलुखुम्बु,माप्य दुधकोशी गाउँपालिका,Rural Municipality,http://mapyadudhkoshimun.gov.np,info@mapyadudhkoshimun.gov.np,9849478034
+कोशी प्रदेश,सोलुखुम्बु,खुम्वु पासाङल्हामु गाउँपालिका,Rural Municipality,http://khumbupasanglhamumun.gov.np,ito.khumbupasanglhamumun@gmail.com,038-420525
+कोशी प्रदेश,खोटाङ,ऐसेलुखर्क गाउँपालिका,Rural Municipality,http://aiselukharkamun.gov.np,info@aiselukharkamun.gov.np,036411103
+कोशी प्रदेश,खोटाङ,केपिलासगढी गाउँपालिका,Rural Municipality,http://kepilasgadhimun.gov.np,kepilasmun@gmail.com,9849685297
+कोशी प्रदेश,खोटाङ,खोटेहाङ गाउँपालिका,Rural Municipality,http://khotehangmun.gov.np,khotehangmun@gmail.com,036-413045
+कोशी प्रदेश,खोटाङ,साकेला गाउँपालिका,Rural Municipality,http://sakelamun.gov.np,ito.sakelarmun@gmail.com,9843358296
+कोशी प्रदेश,खोटाङ,रावा वेसी गाउँपालिका,Rural Municipality,http://rawabesimun.gov.np,info@rawabesimun.gov.np,प्र.प्र.अ.9852857111
+कोशी प्रदेश,खोटाङ,वराहपोखरी गाउँपालिका,Rural Municipality,http://barahapokharimun.gov.np,info@barahapokharimun.gov.np,9852849903
+कोशी प्रदेश,उदयपुर,उदयपुरगढी गाउँपालिका,Rural Municipality,http://udayapurgadhimun.gov.np,udayapurgadhirm@gmail.com,9844867979
+कोशी प्रदेश,उदयपुर,ताप्ली गाउँपालिका,Rural Municipality,http://taplimun.gov.np,ict.taplimun@gmail.com,035-691336
+कोशी प्रदेश,उदयपुर,रौतामाई गाउँपालिका,Rural Municipality,http://rautamaimun.gov.np,ito.rautamaimun@gmail.com,9842118673
+कोशी प्रदेश,उदयपुर,लिम्चुङबुङ गाउँपालिका,Rural Municipality,http://limchungbungmun.gov.np,ito.limchunbunmun@gmail.com,9852829101
+कोशी प्रदेश,ओखलढुंगा,खिजीदेम्वा गाउँपालिका,Rural Municipality,http://khijidembamun.gov.np,info@khijidembamun.gov.np,9743001361
+कोशी प्रदेश,ओखलढुंगा,चम्पादेवी गाउँपालिका,Rural Municipality,http://champadevimun.gov.np,champadevirm@gmail.com,9851002969
+कोशी प्रदेश,ओखलढुंगा,चिशंखुगढी गाउँपालिका,Rural Municipality,http://chishankhugadhimun.gov.np,info@chishankhugadhimun.gov.np,9852855564
+कोशी प्रदेश,ओखलढुंगा,मानेभञ्याङ गाउँपालिका,Rural Municipality,http://manebhanjyangmun.gov.np,info@manebhanjyangmun.gov.np,9852820002
+कोशी प्रदेश,ओखलढुंगा,मोलुङ गाउँपालिका,Rural Municipality,http://molungmun.gov.np,molungrm@gmail.com,9841328138
+कोशी प्रदेश,ओखलढुंगा,लिखु गाउँपालिका,Rural Municipality,http://likhumunokhaldhunga.gov.np,info@likhumunokhaldhunga.gov.np,9852842142
+कोशी प्रदेश,ओखलढुंगा,सुनकोशी गाउँपालिका,Rural Municipality,http://sunkoshimunokhaldhunga.gov.np,info@sunkoshimunokhaldhunga.gov.np,9852842203
+मधेश प्रदेश,सप्तरी,कञ्चनरुप नगरपालिका,Municipality,http://kanchanrupmun.gov.np,kanchanrupmunicipality@gmail.com,031-560114
+मधेश प्रदेश,सप्तरी,खडक नगरपालिका,Municipality,http://khadakmun.gov.np,info@khadakmun.gov.np,031-540054
+मधेश प्रदेश,सप्तरी,डाक्नेश्वरी नगरपालिका,Municipality,http://dakneshworimun.gov.np,info@dakneshworimun.gov.np,9852822665
+मधेश प्रदेश,सप्तरी,राजविराज नगरपालिका,Municipality,http://rajbirajmun.gov.np,rajbirajmunsaptari@gmail.com,031-520703
+मधेश प्रदेश,सप्तरी,बोदेबरसाईन नगरपालिका,Municipality,http://bodebarsainmun.gov.np,bodebarsainmun@gmail.com,9819912600
+मधेश प्रदेश,सप्तरी,शम्भुनाथ नगरपालिका,Municipality,http://shambhunathmun.gov.np,shambhunathmun@gmail.com,031-410111
+मधेश प्रदेश,सप्तरी,सुरुगां नगरपालिका,Municipality,http://surungamun.gov.np,surungamun@gmail.com,9852821980
+मधेश प्रदेश,सप्तरी,हनुमाननगर कंकालिनी नगरपालिका,Municipality,http://hanumannagarkankalinimun.gov.np,ito.hanumannagarkankalinimun@gmail.com,031580119
+मधेश प्रदेश,सप्तरी,सप्तकोशी नगरपालिका,Municipality,http://saptakoshimun.gov.np,saptakoshimun@gmail.com,031-550019
+मधेश प्रदेश,सिराहा,कर्जन्हा नगरपालिका,Municipality,http://karjanhamun.gov.np,karjanhamun@gmail.com,033-411024
+मधेश प्रदेश,सिराहा,धनगढीमाई नगरपालिका,Municipality,http://dhangadhimaimun.gov.np,info@dhangadhimaimun.gov.np,033545238
+मधेश प्रदेश,सिराहा,मिर्चैया नगरपालिका,Municipality,http://mirchaiyamun.gov.np,munmirchaiya272@gmail.com,033550101
+मधेश प्रदेश,सिराहा,लहान नगरपालिका,Municipality,http://lahanmun.gov.np,info@lahanmun.gov.np,033-563138
+मधेश प्रदेश,सिराहा,सिरहा नगरपालिका,Municipality,http://sirahamun.gov.np,sirahamun2053@gmail.com,033-520158
+मधेश प्रदेश,सिराहा,सुखीपुर नगरपालिका,Municipality,http://sukhipurmun.gov.np,sukhipurnagarpalika@gmail.com,9861851800
+मधेश प्रदेश,सिराहा,गोलबजार नगरपालिका,Municipality,http://golbazarmun.gov.np,info@golbazarmun.gov.np,033-540499
+मधेश प्रदेश,सिराहा,कल्याणपुर नगरपालिका,Municipality,http://kalyanpurmun.gov.np,kalyanpurmun2073@gmail.com,9852834364
+मधेश प्रदेश,धनुषा,मिथिला विहारी नगरपालिका,Municipality,http://mithilabiharimun.gov.np,info@mithilabiharimun.gov.np,9841663814
+मधेश प्रदेश,धनुषा,कमला नगरपालिका,Municipality,http://kamalamun.gov.np,kamala.municipality@gmail.com,9854029063
+मधेश प्रदेश,धनुषा,हंसपुर नगरपालिका,Municipality,http://hansapurmun.gov.np,hanspurnagarpalika@gmail.com,9854028880
+मधेश प्रदेश,धनुषा,शहिदनगर नगरपालिका,Municipality,http://shahidnagarmun.gov.np,ito.shahidnagarmun@gmail.com,९८५४०२९७६९
+मधेश प्रदेश,धनुषा,सबैला नगरपालिका,Municipality,http://sabailamun.gov.np,sabailamun@gmail.com,9854024281
+मधेश प्रदेश,धनुषा,विदेह नगरपालिका,Municipality,http://bidehamun.gov.np,info@bidehamun.gov.np,9868023630
+मधेश प्रदेश,धनुषा,मिथिला नगरपालिका,Municipality,http://mithilamun.gov.np,info@mithilamun.gov.np,041-560046
+मधेश प्रदेश,धनुषा,नगराइन नगरपालिका,Municipality,http://nagrainmun.gov.np,nagarainmun@gmail.com,9854029772
+मधेश प्रदेश,धनुषा,धनुषाधाम नगरपालिका,Municipality,http://dhanushadhammun.gov.np,dhanushadhammunicipality@gmail.com,041-414001
+मधेश प्रदेश,धनुषा,गणेशमान–चारनाथ नगरपालिका,Municipality,http://ganeshmancharnathmun.gov.np,ganeshmancharnath@gmail.com,041-427029
+मधेश प्रदेश,धनुषा,क्षिरेश्वरनाथ नगरपालिका,Municipality,http://kshireshwornathmun.gov.np,kshireshwornathmun@gmail.com,041-540077
+मधेश प्रदेश,महोत्तरी,बलवा नगरपालिका,Municipality,http://balwamun.gov.np,info@balwamun.gov.np,9803280142
+मधेश प्रदेश,महोत्तरी,औरही नगरपालिका,Municipality,http://aurahimunmahottari.gov.np,aurahimunmahottari@gmail.com,9854031052
+मधेश प्रदेश,महोत्तरी,भँगाहा नगरपालिका,Municipality,http://bhagahamun.gov.np,bhangahamun@gmail.com,9854032003
+मधेश प्रदेश,महोत्तरी,मनरा सिसवा नगरपालिका,Municipality,http://manarashiswamun.gov.np,info@manarashiswamun.gov.np,9854033109
+मधेश प्रदेश,महोत्तरी,रामगोपालपुर नगरपालिका,Municipality,htकोशी प्रदेश,ताप्लेजुङ,फुङलिङ नगरपालिका,Municipality,http://phunglingmun.gov.np,info@phunglingmun.gov.np,024-460114
+कोशी प्रदेश,पाँचथर,फिदिम नगरपालिका,Municipality,http://phidimmun.gov.np,phidim.municipality@gmail.com,024-521107
+कोशी प्रदेश,इलाम,ईलाम नगरपालिका,Municipality,http://ilammun.gov.np,info@ilammun.gov.np,"027-520031,027520097"
+कोशी प्रदेश,इलाम,देउमाई नगरपालिका,Municipality,http://deumaimun.gov.np,info@deumaimun.gov.np,027-400001
+कोशी प्रदेश,इलाम,माई नगरपालिका,Municipality,http://maimun.gov.np,mainagarpalika@gmail.com,027412222
+कोशी प्रदेश,इलाम,सुर्योदय नगरपालिका,Municipality,http://suryodayamun.gov.np,info@suryodayamun.gov.np,027-540410
+कोशी प्रदेश,झापा,अर्जुनधारा नगरपालिका,Municipality,http://arjundharamun.gov.np,info@arjundharamun.gov.np,"023-597002,"
+कोशी प्रदेश,झापा,कन्काई नगरपालिका,Municipality,http://kankaimun.gov.np,kanakai.mun@gmail.com,023-401111
+कोशी प्रदेश,झापा,गौरादह नगरपालिका,Municipality,http://gauradahamun.gov.np,info@gauradahamun.gov.np,023-597006
+कोशी प्रदेश,झापा,दमक नगरपालिका,Municipality,http://damakmun.gov.np,info@damakmun.gov.np,023-580137
+कोशी प्रदेश,झापा,विर्तामोड नगरपालिका,Municipality,http://birtamodmun.gov.np,info@birtamodmun.gov.np,023-540315
+कोशी प्रदेश,झापा,भद्रपुर नगरपालिका,Municipality,http://bhadrapurmun.gov.np,info@bhadrapurmun.gov.np,023-520148
+कोशी प्रदेश,झापा,मेचीनगर नगरपालिका,Municipality,http://mechinagarmun.gov.np,ito.mechinagarmun@gmail.com,023-562505
+कोशी प्रदेश,झापा,शिवसताक्षी नगरपालिका,Municipality,http://shivasatakshimun.gov.np,dms.shivasatakshimun@gmail.com,023-470323
+कोशी प्रदेश,संखुवासभा,मादी नगरपालिका,Municipality,http://madimun.gov.np,madimunicipality@gmail.com,029-424002
+कोशी प्रदेश,संखुवासभा,पाँचखपन नगरपालिका,Municipality,http://panchkhapanmun.gov.np,info@panchkhapanmun.gov.np,029-411083
+कोशी प्रदेश,संखुवासभा,धर्मदेवी नगरपालिका,Municipality,http://dharmadevimun.gov.np,dharmadevimun@gmail.com,029-414006
+कोशी प्रदेश,संखुवासभा,खाँदवारी नगरपालिका,Municipality,http://khandbarimun.gov.np,info@khandbarimun.gov.np,029-560254
+कोशी प्रदेश,तेह्रथुम,म्याङलुङ नगरपालिका,Municipality,http://myanglungmun.gov.np,info@myanglungmun.gov.np,026-460135
+कोशी प्रदेश,तेह्रथुम,लालीगुराँस नtp://ramgopalpurmun.gov.np,info@ramgopalpurmun.gov.np,044410078
+मधेश प्रदेश,महोत्तरी,लोहरपट्टी नगरपालिका,Municipality,http://loharpattimun.gov.np,loharpattimunicipality@gmail.com,9801631314
+मधेश प्रदेश,महोत्तरी,बर्दिबास नगरपालिका,Municipality,http://bardibasmun.gov.np,bardibasmunicipality@gmail.com,9854055111
+मधेश प्रदेश,महोत्तरी,जलेश्वर नगरपालिका,Municipality,http://jaleshwarmun.gov.np,jaleshwormun@gmail.com,9854031770
+मधेश प्रदेश,सर्लाही,हरिवन नगरपालिका,Municipality,http://harionmun.gov.np,info@harionmun.gov.np,046-530499
+मधेश प्रदेश,सर्लाही,हरिपुर्वा नगरपालिका,Municipality,http://haripurwamun.gov.np,ito.haripurwamun@gmail.com,9844112849
+मधेश प्रदेश,सर्लाही,बरहथवा नगरपालिका,Municipality,http://barhathwamun.gov.np,barahathawamun@gmail.com,046-540310
+मधेश प्रदेश,सर्लाही,लालबन्दी नगरपालिका,Municipality,http://lalbandimun.gov.np,info@lalbandimun.gov.np,046-501100
+मधेश प्रदेश,सर्लाही,मलंगवा नगरपालिका,Municipality,http://malangwamun.gov.np,malangwanagarpalika@gmail.com,046-520175
+मधेश प्रदेश,सर्लाही,गोडैटा नगरपालिका,Municipality,http://godaitamun.gov.np,info@godaitamun.gov.np,9854038382
+मधेश प्रदेश,सर्लाही,ईश्वरपुर नगरपालिका,Municipality,http://ishworpurmun.gov.np,ishworpur2071@gmail.com,9854042111
+मधेश प्रदेश,सर्लाही,हरिपुर नगरपालिका,Municipality,http://haripurmun.gov.np,info@haripurmun.gov.np,046-411032
+मधेश प्रदेश,सर्लाही,बागमती नगरपालिका,Municipality,http://bagmatimunsarlahi.gov.np,bagmatimun@gmail.com,046-410008
+मधेश प्रदेश,रौतहट,गढीमाई नगरपालिका,Municipality,http://gadhimaimun.gov.np,gadhimaimun@gmail.com,9865050201
+मधेश प्रदेश,रौतहट,राजपुर नगरपालिका,Municipality,http://rajpurmunrautahat.gov.np,ito@rajpurmunrautahat.gov.np,९८५५०४४०२४
+मधेश प्रदेश,रौतहट,कटहरीया नगरपालिका,Municipality,http://katahariyamun.gov.np,katahariyamun@gmail.com,9855067803
+मधेश प्रदेश,रौतहट,ईशनाथ नगरपालिका,Municipality,http://ishnathmun.gov.np,info@ishnathmun.gov.np,9855040373
+मधेश प्रदेश,रौतहट,गरुडा नगरपालिका,Municipality,http://garudamun.gov.np,itofficer.garudamun@gmail.com,055-565201
+मधेश प्रदेश,रौतहट,गौर नगरपालिका,Municipality,http://gaurmun.gov.np,info@gaurmun.gov.np,055-520294
+मधेश प्रदेश,रौतहट,मौलापुर नगरपालिका,Municipality,http://maulapurmun.gov.np,maulapurmun@gmail.com,9999999999
+मधेश प्रदेश,रौतहट,राजदेवी नगरपालिका,Municipality,http://rajdevimun.gov.np,rajdevimata123@gmail.com,9855040127
+मधेश प्रदेश,रौतहट,गुजरा नगरपालिका,Municipality,http://gujaramun.gov.np,info@gujaramun.gov.np,9845021100
+मधेश प्रदेश,रौतहट,माधवनारायण नगरपालिका,Municipality,http://madhavnarayanmun.gov.np,info@madhavnarayanmun.gov.np,9855044025
+मधेश प्रदेश,रौतहट,वृन्दावन नगरपालिका,Municipality,http://brindawanmun.gov.np,info@brindawanmun.gov.np,9855012027
+मधेश प्रदेश,रौतहट,चन्द्रपुर नगरपालिका,Municipality,http://chandrapurmun.gov.np,info@chandrapurmun.gov.np,055-540200
+मधेश प्रदेश,बारा,सिम्रौनगढ नगरपालिका,Municipality,http://simraungadhmun.gov.np,simraungadhmun@gmail.com,053-411072
+मधेश प्रदेश,बारा,महागढीमाई नगरपालिका,Municipality,http://mahagadhimaimun.gov.np,info@mahagadhimaimun.gov.np,053-(419800-419806)
+मधेश प्रदेश,बारा,निजगढ नगरपालिका,Municipality,http://nijgadhmun.gov.np,nijgadhmun@gmail.com,053-540200
+मधेश प्रदेश,बारा,कोल्हवी नगरपालिका,Municipality,http://kolhabimun.gov.np,info@kolhabimun.gov.np,"053-410115,"
+मधेश प्रदेश,बारा,पचरौता नगरपालिका,Municipality,http://pachrautamun.gov.np,pachrautamun@gmail.com,9855048464
+मधेश प्रदेश,पर्सा,पोखरिया नगरपालिका,Municipality,http://pokhariyamun.gov.np,ito.pokhariyamun@gmail.com,9855085111
+मधेश प्रदेश,पर्सा,पर्सागढी नगरपालिका,Municipality,http://parsagadhimun.gov.np,info@parsagadhimun.gov.np,"9855011112,9855038425"
+मधेश प्रदेश,पर्सा,बहुदरमाई नगरपालिका,Municipality,http://bahudarmaimun.gov.np,bahudarmaimun@gmail.com,9855011114
+मधेश प्रदेश,सप्तरी,अग्नीसाइर कृष्णासवरन गाउँपालिका,Rural Municipality,http://agnisairkrishnasawaranmun.gov.np,asks.gapa@gmail.com,9804760844
+मधेश प्रदेश,सप्तरी,छिन्नमस्ता गाउँपालिका,Rural Municipality,http://chhinnamastamun.gov.np,chhinnamasta.rmo.saptari@gmail.com,9852821567
+मधेश प्रदेश,सप्तरी,तिरहुत गाउँपालिका,Rural Municipality,http://tirahutmun.gov.np,info@tirahutmun.gov.np,9852860107
+मधेश प्रदेश,सप्तरी,तिलाठीकोईलाडी गाउँपालिका,Rural Municipality,http://tilathikoiladimun.gov.np,info@tilathikoiladimun.gov.np,9852822225
+मधेश प्रदेश,सप्तरी,बिष्णुपुर गाउँपालिका,Rural Municipality,http://bishnupurmunsaptari.gov.np,bishnupursaptari@gmail.com,9852822500
+मधेश प्रदेश,सप्तरी,राजगढ गाउँपालिका,Rural Municipality,http://rajgadhmun.gov.np,info@rajgadhmun.gov.np,9801501142
+मधेश प्रदेश,सप्तरी,महादेवा गाउँपालिका,Rural Municipality,http://mahadevamun.gov.np,mahadevarmun@gmail.com,9815729565
+मधेश प्रदेश,सप्तरी,रुपनी गाउँपालिका,Rural Municipality,http://rupanimun.gov.np,info@rupanimun.gov.np,031-450035
+मधेश प्रदेश,सप्तरी,बलान-विहुल गाउँपालिका,Rural Municipality,http://balanbihulmun.gov.np,info@balanbihulmun.gov.np,9852660606
+मधेश प्रदेश,सिराहा,नरहा गाउँपालिका,Rural Municipality,http://narahamun.gov.np,ito.narahamun@gmail.com,9852825205
+मधेश प्रदेश,सिराहा,नवराजपुर गाउँपालिका,Rural Municipality,http://nawarajpurmun.gov.np,gapanavrajpursiraha@gmail.com,9824704793
+मधेश प्रदेश,सिराहा,बरियारपट्टी गाउँपालिका,Rural Municipality,http://bariyapattimun.gov.np,ito.bariyarpattimun@gmail.com,9816723879
+मधेश प्रदेश,सिराहा,भगवानपुर गाउँपालिका,Rural Municipality,http://bhagwanpurmun.gov.np,bhagwanpurgaupalika@gmail.com,9852858001
+मधेश प्रदेश,सिराहा,लक्ष्मीपुर पतारी गाउँपालिका,Rural Municipality,http://laxmipurpatarimun.gov.np,laxmipurpatari@gmail.com,9852833615
+मधेश प्रदेश,सिराहा,विष्णुपुर गाउँपालिका,Rural Municipality,http://bishnupurmunsiraha.gov.np,info@bishnupurmunsiraha.gov.np,9852850052
+मधेश प्रदेश,धनुषा,औरही गाउँपालिका,Rural Municipality,http://aurahimundhanusha.gov.np,aurahimun@gmail.com,9854027904
+मधेश प्रदेश,धनुषा,जनकनन्दिनी गाउँपालिका,Rural Municipality,http://janaknandinimun.gov.np,info@janaknandinimun.gov.np,9854029259
+मधेश प्रदेश,धनुषा,बटेश्वर गाउँपालिका,Rural Municipality,http://bateshwormun.gov.np,bateshwormun@gmail.com,9851150811
+मधेश प्रदेश,धनुषा,मुखियापट्टि मुसहरमिया गाउँपालिका,Rural Municipality,http://mukhiyapattimusaharmiyamun.gov.np,mmrmmun@gmail.com,9854029842
+मधेश प्रदेश,धनुषा,लक्ष्मीनिया गाउँपालिका,Rural Municipality,http://laxminiyamun.gov.np,laxminiyamun@gmail.com,9854029420
+मधेश प्रदेश,धनुषा,धनौजी गाउँपालिका,Rural Municipality,http://dhanaujimun.gov.np,info@dhanaujimun.gov.np,9844026362
+मधेश प्रदेश,महोत्तरी,एकडारा गाउँपालिका,Rural Municipality,http://ekdaramun.gov.np,info@ekdaramun.gov.np,9818709767
+मधेश प्रदेश,महोत्तरी,पिपरा गाउँपालिका,Rural Municipality,http://pipramun.gov.np,info@pipramun.gov.np,044-548047
+मधेश प्रदेश,महोत्तरी,महोत्तरी गाउँपालिका,Rural Municipality,http://mahottarimun.gov.np,mahottarimun@gmail.com,9854032300
+मधेश प्रदेश,महोत्तरी,साम्सी गाउँपालिका,Rural Municipality,http://samsimun.gov.np,info@samsimun.gov.np,9854032013
+मधेश प्रदेश,महोत्तरी,सोनमा गाउँपालिका,Rural Municipality,http://sonmamun.gov.np,sonamarm2073@gmail.com,9819681465
+मधेश प्रदेश,सर्लाही,चक्रघट्टा गाउँपालिका,Rural Municipality,http://chakraghattamun.gov.np,info@chakraghattamun.gov.np,9851034392
+मधेश प्रदेश,सर्लाही,बसबरीया गाउँपालिका,Rural Municipality,http://basbariyamun.gov.np,basbariyamun@gmail.com,9854038064
+मधेश प्रदेश,सर्लाही,कौडेना गाउँपालिका,Rural Municipality,http://kaudenamun.gov.np,ito.kaudenamun@gmail.com,9801130333
+मधेश प्रदेश,सर्लाही,पर्सा गाउँपालिका,Rural Municipality,http://parsamun.gov.np,info@parsamun.gov.np,9854074000
+मधेश प्रदेश,सर्लाही,विष्णु गाउँपालिका,Rural Municipality,http://bishnumun.gov.np,info@bishnumun.gov.np,9854039542
+मधेश प्रदेश,सर्लाही,रामनगर गाउँपालिका,Rural Municipality,http://ramnagarmun.gov.np,ramnagar.gaupalika@gmail.com,9842738749
+मधेश प्रदेश,सर्लाही,ब्रह्मपुरी गाउँपालिका,Rural Municipality,http://brahmapurimun.gov.np,brahmpurigp.sarlahi@gmail.com,9854044037
+मधेश प्रदेश,सर्लाही,धनकौल गाउँपालिका,Rural Municipality,http://dhankaulmun.gov.np,info@dhankaulmun.gov.np,9854040616
+मधेश प्रदेश,सर्लाही,चन्द्रनगर गाउँपालिका,Rural Municipality,http://chandranagarmun.gov.np,chandranagar111@gmail.com,9802045020
+मधेश प्रदेश,रौतहट,दुर्गाभगवती गाउँपालिका,Rural Municipality,http://durgabhagawatimun.gov.np,ito.durgabhagawatimun@gmail.com,055-400041
+मधेश प्रदेश,रौतहट,यमुनामाई गाउँपालिका,Rural Municipality,http://yamunamaimun.gov.np,yamunamai5@gmail.com,9855044613
+मधेश प्रदेश,बारा,आदर्श कोतवाल गाउँपालिका,Rural Municipality,http://aadarshakotwalmun.gov.np,info@aadarshakotwalmun.gov.np,9855049296
+मधेश प्रदेश,बारा,करैयामाई गाउँपालिका,Rural Municipality,http://karaiyamaimun.gov.np,info@karaiyamaimun.gov.np,9855048988
+मधेश प्रदेश,बारा,देवताल गाउँपालिका,Rural Municipality,http://devtalmun.gov.np,info@devtalmun.gov.np,9855048006
+मधेश प्रदेश,बारा,परवानीपुर गाउँपालिका,Rural Municipality,http://parwanipurmun.gov.np,parwanipurgaupalika@gmail.com,"9855048565,"
+मधेश प्रदेश,बारा,प्रसौनी गाउँपालिका,Rural Municipality,http://prasaunimun.gov.np,prasaunigaupalika1@gmail.com,9855048303
+मधेश प्रदेश,पर्सा,जिराभवानी गाउँपालिका,Rural Municipality,http://jirabhawanimun.gov.np,ito.jirabhawanimun@gmail.com,9855015100
+मधेश प्रदेश,पर्सा,कालिकामाई गाउँपालिका,Rural Municipality,http://kalikamaimun.gov.np,kalikamaimun@gmail.com,9855011118
+मधेश प्रदेश,पर्सा,ठोरी गाउँपालिका,Rural Municipality,http://thorimun.gov.np,ito.thorirmun@gmail.com,9855038037
+मधेश प्रदेश,पर्सा,सखुवा प्रसौनी गाउँपालिका,Rural Municipality,http://sakhuwaprasaunimun.gov.np,info@sakhuwaprasaunimun.gov.np,9851155165
+मधेश प्रदेश,पर्सा,बिन्दबासिनी गाउँपालिका,Rural Municipality,http://bindabasinimun.gov.np,ito.bindabasinimun@gmail.com,9855085527
+मधेश प्रदेश,पर्सा,पटेर्वा सुगौली गाउँपालिका,Rural Municipality,http://paterwasugaulimun.gov.np,info@paterwasugaulimun.gov.np,9855088938
+मधेश प्रदेश,पर्सा,पकाहा मैनपुर गाउँपालिका,Rural Municipality,http://pakahamainpurmun.gov.np,pakahamainpurmun@gmail.com,"9855016345,"
+मधेश प्रदेश,पर्सा,धोबीनी गाउँपालिका,Rural Municipality,http://dhobinimun.gov.np,dhobinimun@gmail.com,9855077705
+मधेश प्रदेश,पर्सा,जगरनाथपुर गाउँपालिका,Rural Municipality,http://jagarnathpurmun.gov.np,jagarnathpurrm@gmail.com,9855025329
+मधेश प्रदेश,पर्सा,छिपहरमाई गाउँपालिका,Rural Municipality,http://chhipaharmaimun.gov.np,info@chhipaharmaimun.gov.np,9855036084
+बागमती प्रदेश,सिन्धुली,कमलामाई नगरपालिका,Municipality,http://kamalamaimun.gov.np,kamalamaimun.sindhuli@gmail.com,047-520245
+बागमती प्रदेश,सिन्धुली,दुधौली नगरपालिका,Municipality,http://dudhaulimun.gov.np,info@dudhaulimun.gov.np,047-412045
+बागमती प्रदेश,रामेछाप,मन्थली नगरपालिका,Municipality,http://manthalimun.gov.np,info@manthalimun.gov.np,48-540112
+बागमती प्रदेश,रामेछाप,रामेछाप नगरपालिका,Municipality,http://ramechhapmun.gov.np,ramechhapmun@gmail.com,048-400012
+बागमती प्रदेश,दोलखा,जिरी नगरपालिका,Municipality,http://jirimun.gov.np,jirimunicipalityjiri@gmail.com,049-414002
+बागमती प्रदेश,दोलखा,भिमेश्वर नगरपालिका,Municipality,http://bhimeshwormun.gov.np,ict.bhimeshwor@gmail.com,049-421381
+बागमती प्रदेश,सिन्धुपाल्चोक,चौतारा सागाचोकगढी नगरपालिका,Municipality,http://chautarasangachowkgadhimun.gov.np,info@chautaramun.gov.np,"011-620477,"
+बागमती प्रदेश,सिन्धुपाल्चोक,मेलम्ची नगरपालिका,Municipality,http://melamchimun.gov.np,info@melamchimun.gov.np,011-401089
+बागमती प्रदेश,सिन्धुपाल्चोक,वाह्रविसे नगरपालिका,Municipality,http://bahrabisemun.gov.np,barhabisemun@gmail.com,011-489003
+बागमती प्रदेश,धादिङ,धुनीबेंसी नगरपालिका,Municipality,http://dhunibeshimun.gov.np,dhunibeshimun@gmail.com,"010401197,"
+बागमती प्रदेश,धादिङ,नीलकण्ठ नगरपालिका,Municipality,http://neelakanthamun.gov.np,info@neelakanthamun.gov.np,010-520568
+बागमती प्रदेश,नुवाकोट,विदुर नगरपालिका,Municipality,http://bidurmun.gov.np,info@bidurmun.gov.np,010560469
+बागमती प्रदेश,नुवाकोट,बेलकोटगढी नगरपालिका,Municipality,http://belkotgadhimun.gov.np,belkotgadhinagarpalika@gmail.com,9851253022
+बागमती प्रदेश,काठमाण्डौं,दक्षिणकाली नगरपालिका,Municipality,http://dakshinkalimun.gov.np,info@dakshinkalimun.gov.np,01-4710028
+बागमती प्रदेश,काठमाण्डौं,तारकेश्वर नगरपालिका,Municipality,http://tarakeshwormun.gov.np,tarakeshwormun2071@gmail.com,01-5168111
+बागमती प्रदेश,काठमाण्डौं,गोकर्णेश्वर नगरपालिका,Municipality,http://gokarneshwormun.gov.np,gokarneshwormun@gmail.com,01-4914114
+बागमती प्रदेश,काठमाण्डौं,नागार्जुन नगरपालिका,Municipality,http://nagarjunmun.gov.np,nagarjun.napa@gmail.com,01-4671716
+बागमती प्रदेश,काठमाण्डौं,टोखा नगरपालिका,Municipality,http://tokhamun.gov.np,info@tokhamun.gov.np,01-4385013
+बागमती प्रदेश,काठमाण्डौं,चन्द्रागिरी नगरपालिका,Municipality,http://chandragirimun.gov.np,info@chandragirimun.gov.np,01-4315766
+बागमती प्रदेश,काठमाण्डौं,कीर्तिपुर नगरपालिका,Municipality,http://kirtipurmun.gov.np,ict.munkirtipur@gmail.com,014331693
+बागमती प्रदेश,काठमाण्डौं,कागेश्वरी–मनोहरा नगरपालिका,Municipality,http://kageshworimanoharamun.gov.np,info@kageshworimanoharamun.gov.np,01-4451242
+बागमती प्रदेश,ललितपुर,गोदावरी नगरपालिका,Municipality,http://godawarimunlalitpur.gov.np,godawari.nagarpalika@gmail.com,015572592
+बागमती प्रदेश,ललितपुर,महालक्ष्मी नगरपालिका,Municipality,http://mahalaxmimun.gov.np,info@mahalaxmimun.gov.np,"015203592,"
+बागमती प्रदेश,भक्तपुर,चाँगुनारायण नगरपालिका,Municipality,http://changunarayanmun.gov.np,info@changunarayanmun.gov.np,01-6614809
+बागमती प्रदेश,भक्तपुर,भक्तपुर नगरपालिका,Municipality,http://bhaktapurmun.gov.np,info@bhaktapurmun.gov.np,01-6610096
+बागमती प्रदेश,भक्तपुर,मध्यपुर थिमी नगरपालिका,Municipality,http://madhyapurthimimun.gov.np,info@madhyapurthimimun.gov.np,01-6630046
+बागमती प्रदेश,भक्तपुर,सूर्यविनायक नगरपालिका,Municipality,http://suryabinayakmun.gov.np,official@suryabinayakmun.gov.np,01-6619625
+बागमती प्रदेश,काभ्रेपलाञ्चोक,मण्डनदेउपुर नगरपालिका,Municipality,http://mandandeupurmun.gov.np,mandandeupurmu@gmail.com,011-412114
+बागमती प्रदेश,काभ्रेपलाञ्चोक,बनेपा नगरपालिका,Municipality,http://banepamun.gov.np,banepamun@gmail.com,011-662081
+बागमती प्रदेश,काभ्रेपलाञ्चोक,पांचखाल नगरपालिका,Municipality,http://panchkhalmun.gov.np,panchkhal.municipality@gmail.com,011-499451
+बागमती प्रदेश,काभ्रेपलाञ्चोक,पनौती नगरपालिका,Municipality,http://panautimun.gov.np,info@panautimun.gov.np,011440136
+बागमती प्रदेश,काभ्रेपलाञ्चोक,नमोबुद्ध नगरपालिका,Municipality,http://namobuddhamun.gov.np,info@namobuddhamun.gov.np,011-404031
+बागमती प्रदेश,मकवानपुर,थाहा नगरपालिका,Municipality,http://thahamun.gov.np,info@thahamun.gov.np,057-400066
+बागमती प्रदेश,चितवन,कालिका नगरपालिका,Municipality,http://kalikamunchitwan.gov.np,kalikanagarpalika@gmail.com,056413127
+बागमती प्रदेश,चितवन,खैरहनी नगरपालिका,Municipality,http://khairahanimun.gov.np,info@khairahanimun.gov.np,056-582006
+बागमती प्रदेश,चितवन,माडी नगरपालिका,Municipality,http://madimunchitwan.gov.np,dms.maddimun@gmail.com,056-501041
+बागमती प्रदेश,चितवन,रत्ननगर नगरपालिका,Municipality,http://ratnanagarmun.gov.np,info@ratnanagarmun.gov.np,056-560529
+बागमती प्रदेश,चितवन,राप्ती नगरपालिका,Municipality,http://raptimun.gov.np,contact@raptimun.gov.np,056-550015
+बागमती प्रदेश,सिन्धुली,गोलन्जोर गाउँपालिका,Rural Municipality,http://golanjormun.gov.np,info@golanjormun.gov.np,047-692025
+बागमती प्रदेश,सिन्धुली,घ्याङलेख गाउँपालिका,Rural Municipality,http://ghyanglekhmun.gov.np,info@ghyanglekhmun.gov.np,9854041892
+बागमती प्रदेश,सिन्धुली,तीनपाटन गाउँपालिका,Rural Municipality,http://tinpatanmun.gov.np,info@tinpatanmun.gov.np,9854042220
+बागमती प्रदेश,सिन्धुली,फिक्कल गाउँपालिका,Rural Municipality,http://phikkalmun.gov.np,phikkalruralmun@gmail.com,047692026
+बागमती प्रदेश,सिन्धुली,मरिण गाउँपालिका,Rural Municipality,http://marinmun.gov.np,info@marinmun.gov.np,9854044130
+बागमती प्रदेश,सिन्धुली,सुनकोशी गाउँपालिका,Rural Municipality,http://sunkoshimunsindhuli.gov.np,info@sunkoshimunsindhuli.gov.np,01-6924118
+बागमती प्रदेश,सिन्धुली,हरिहरपुरगढी गाउँपालिका,Rural Municipality,http://hariharpurgadhimun.gov.np,hariharpurgadhi@gmail.com,047-692040
+बागमती प्रदेश,रामेछाप,उमाकुण्ड गाउँपालिका,Rural Municipality,http://umakundamun.gov.np,info@umakundamun.gov.np,046-691927
+बागमती प्रदेश,रामेछाप,खाँडादेवी गाउँपालिका,Rural Municipality,http://khandadevimun.gov.np,khandadevimun@gmail.com,"9854026600,"
+बागमती प्रदेश,रामेछाप,गोकुलगङ्गा गाउँपालिका,Rural Municipality,http://gokulgangamun.gov.np,info@gokulgangamun.gov.np,9854043640
+बागमती प्रदेश,रामेछाप,दोरम्बा शैलुङ गाउँपालिका,Rural Municipality,http://dorambamun.gov.np,info@dorambamun.gov.np,9854043969
+बागमती प्रदेश,रामेछाप,लिखु तामाकोशी गाउँपालिका,Rural Municipality,http://likhumunramechhap.gov.np,ito.likhuramechhapmun@gmail.com,9851236142
+बागमती प्रदेश,रामेछाप,सुनापति गाउँपालिका,Rural Municipality,http://sunapatimun.gov.np,ito.sunapatimun@gmail.com,9854043840
+बागमती प्रदेश,दोलखा,शैलुङ्ग गाउँपालिका,Rural Municipality,http://shailungmun.gov.np,info@shailungmun.gov.np,049-419507
+बागमती प्रदेश,दोलखा,विगु गाउँपालिका,Rural Municipality,http://bigumun.gov.np,info@bigumun.gov.np,049-410109
+बागमती प्रदेश,दोलखा,मेलुङ्ग गाउँपालिका,Rural Municipality,http://melungmun.gov.np,info@melungmun.gov.np,9851149201
+बागमती प्रदेश,दोलखा,वैतेश्वर गाउँपालिका,Rural Municipality,http://baiteshwormun.gov.np,info@baiteshwormun.gov.np,9851249203
+बागमती प्रदेश,दोलखा,गौरीशङ्कर गाउँपालिका,Rural Municipality,http://gaurishankarmun.gov.np,info@gaurishankarmun.gov.np,9854045053
+बागमती प्रदेश,दोलखा,कालिन्चोक गाउँपालिका,Rural Municipality,http://kalinchowkmun.gov.np,kalinchokrmdolakha@gmail.com,049691330
+बागमती प्रदेश,सिन्धुपाल्चोक,ईन्द्रावती गाउँपालिका,Rural Municipality,http://indrawatimun.gov.np,info@indrawatimun.gov.np,01-6203090
+बागमती प्रदेश,सिन्धुपाल्चोक,जुगल गाउँपालिका,Rural Municipality,http://jugalmun.gov.np,jugalgaupalika12@gmail.com,011-691054
+बागमती प्रदेश,सिन्धुपाल्चोक,त्रिपुरासुन्दरी गाउँपालिका,Rural Municipality,http://tripurasundarimunsindhupalchowk.gov.np,tripurasundarisipa@gmail.com,01-6201663
+बागमती प्रदेश,सिन्धुपाल्चोक,पाँचपोखरी थाङपाल गाउँपालिका,Rural Municipality,http://panchpokharithangpalmun.gov.np,ito.panchpokharithangpalmun@gmail.com,9751099842
+बागमती प्रदेश,सिन्धुपाल्चोक,बलेफी गाउँपालिका,Rural Municipality,http://balephimun.gov.np,info@balephimun.gov.np,011400536
+बागमती प्रदेश,सिन्धुपाल्चोक,भोटेकोशी गाउँपालिका,Rural Municipality,http://bhotekoshimun.gov.np,info@bhotekoshimun.gov.np,"01-1480015,"
+बागमती प्रदेश,सिन्धुपाल्चोक,लिसंखुपाखर गाउँपालिका,Rural Municipality,http://lisankhupakharmun.gov.np,lisankhupakharmun@gmail.com,9702617765
+बागमती प्रदेश,सिन्धुपाल्चोक,सुनकोशी गाउँपालिका,Rural Municipality,http://sunkoshimunsindhupalchowk.gov.np,info@sunkoshimunsindhupalchowk.gov.np,011-482208
+बागमती प्रदेश,सिन्धुपाल्चोक,हेलम्बु गाउँपालिका,Rural Municipality,http://helambumun.gov.np,info@helambumun.gov.np,9851184111
+बागमती प्रदेश,रसुवा,उत्तरगया गाउँपालिका,Rural Municipality,http://uttargayamun.gov.np,info@uttargayamun.gov.np,9851254790
+बागमती प्रदेश,रसुवा,कालिका गाउँपालिका,Rural Municipality,http://kalikamunrasuwa.gov.np,info@kalikamunrasuwa.gov.np,010-542096
+बागमती प्रदेश,रसुवा,गोसाईंकुण्ड गाउँपालिका,Rural Municipality,http://gosaikundamun.gov.np,gosaikundapalika@gmail.com,010-541088
+बागमती प्रदेश,रसुवा,नौकुण्ड गाउँपालिका,Rural Municipality,http://naukundamun.gov.np,info@naukundamun.gov.np,9851430233
+बागमती प्रदेश,रसुवा,आमाछोदिङमो गाउँपालिका,Rural Municipality,http://aamachhodingmomun.gov.np,aamachhodingmo@gmail.com,9851235533
+बागमती प्रदेश,धादिङ,गङ्गाजमुना गाउँपालिका,Rural Municipality,http://gangajamunamun.gov.np,info@gangajamunamun.gov.np,9851208915
+बागमती प्रदेश,धादिङ,सिद्धलेक गाउँपालिका,Rural Municipality,http://siddhalekmun.gov.np,sidhalekhruralmun@gmail.com,9851313553
+बागमती प्रदेश,धादिङ,रुवी भ्याली गाउँपालिका,Rural Municipality,http://rubivalleymun.gov.np,rubyvalleymun2017@gmail.com,9851170713
+बागमती प्रदेश,धादिङ,बेनीघाट रोराङ्ग गाउँपालिका,Rural Municipality,http://benighatrorangmun.gov.np,info@benighatrorangmun.gov.np,010-416000
+बागमती प्रदेश,धादिङ,नेत्रावती डबजोङ गाउँपालिका,Rural Municipality,http://netrawatimun.gov.np,netrawatimun@gmail.com,9851100513
+बागमती प्रदेश,धादिङ,थाक्रे गाउँपालिका,Rural Municipality,http://thakremun.gov.np,info@thakremun.gov.np,01-0415098
+बागमती प्रदेश,धादिङ,त्रिपुरासुन्दरी गाउँपालिका,Rural Municipality,http://tripurasundarimundhading.gov.np,tripurasundaridhading@gmail.com,9851100510
+बागमती प्रदेश,धादिङ,ज्वालामूखी गाउँपालिका,Rural Municipality,http://jwalamukhimun.gov.np,info@jwalamukhimun.gov.np,9851215397
+बागमती प्रदेश,धादिङ,गल्छी गाउँपालिका,Rural Municipality,http://galchhimun.gov.np,info@galchhimun.gov.np,"010-403192,"
+बागमती प्रदेश,धादिङ,गजुरी गाउँपालिका,Rural Municipality,http://gajurimun.gov.np,info@gajurimun.gov.np,010-402063
+बागमती प्रदेश,धादिङ,खनियाबास गाउँपालिका,Rural Municipality,http://khaniyabasmun.gov.np,ito.khaniyabasmun@gmail.com,9851040756
+बागमती प्रदेश,नुवाकोट,किस्पाङ गाउँपालिका,Rural Municipality,http://kispangmun.gov.np,info@kispangmun.gov.np,010-681217
+बागमती प्रदेश,नुवाकोट,सुर्यगढी गाउँपालिका,Rural Municipality,http://suryagadhimun.gov.np,info@suryagadhimun.gov.np,010-680042
+बागमती प्रदेश,नुवाकोट,शिवपुरी गाउँपालिका,Rural Municipality,http://shivapurimun.gov.np,shivapuri.rmun@gmail.com,010620063
+बागमती प्रदेश,नुवाकोट,लिखु गाउँपालिका,Rural Municipality,http://likhumunnuwakot.gov.np,likhu.nuwakot@gmail.com,010-630022
+बागमती प्रदेश,नुवाकोट,म्यागङ गाउँपालिका,Rural Municipality,http://myagangmun.gov.np,myagangrm@gmail.com,9851219732
+बागमती प्रदेश,नुवाकोट,पञ्चकन्या गाउँपालिका,Rural Municipality,http://panchakanyamun.gov.np,info@panchakanyamun.gov.np,000000000
+बागमती प्रदेश,नुवाकोट,दुप्चेश्वर गाउँपालिका,Rural Municipality,http://dupcheshwormun.gov.np,dupcherumun2017@gmail.com,9851126899
+बागमती प्रदेश,नुवाकोट,तारकेश्वर गाउँपालिका,Rural Municipality,http://tarakeshwormunnuwakot.gov.np,info@tarakeshwormun.gov.np,010-630001
+बागमती प्रदेश,नुवाकोट,तादी गाउँपालिका,Rural Municipality,http://tadimun.gov.np,ito.tadimun@gmail.com,010-630006
+बागमती प्रदेश,नुवाकोट,ककनी गाउँपालिका,Rural Municipality,http://kakanimun.gov.np,ito.kakanimun@gmail.com,010-411022
+बागमती प्रदेश,ललितपुर,कोन्ज्योसोम गाउँपालिका,Rural Municipality,http://konjyosommun.gov.np,konjyosom2075@gmail.com,9858322183
+बागमती प्रदेश,ललितपुर,बाग्मती गाउँपालिका,Rural Municipality,http://bagmatimunlalitpur.gov.np,bagmatigaupalika@gmail.com,9851340388
+बागमती प्रदेश,ललितपुर,महाङ्काल गाउँपालिका,Rural Municipality,http://mahankalmun.gov.np,mahankalmun2017@gmail.com,9851320045
+बागमती प्रदेश,काभ्रेपलाञ्चोक,खानीखोला गाउँपालिका,Rural Municipality,http://khanikholamun.gov.np,info@khanikholamun.gov.np,9851225957
+बागमती प्रदेश,काभ्रेपलाञ्चोक,चौंरीदेउराली गाउँपालिका,Rural Municipality,http://chaurideuralimun.gov.np,ito.chaurideuralimun@gmail.com,-
+बागमती प्रदेश,काभ्रेपलाञ्चोक,तेमाल गाउँपालिका,Rural Municipality,http://temalmun.gov.np,temalmun2@gmail.com,011691149
+बागमती प्रदेश,काभ्रेपलाञ्चोक,बेथानचोक गाउँपालिका,Rural Municipality,http://bethanchowkmun.gov.np,info@bethanchowkmun.gov.np,9851225074
+बागमती प्रदेश,काभ्रेपलाञ्चोक,भुम्लु गाउँपालिका,Rural Municipality,http://bhumlumun.gov.np,info@bhumlumun.gov.np,9851084808
+बागमती प्रदेश,काभ्रेपलाञ्चोक,महाभारत गाउँपालिका,Rural Municipality,http://mahabharatmun.gov.np,ito.mahabharatmun@gmail.com,9851255781
+बागमती प्रदेश,काभ्रेपलाञ्चोक,रोशी गाउँपालिका,Rural Municipality,http://roshimun.gov.np,roshi2073@gmail.com,9851201937
+बागमती प्रदेश,मकवानपुर,ईन्द्रसरोवर गाउँपालिका,Rural Municipality,http://indrasarowarmun.gov.np,indrasarowarmun@gmail.com,9847216005
+बागमती प्रदेश,मकवानपुर,राक्सिराङ्ग गाउँपालिका,Rural Municipality,http://raksirangmun.gov.np,info@raksirangmun.gov.np,9855077601
+बागमती प्रदेश,मकवानपुर,मनहरी गाउँपालिका,Rural Municipality,http://manaharimun.gov.np,manaharimun@gmail.com,057-419303
+बागमती प्रदेश,मकवानपुर,मकवानपुरगढी गाउँपालिका,Rural Municipality,http://makawanpurgadhimun.gov.np,info@makawanpurgadhimun.gov.np,9855088966
+बागमती प्रदेश,मकवानपुर,भिमफेदी गाउँपालिका,Rural Municipality,http://bhimphedimun.gov.np,ito.bhimphedimun@gmail.com,"057410066,"
+बागमती प्रदेश,मकवानपुर,बाग्मती गाउँपालिका,Rural Municipality,http://bagmatimunmakawanpur.gov.np,bagmatimun.makwanpur@gmail.com,057620476
+बागमती प्रदेश,मकवानपुर,बकैया गाउँपालिका,Rural Municipality,http://bakaiyamun.gov.np,bakaiyagaunpalika@gmail.com,9855088066
+बागमती प्रदेश,मकवानपुर,कैलाश गाउँपालिका,Rural Municipality,http://kailashmun.gov.np,info@kailashmun.gov.np,9855088266
+बागमती प्रदेश,चितवन,इच्छाकामना गाउँपालिका,Rural Municipality,http://ichchhakamanamun.gov.np,ichchhakamanaruralmun@gmail.com,056-410111
+गण्डकी प्रदेश,स्याङजा,गल्याङ नगरपालिका,Municipality,http://galyangmun.gov.np,info@galyangmun.gov.np,063-460129
+गण्डकी प्रदेश,स्याङजा,चापाकोट नगरपालिका,Municipality,http://chapakotmun.gov.np,info@chapakotmun.gov.np,063411080
+गण्डकी प्रदेश,स्याङजा,पुतलीबजार नगरपालिका,Municipality,http://putalibazarmun.gov.np,info@putalibazarmun.gov.np,063420409
+गण्डकी प्रदेश,स्याङजा,भीरकोट नगरपालिका,Municipality,http://bheerkotmun.gov.np,info@bheerkotmun.gov.np,063-400106
+गण्डकी प्रदेश,स्याङजा,वालिङ नगरपालिका,Municipality,http://walingmun.gov.np,info@walingmun.gov.np,063-440177
+गण्डकी प्रदेश,तनहुँ,भानु नगरपालिका,Municipality,http://bhanumun.gov.np,bhanumunicipality@gmail.com,9856005111
+गण्डकी प्रदेश,तनहुँ,भिमाद नगरपालिका,Municipality,http://bhimadmun.gov.np,info@bhimadmun.gov.np,065-572436
+गण्डकी प्रदेश,तनहुँ,व्यास नगरपालिका,Municipality,http://vyasmun.gov.np,vyasmunicipality@gmail.com,065-563162
+गण्डकी प्रदेश,तनहुँ,शुक्लागण्डकी नगरपालिका,Municipality,http://shuklagandakimun.gov.np,info@shuklagandakimun.gov.np,065-414305
+गण्डकी प्रदेश,गोरखा,गोरखा नगरपालिका,Municipality,http://gorkhamun.gov.np,info@gorkhamun.gov.np,064-420696
+गण्डकी प्रदेश,गोरखा,पालुङटार नगरपालिका,Municipality,http://palungtarmun.gov.np,palungtarmun@gmail.com,064-400053
+गण्डकी प्रदेश,लमजुङ,राईनास नगरपालिका,Municipality,http://rainasmun.gov.np,rainasmunicipality@gmail.com,9856013111
+गण्डकी प्रदेश,लमजुङ,मध्यनेपाल नगरपालिका,Municipality,http://madhyanepalmun.gov.np,info@madhyanepalmun.gov.np,"066-410252,410052"
+गण्डकी प्रदेश,लमजुङ,सुन्दरबजार नगरपालिका,Municipality,http://sundarbazarmun.gov.np,sundarbazarmun@gmail.com,"066-402226,9849320030"
+गण्डकी प्रदेश,लमजुङ,बेसीशहर नगरपालिका,Municipality,http://besishaharmun.gov.np,besishaharmunicipality@gmail.com,066-520204
+गण्डकी प्रदेश,पर्वत,कुश्मा नगरपालिका,Municipality,http://kushmamun.gov.np,info@kushmamun.gov.np,"067-420141,"
+गण्डकी प्रदेश,पर्वत,फलेवास नगरपालिका,Municipality,http://phalewasmun.gov.np,phalewashnagarpalika@gmail.com,"067-430103,"
+गण्डकी प्रदेश,बाग्लुङ,गल्कोट नगरपालिका,Municipality,http://galkotmun.gov.np,info@galkotmun.gov.np,068412111
+गण्डकी प्रदेश,बाग्लुङ,जैमिनी नगरपालिका,Municipality,http://jaiminimun.gov.np,jaiminimun@gmail.com,068-421100
+गण्डकी प्रदेश,बाग्लुङ,ढोरपाटन नगरपालिका,Municipality,http://dhorpatanmun.gov.np,info@dhorpatanmun.gov.np,068-410180
+गण्डकी प्रदेश,बाग्लुङ,बाग्लुङ नगरपालिका,Municipality,http://baglungmun.gov.np,info@baglungmun.gov.np,068-520306
+गण्डकी प्रदेश,म्याग्दी,बेनी नगरपालिका,Municipality,http://benimun.gov.np,benimunicipality@gmail.com,069-521276
+गण्डकी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पूर्व),मध्यविन्दु नगरपालिका,Municipality,http://madhyabindumun.gov.np,info@madhyabindumun.gov.np,"078-410127,078-410123,"
+गण्डकी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पूर्व),देवचुली नगरपालिका,Municipality,http://devchulimun.gov.np,info@devchulimun.gov.np,078-575010
+गण्डकी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पूर्व),गैंडाकोट नगरपालिका,Municipality,http://gaindakotmun.gov.np,info@gaindakotmun.gov.np,078-501119
+गण्डकी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पूर्व),कावासोती नगरपालिका,Municipality,http://kawasotimun.gov.np,info@kawasotimun.gov.np,078-540170
+गण्डकी प्रदेश,स्याङजा,अर्जुनचौपारी गाउँपालिका,Rural Municipality,http://arjunchauparimun.gov.np,info@arjunchauparimun.gov.np,063422007
+गण्डकी प्रदेश,स्याङजा,आँधिखोला गाउँपालिका,Rural Municipality,http://aandhikholamun.gov.np,andhikholarm@gmail.com,063-413000
+गण्डकी प्रदेश,स्याङजा,कालीगण्डकी गाउँपालिका,Rural Municipality,http://kaligandakimunsyangja.gov.np,kaligandakiruralmunicipality@gmail.com,9856000071
+गण्डकी प्रदेश,स्याङजा,फेदीखोला गाउँपालिका,Rural Municipality,http://phedikholamun.gov.np,phedikhola174@gmail.com,063402053
+गण्डकी प्रदेश,स्याङजा,बिरुवा गाउँपालिका,Rural Municipality,http://biruwamun.gov.np,biruwaruralmun@gmail.com,9856052112
+गण्डकी प्रदेश,स्याङजा,हरिनास गाउँपालिका,Rural Municipality,http://harinasmun.gov.np,harinasruralmunicipality@gmail.com,9856036468
+गण्डकी प्रदेश,तनहुँ,आँबुखैरेनी गाउँपालिका,Rural Municipality,http://aanbookhairenimun.gov.np,info@aanbookhairenimun.gov.np,065-540082
+गण्डकी प्रदेश,तनहुँ,ऋषिङ्ग गाउँपालिका,Rural Municipality,http://rishingmun.gov.np,info@rishingmun.gov.np,9856063685
+गण्डकी प्रदेश,तनहुँ,घिरिङ गाउँपालिका,Rural Municipality,http://ghiringmun.gov.np,ghiringgaupalika@gmail.com,9856063123
+गण्डकी प्रदेश,तनहुँ,देवघाट गाउँपालिका,Rural Municipality,http://devghatmun.gov.np,info@devghatmun.gov.np,056-500072
+गण्डकी प्रदेश,तनहुँ,म्याग्दे गाउँपालिका,Rural Municipality,http://myagdemun.gov.np,myagderumun@gmail.com,065-400116
+गण्डकी प्रदेश,तनहुँ,बन्दिपुर गाउँपालिका,Rural Municipality,http://bandipurmun.gov.np,info@bandipurmun.gov.np,065-520123
+गण्डकी प्रदेश,गोरखा,धार्चे गाउँपालिका,Rural Municipality,http://dharchemun.gov.np,info@dharchemun.gov.np,9856041451
+गण्डकी प्रदेश,गोरखा,चुमनुव्री गाउँपालिका,Rural Municipality,http://chumanuwrimun.gov.np,chumanuwrimun@gmail.com,9851015492
+गण्डकी प्रदेश,गोरखा,गण्डकी गाउँपालिका,Rural Municipality,http://gandakimun.gov.np,info@gandakimun.gov.np,064-620062
+गण्डकी प्रदेश,गोरखा,भिमसेनथापा गाउँपालिका,Rural Municipality,http://bhimsenthapamun.gov.np,info@bhimsenmun.gov.np,9856010045
+गण्डकी प्रदेश,गोरखा,शहिद लखन गाउँपालिका,Rural Municipality,http://shahidlakhanmun.gov.np,info@shahidlakhanmun.gov.np,9856040375
+गण्डकी प्रदेश,गोरखा,आरूघाट गाउँपालिका,Rural Municipality,http://aarughatmun.gov.np,rm.arughat@gmail.com,064-410044
+गण्डकी प्रदेश,गोरखा,अजिरकोट गाउँपालिका,Rural Municipality,http://ajirkotmun.gov.np,ajirkotrm@gmail.com,064-691170
+गण्डकी प्रदेश,गोरखा,बारपाक सुलिकोट गाउँपालिका,Rural Municipality,http://barpaksulikotmun.gov.np,barpaksulikotrm@gmail.com,064-691177
+गण्डकी प्रदेश,मनाङ,चामे गाउँपालिका,Rural Municipality,http://chamemun.gov.np,info@chamemun.gov.np,066-440170
+गण्डकी प्रदेश,मनाङ,नार्पा भूमि गाउँपालिका,Rural Municipality,http://narpabhumimun.gov.np,narpa2018@gmail.com,9843413083
+गण्डकी प्रदेश,मनाङ,नासोँ गाउँपालिका,Rural Municipality,http://nasonmun.gov.np,nashongrm@gmail.com,9856049450
+गण्डकी प्रदेश,मनाङ,मनाङ ङिस्याङ गाउँपालिका,Rural Municipality,http://manangngisyangmun.gov.np,manangngisyangrmun@gmail.com,9856049159
+गण्डकी प्रदेश,लमजुङ,क्व्होलासोथार गाउँपालिका,Rural Municipality,http://kwholasotharmun.gov.np,kwholasotharrmun@gmail.com,9856046819
+गण्डकी प्रदेश,लमजुङ,मर्स्याङदी गाउँपालिका,Rural Municipality,http://marsyangdimun.gov.np,info@marsyangdimun.gov.np,066-620023
+गण्डकी प्रदेश,लमजुङ,दूधपोखरी गाउँपालिका,Rural Municipality,http://dudhpokharimun.gov.np,info@dudhpokharimun.gov.np,9856046357
+गण्डकी प्रदेश,लमजुङ,दोर्दी गाउँपालिका,Rural Municipality,http://dordimun.gov.np,dordigaupalika073@gmail.com,9856046264
+गण्डकी प्रदेश,कास्की,माछापुछ्रे गाउँपालिका,Rural Municipality,http://machhapuchhremun.gov.np,info@machhapuchhremun.gov.np,9856017310
+गण्डकी प्रदेश,कास्की,मादी गाउँपालिका,Rural Municipality,http://madimunkaski.gov.np,info@madimunkaski.gov.np,061506403
+गण्डकी प्रदेश,कास्की,रूपा गाउँपालिका,Rural Municipality,http://rupamun.gov.np,ruparumun@gmail.com,9856072101
+गण्डकी प्रदेश,पर्वत,पैयूं गाउँपालिका,Rural Municipality,http://paiyunmun.gov.np,paiyungapa@gmail.com,067-411101
+गण्डकी प्रदेश,पर्वत,महाशिला गाउँपालिका,Rural Municipality,http://mahashilamun.gov.np,mahashilagapa@gmail.com,9857675111
+गण्डकी प्रदेश,पर्वत,मोदी गाउँपालिका,Rural Municipality,http://modimun.gov.np,info@modimun.gov.np,067-410164
+गण्डकी प्रदेश,पर्वत,विहादी गाउँपालिका,Rural Municipality,http://bihadimun.gov.np,bihadi.ruralmun@gmail.com,9857650871
+गण्डकी प्रदेश,पर्वत,जलजला गाउँपालिका,Rural Municipality,http://jaljalamun.gov.np,jaljalamunparbat@gmail.com,"069522002,069522001"
+गण्डकी प्रदेश,बाग्लुङ,तमानखोला गाउँपालिका,Rural Municipality,http://tamankholamun.gov.np,info@tamankholamun.gov.np,068620014
+गण्डकी प्रदेश,बाग्लुङ,ताराखोला गाउँपालिका,Rural Municipality,http://tarakholamun.gov.np,ito.tarakholamun@gmail.com,9857661129
+गण्डकी प्रदेश,बाग्लुङ,वरेङ गाउँपालिका,Rural Municipality,http://barengmun.gov.np,barengrm@gmail.com,068620178
+गण्डकी प्रदेश,बाग्लुङ,निसीखोला गाउँपालिका,Rural Municipality,http://nisikholamun.gov.np,info@nisikholamun.gov.np,9806197511
+गण्डकी प्रदेश,बाग्लुङ,काठेखोला गाउँपालिका,Rural Municipality,http://kathekholamun.gov.np,kathekholagahunpalika123@gmail.com,9857620694
+गण्डकी प्रदेश,बाग्लुङ,वडिगाड गाउँपालिका,Rural Municipality,http://badigadmun.gov.np,badigadruralmunicipality@gmail.com,9857676444
+गण्डकी प्रदेश,म्याग्दी,मंगला गाउँपालिका,Rural Municipality,http://mangalamun.gov.np,info@mangalamun.gov.np,"9857642642,"
+गण्डकी प्रदेश,म्याग्दी,मालिका गाउँपालिका,Rural Municipality,http://malikamunmyagdi.gov.np,malikamunmyagdi@gmail.com,069420020
+गण्डकी प्रदेश,म्याग्दी,रघुगंगा गाउँपालिका,Rural Municipality,http://raghugangamun.gov.np,raghugangagapa@gmail.com,9851040280
+गण्डकी प्रदेश,म्याग्दी,अन्नपूर्ण गाउँपालिका,Rural Municipality,http://annapurnamunmyagdi.gov.np,info@annapurnamunmyagdi.gov.np,9857683810
+गण्डकी प्रदेश,मुस्ताङ,थासाङ गाउँपालिका,Rural Municipality,http://thasangmun.gov.np,thasangmun@gmail.com,9857650512
+गण्डकी प्रदेश,मुस्ताङ,लो-घेकर दामोदरकुण्ड गाउँपालिका,Rural Municipality,http://loghekardamodarkundamun.gov.np,loghekardamodarkundamun@gmail.com,9857639999
+गण्डकी प्रदेश,मुस्ताङ,लोमन्थाङ गाउँपालिका,Rural Municipality,http://lomanthangmun.gov.np,lomanthanggaupalika@gmail.com,9857630330
+गण्डकी प्रदेश,मुस्ताङ,वारागुङ मुक्तिक्षेत्र गाउँपालिका,Rural Municipality,http://varagungmuktichhetramun.gov.np,info@varagungmuktichhetramun.gov.np,069421001
+गण्डकी प्रदेश,मुस्ताङ,घरपझोङ गाउँपालिका,Rural Municipality,http://gharapjhongmun.gov.np,info@gharapjhongmun.gov.np,069-440016
+गण्डकी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पूर्व),हुप्सेकोट गाउँपालिका,Rural Municipality,http://hupsekotmun.gov.np,info@hupsekotmun.gov.np,078-590702
+गण्डकी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पूर्व),बिनयी त्रिवेणी गाउँपालिका,Rural Municipality,http://binayitribenimun.gov.np,info@binayitribenimun.gov.np,"078-416182,078416185"
+गण्डकी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पूर्व),बुलिङटार गाउँपालिका,Rural Municipality,http://bulingtarmun.gov.np,info@bulingtarmun.gov.np,9857070107
+गण्डकी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पूर्व),बौदीकाली गाउँपालिका,Rural Municipality,http://baudikalimun.gov.np,baudikalimun@gmail.com,9857046264
+लुम्बिनी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पश्चिम),बर्दघाट नगरपालिका,Municipality,http://bardaghatmun.gov.np,info@bardaghatmun.gov.np,078580407
+लुम्बिनी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पश्चिम),रामग्राम नगरपालिका,Municipality,http://ramgrammun.gov.np,municipalityramgram@gmail.com,078-520684
+लुम्बिनी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पश्चिम),सुनवल नगरपालिका,Municipality,http://sunwalmun.gov.np,sunwalmunicipality@gmail.com,078570110
+लुम्बिनी प्रदेश,रूपन्देही,तिलोत्तमा नगरपालिका,Municipality,http://tilottamamun.gov.np,tilottamamun@gmail.com,071-562979
+लुम्बिनी प्रदेश,रूपन्देही,देवदह नगरपालिका,Municipality,http://devdahamun.gov.np,info@devdahamun.gov.np,071-577303
+लुम्बिनी प्रदेश,रूपन्देही,लुम्विनी सांस्कृतिक नगरपालिका,Municipality,http://lumbinisanskritikmun.gov.np,lumbiniculturalmunicipality@gmail.com,071-580305
+लुम्बिनी प्रदेश,रूपन्देही,सिद्धार्थनगर नगरपालिका,Municipality,http://siddharthanagarmun.gov.np,info@siddharthanagarmun.gov.np,071-520292
+लुम्बिनी प्रदेश,रूपन्देही,सैनामैना नगरपालिका,Municipality,http://sainamainamun.gov.np,sainamainamunicipality@gmail.com,071-440553
+लुम्बिनी प्रदेश,कपिलबस्तु,कपिलवस्तु नगरपालिका,Municipality,http://kapilvastumun.gov.np,kapilvastumun.gov@gmail.com,076-560201
+लुम्बिनी प्रदेश,कपिलबस्तु,कृष्णनगर नगरपालिका,Municipality,http://krishnanagarmun.gov.np,munkrishnanagar@gmail.com,076-520147
+लुम्बिनी प्रदेश,कपिलबस्तु,बाणगंगा नगरपालिका,Municipality,http://bangangamun.gov.np,bangangamun@gmail.com,076-550383
+लुम्बिनी प्रदेश,कपिलबस्तु,बुद्धभुमी नगरपालिका,Municipality,http://buddhabhumimun.gov.np,buddhabhumi.mun@gmail.com,9857088111
+लुम्बिनी प्रदेश,कपिलबस्तु,महाराजगञ्ज नगरपालिका,Municipality,http://maharajgunjmun.gov.np,napamaharajgunj2073@gmail.com,076-400035
+लुम्बिनी प्रदेश,कपिलबस्तु,शिवराज नगरपालिका,Municipality,http://shivrajmun.gov.np,info@shivarajmun.gov.np,076-540147
+लुम्बिनी प्रदेश,अर्घाखाँची,भुमिकास्थान नगरपालिका,Municipality,http://bhumikasthanmun.gov.np,bhumikasthanmunicipality@gmail.com,9857078079
+लुम्बिनी प्रदेश,अर्घाखाँची,सन्धिखर्क नगरपालिका,Municipality,http://sandhikharkamun.gov.np,sandhikharkamunicipality@gmail.com,077420662
+लुम्बिनी प्रदेश,पाल्पा,तानसेन नगरपालिका,Municipality,http://tansenmun.gov.np,ito.tansenmun@gmail.com,075-520109
+लुम्बिनी प्रदेश,पाल्पा,रामपुर नगरपालिका,Municipality,http://rampurmun.gov.np,info@rampurmun.gov.np,075-400475
+लुम्बिनी प्रदेश,गुल्मी,मुसिकोट नगरपालिका,Municipality,http://musikotmungulmi.gov.np,musikotmpgulmi@gmail.com,079-412145
+लुम्बिनी प्रदेश,गुल्मी,रेसुंगा नगरपालिका,Municipality,http://resungamun.gov.np,info@resungamun.gov.np,079-520150
+लुम्बिनी प्रदेश,रोल्पा,रोल्पा नगरपालिका,Municipality,http://rolpamun.gov.np,rolpanagarpalika@gmail.com,086440071
+लुम्बिनी प्रदेश,प्यूठान,प्यूठान नगरपालिका,Municipality,http://pyuthanmun.gov.np,pyuthannagarpalika@gmail.com,086460291
+लुम्बिनी प्रदेश,प्यूठान,स्वर्गद्वारी नगरपालिका,Municipality,http://swargadwarimun.gov.np,info@swargadwarimun.gov.np,086-400117
+लुम्बिनी प्रदेश,दाङ,लमही नगरपालिका,Municipality,http://lamahimun.gov.np,lamahinapa@gmail.com,082-540850
+लुम्बिनी प्रदेश,बाँके,कोहलपुर नगरपालिका,Municipality,http://kohalpurmun.gov.np,info@kohalpurmun.gov.np,081-540009
+लुम्बिनी प्रदेश,बर्दिया,गुलरिया नगरपालिका,Municipality,http://gulariyamun.gov.np,gnpk.bardiya@gmail.com,084-420412
+लुम्बिनी प्रदेश,बर्दिया,ठाकुरबाबा नगरपालिका,Municipality,http://thakurbabamun.gov.np,thakurbabamun@gmail.com,084-403196
+लुम्बिनी प्रदेश,बर्दिया,बाँसगढी नगरपालिका,Municipality,http://bansgadhimun.gov.np,info@bansgadhimun.gov.np,16608442002
+लुम्बिनी प्रदेश,बर्दिया,मधुवन नगरपालिका,Municipality,http://madhuwanmun.gov.np,madhuwanmun@gmail.com,084-440111
+लुम्बिनी प्रदेश,बर्दिया,राजापुर नगरपालिका,Municipality,http://rajapurmun.gov.np,rajapurmun@gmail.com,084-460167
+लुम्बिनी प्रदेश,बर्दिया,बारबर्दिया नगरपालिका,Municipality,http://barbardiyamun.gov.np,barbardiyamun@gmail.com,084-404107
+लुम्बिनी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पश्चिम),सुस्ता गाउँपालिका,Rural Municipality,http://sustamun.gov.np,sustagaunpalika@gmail.com,078506000
+लुम्बिनी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पश्चिम),पाल्हीनन्दन गाउँपालिका,Rural Municipality,http://palhinandanmun.gov.np,palhinandanrulmun2073@gmail.com,9857046036
+लुम्बिनी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पश्चिम),प्रतापपुर गाउँपालिका,Rural Municipality,http://pratappurmun.gov.np,info@pratappurmun.gov.np,078419095
+लुम्बिनी प्रदेश,नवलपरासी (बर्दघाट सुस्ता पश्चिम),सरावल गाउँपालिका,Rural Municipality,http://sarawalmun.gov.np,info@sarawalmun.gov.np,9857046266
+लुम्बिनी प्रदेश,रूपन्देही,ओमसतिया गाउँपालिका,Rural Municipality,http://omsatiyamun.gov.np,omsatiyamun@gmail.com,9857017610
+लुम्बिनी प्रदेश,रूपन्देही,कन्चन गाउँपालिका,Rural Municipality,http://kanchanmun.gov.np,kanchangaupalika@gmail.com,9857037915
+लुम्बिनी प्रदेश,रूपन्देही,कोटहीमाई गाउँपालिका,Rural Municipality,http://kotahimaimun.gov.np,kotahimaimun@gmail.com,071-401024
+लुम्बिनी प्रदेश,रूपन्देही,गैडहवा गाउँपालिका,Rural Municipality,http://gaidahawamun.gov.np,gaidahawagaupalika@gmail.com,9857016159
+लुम्बिनी प्रदेश,रूपन्देही,मर्चवारी गाउँपालिका,Rural Municipality,http://marchawarimun.gov.np,marchawari2073@gmail.com,9857016993
+लुम्बिनी प्रदेश,रूपन्देही,मायादेवी गाउँपालिका,Rural Municipality,http://mayadevimunrupandehi.gov.np,mayadeviruralmun@gmail.com,71507077
+लुम्बिनी प्रदेश,रूपन्देही,रोहिणी गाउँपालिका,Rural Municipality,http://rohinimun.gov.np,rohinigaupalika1@gmail.com,071-411047
+लुम्बिनी प्रदेश,रूपन्देही,शुद्धोधन गाउँपालिका,Rural Municipality,http://shuddhodhanmunrupandehi.gov.np,info@shuddhodhanmunrupandehi.gov.np,071-423040
+लुम्बिनी प्रदेश,रूपन्देही,सम्मरीमाई गाउँपालिका,Rural Municipality,http://sammarimaimun.gov.np,sammarimairm@gmail.com,+9779857016956
+लुम्बिनी प्रदेश,रूपन्देही,सियारी गाउँपालिका,Rural Municipality,http://siyarimun.gov.np,siyarimun@gmail.com,9857016119
+लुम्बिनी प्रदेश,कपिलबस्तु,मायादेवी गाउँपालिका,Rural Municipality,http://mayadevimunkapilvastu.gov.np,mayadevirm@gmail.com,"9851125450,"
+लुम्बिनी प्रदेश,कपिलबस्तु,शुद्धोधन गाउँपालिका,Rural Municipality,http://shuddhodhanmunkapilvastu.gov.np,shuddhodhankpil38@gmail.com,9857052101
+लुम्बिनी प्रदेश,कपिलबस्तु,विजयनगर गाउँपालिका,Rural Municipality,http://bijaynagarmun.gov.np,info@bijaynagarmun.gov.np,16607652001
+लुम्बिनी प्रदेश,अर्घाखाँची,छत्रदेव गाउँपालिका,Rural Municipality,http://chhatradevmun.gov.np,chhatradev.ruralmun@gmail.com,077690573
+लुम्बिनी प्रदेश,अर्घाखाँची,पाणिनी गाउँपालिका,Rural Municipality,http://paninimun.gov.np,info@paninimun.gov.np,9857086529
+लुम्बिनी प्रदेश,अर्घाखाँची,मालारानी गाउँपालिका,Rural Municipality,http://malaranimun.gov.np,malaraniruralmun@gmail.com,9857061472
+लुम्बिनी प्रदेश,पाल्पा,तिनाउ गाउँपालिका,Rural Municipality,http://tinaumun.gov.np,tinaururalmunicipality@gmail.com,075413064
+लुम्बिनी प्रदेश,पाल्पा,निस्दी गाउँपालिका,Rural Municipality,http://nisdimun.gov.np,info@nisdimun.gov.np,075620041
+लुम्बिनी प्रदेश,पाल्पा,पूर्वखोला गाउँपालिका,Rural Municipality,http://purbakholamun.gov.np,info@purbakholamun.gov.np,9857068575
+लुम्बिनी प्रदेश,पाल्पा,बगनासकाली गाउँपालिका,Rural Municipality,http://baganaskalimun.gov.np,baganaskali.rural@gmail.com,9857060750
+लुम्बिनी प्रदेश,पाल्पा,माथागढी गाउँपालिका,Rural Municipality,http://mathagadhimun.gov.np,mathagadhimun@gmail.com,9857060231
+लुम्बिनी प्रदेश,पाल्पा,रम्भा गाउँपालिका,Rural Municipality,http://rambhamun.gov.np,info@rambhamun.gov.np,9857068770
+लुम्बिनी प्रदेश,पाल्पा,रिब्दीकोट गाउँपालिका,Rural Municipality,http://ribdikotmun.gov.np,info@ribdikotmun.gov.np,9857075307
+लुम्बिनी प्रदेश,पाल्पा,रैनादेवी छहरा गाउँपालिका,Rural Municipality,http://rainadevichhaharamun.gov.np,info@rainadevichhaharamun.gov.np,9857072025
+लुम्बिनी प्रदेश,गुल्मी,धुर्कोट गाउँपालिका,Rural Municipality,http://dhurkotmun.gov.np,dhurkotmun@gmail.com,9857067917
+लुम्बिनी प्रदेश,गुल्मी,सत्यवती गाउँपालिका,Rural Municipality,http://satyawatimun.gov.np,info@satyawatimun.gov.np,079411076
+लुम्बिनी प्रदेश,गुल्मी,रुरुक्षेत्र गाउँपालिका,Rural Municipality,http://rurumun.gov.np,ruralruru@gmail.com,079410104
+लुम्बिनी प्रदेश,गुल्मी,मालिका गाउँपालिका,Rural Municipality,http://malikamungulmi.gov.np,malikagaupalika@gmail.com,079620075
+लुम्बिनी प्रदेश,गुल्मी,छत्रकोट गाउँपालिका,Rural Municipality,http://chhatrakotmun.gov.np,info@chhatrakotmun.gov.np,9857067908
+लुम्बिनी प्रदेश,गुल्मी,चन्द्रकोट गाउँपालिका,Rural Municipality,http://chandrakotmun.gov.np,chandrakotrmun@gmail.com,079420003
+लुम्बिनी प्रदेश,गुल्मी,गुल्मीदरबार गाउँपालिका,Rural Municipality,http://gulmidarbarmun.gov.np,info@gulmidarbarmun.gov.np,9857067912
+लुम्बिनी प्रदेश,गुल्मी,कालीगण्डकी गाउँपालिका,Rural Municipality,http://kaligandakimungulmi.gov.np,gulmikaligandaki@gmail.com,9857067925
+लुम्बिनी प्रदेश,गुल्मी,इस्मा गाउँपालिका,Rural Municipality,http://ismamun.gov.np,info@ismamun.gov.np,9857067914
+लुम्बिनी प्रदेश,रोल्पा,सुनिल स्मृति गाउँपालिका,Rural Municipality,http://sunilsmritimun.gov.np,info@sunilsmritimun.gov.np,086-401170
+लुम्बिनी प्रदेश,रोल्पा,रुन्टीगढी गाउँपालिका,Rural Municipality,http://runtigadhimun.gov.np,rrmrolpa@gmail.com,9849628947
+लुम्बिनी प्रदेश,रोल्पा,त्रिवेणी गाउँपालिका,Rural Municipality,http://trivenimunrolpa.gov.np,info@trivenimunrolpa.gov.np,9857824585
+लुम्बिनी प्रदेश,रोल्पा,थवाङ गाउँपालिका,Rural Municipality,http://thabangmun.gov.np,thabangrm58@gmail.com,9857824750
+लुम्बिनी प्रदेश,रोल्पा,परिवर्तन गाउँपालिका,Rural Municipality,http://paribartanmun.gov.np,paribartanrmun@gmail.com,9857849002
+लुम्बिनी प्रदेश,रोल्पा,माडी गाउँपालिका,Rural Municipality,http://madimunrolpa.gov.np,madimunrolpa@gmail.com,086-416036
+लुम्बिनी प्रदेश,प्यूठान,ऐरावती गाउँपालिका,Rural Municipality,http://airawatimun.gov.np,info@airawatimun.gov.np,977-9857833023
+लुम्बिनी प्रदेश,प्यूठान,गौमुखी गाउँपालिका,Rural Municipality,http://gaumukhimun.gov.np,info@gaumukhimun.gov.np,9857836319
+लुम्बिनी प्रदेश,प्यूठान,झिमरुक गाउँपालिका,Rural Municipality,http://jhimrukmun.gov.np,info@jhimrukmun.gov.np,9857836322
+लुम्बिनी प्रदेश,प्यूठान,नौबहिनी गाउँपालिका,Rural Municipality,http://naubahinimun.gov.np,naubahinirm@gmail.com,9857836020
+लुम्बिनी प्रदेश,प्यूठान,मल्लरानी गाउँपालिका,Rural Municipality,http://mallaranimun.gov.np,info@mallaranimun.gov.np,086-420180
+लुम्बिनी प्रदेश,प्यूठान,माण्डवी गाउँपालिका,Rural Municipality,http://mandavimun.gov.np,info@mandavimun.gov.np,9857836006
+लुम्बिनी प्रदेश,प्यूठान,सरुमारानी गाउँपालिका,Rural Municipality,http://sarumaranimun.gov.np,sarumarani2073@gmail.com,9857836022
+लुम्बिनी प्रदेश,दाङ,बबई गाउँपालिका,Rural Municipality,http://babaimun.gov.np,info@babaimun.gov.np,9857825650
+लुम्बिनी प्रदेश,दाङ,राजपुर गाउँपालिका,Rural Municipality,http://rajpurmundang.gov.np,rajpurmun@gmail.com,9857835240
+लुम्बिनी प्रदेश,दाङ,गढवा गाउँपालिका,Rural Municipality,http://gadhawamun.gov.np,info@gadhawamun.gov.np,082-410004
+लुम्बिनी प्रदेश,दाङ,दंगीशरण गाउँपालिका,Rural Municipality,http://dangisharanmun.gov.np,ito.dangisharanmun@gmail.com,9857831564
+लुम्बिनी प्रदेश,दाङ,बंगलाचुली गाउँपालिका,Rural Municipality,http://bangalachulimun.gov.np,banglachulirmun@gmail.com,9857835216
+लुम्बिनी प्रदेश,बाँके,खजुरा गाउँपालिका,Rural Municipality,http://khajuramun.gov.np,info@khajuramun.gov.np,081-560187
+लुम्बिनी प्रदेश,बाँके,जानकी गाउँपालिका,Rural Municipality,http://janakimunbanke.gov.np,info@janakimunbanke.gov.np,9858027040
+लुम्बिनी प्रदेश,बाँके,डुडुवा गाउँपालिका,Rural Municipality,http://duduwamun.gov.np,duduwagaupalika@gmail.com,9844851069
+लुम्बिनी प्रदेश,बाँके,नरैनापुर गाउँपालिका,Rural Municipality,http://narainapurmun.gov.np,info@narainapurmun.gov.np,081525050
+लुम्बिनी प्रदेश,बाँके,बैजनाथ गाउँपालिका,Rural Municipality,http://baijanathmun.gov.np,baijanathrumun@gmail.com,9858024336
+लुम्बिनी प्रदेश,बाँके,राप्तीसोनारी गाउँपालिका,Rural Municipality,http://raptisonarimun.gov.np,info@raptisonarimun.gov.np,9858055516
+लुम्बिनी प्रदेश,बर्दिया,गेरुवा गाउँपालिका,Rural Municipality,http://geruwamun.gov.np,geruwarmun@gmail.com,9858090441
+लुम्बिनी प्रदेश,बर्दिया,बढैयाताल गाउँपालिका,Rural Municipality,http://badhaiyatalmun.gov.np,info@badhaiyatalmun.gov.np,084-401077
+लुम्बिनी प्रदेश,रुकुम (पूर्वी भाग),पुथा उत्तरगंगा गाउँपालिका,Rural Municipality,http://puthauttargangamun.gov.np,puthauttargangamun@gmail.com,9857880303
+लुम्बिनी प्रदेश,रुकुम (पूर्वी भाग),भूमे गाउँपालिका,Rural Municipality,http://bhumemun.gov.np,bhumemun@gmail.com,9762527111
+लुम्बिनी प्रदेश,रुकुम (पूर्वी भाग),सिस्ने गाउँपालिका,Rural Municipality,http://sisnemun.gov.np,info@sisnemun.gov.np,088-413064
+कर्णाली प्रदेश,मुगु,छायाँनाथ रारा नगरपालिका,Municipality,http://chhayanathraramun.gov.np,info@chhayanathraramun.gov.np,087460252
+कर्णाली प्रदेश,डोल्पा,ठूलीभेरी नगरपालिका,Municipality,http://thulibherimun.gov.np,ito.thulibherimun@gmail.com,"087-551013,551014"
+कर्णाली प्रदेश,डोल्पा,त्रिपुरासुन्दरी नगरपालिका,Municipality,http://tripurasundarimundolpa.gov.np,info@tripurasundarimundolpa.gov.np,-
+कर्णाली प्रदेश,जुम्ला,चन्दननाथ नगरपालिका,Municipality,http://chandannathmun.gov.np,info@chandannathmun.gov.np,087-520011
+कर्णाली प्रदेश,कालिकोट,खाँडाचक्र नगरपालिका,Municipality,http://khandachakramun.gov.np,info@khandachakramun.gov.np,087-440012
+कर्णाली प्रदेश,कालिकोट,तिलागुफा नगरपालिका,Municipality,http://tilaguphamun.gov.np,tilagufamun@gmail.com,9858320054
+कर्णाली प्रदेश,कालिकोट,रास्कोट नगरपालिका,Municipality,http://raskotmun.gov.np,info@raskotmun.gov.np,9858022456
+कर्णाली प्रदेश,रुकुम (पश्चिम भाग),आठबिसकोट नगरपालिका,Municipality,http://aathbiskotmun.gov.np,aathbiskotmun073@gmail.com,9748583138
+कर्णाली प्रदेश,रुकुम (पश्चिम भाग),चौरजहारी नगरपालिका,Municipality,http://chaurjaharimun.gov.np,ito.chaurjaharimun@gmail.com,088401146
+कर्णाली प्रदेश,रुकुम (पश्चिम भाग),मुसिकोट नगरपालिका,Municipality,http://musikotmun.gov.np,info@musikotmun.gov.np,088-530261
+कर्णाली प्रदेश,सल्यान,बागचौर नगरपालिका,Municipality,http://bagchaurmun.gov.np,info@bagchaurmun.gov.np,088-412035
+कर्णाली प्रदेश,सल्यान,बनगाँड कुपिण्डे नगरपालिका,Municipality,http://bangadkupindemun.gov.np,info.bangadkupindemun@gmail.com,088-411060
+कर्णाली प्रदेश,सल्यान,शारदा नगरपालिका,Municipality,http://shaaradamun.gov.np,info@shaaradamun.gov.np,088-520438
+कर्णाली प्रदेश,सुर्खेत,गुर्भाकोट नगरपालिका,Municipality,http://gurbhakotmun.gov.np,info@gurbhakotmun.gov.np,083-410071
+कर्णाली प्रदेश,सुर्खेत,पञ्चपुरी नगरपालिका,Municipality,http://panchapurimun.gov.np,info@panchapurimun.gov.np,083-416067
+कर्णाली प्रदेश,सुर्खेत,भेरीगंगा नगरपालिका,Municipality,http://bherigangamun.gov.np,info@bherigangamun.gov.np,083-540154
+कर्णाली प्रदेश,सुर्खेत,लेकबेसी नगरपालिका,Municipality,http://lekbeshimun.gov.np,info@lekbeshimun.gov.np,9848050228
+कर्णाली प्रदेश,सुर्खेत,बीरेन्द्रनगर नगरपालिका,Municipality,http://birendranagarmun.gov.np,info@birendranagarmun.gov.np,083-520128
+कर्णाली प्रदेश,जाजरकोट,छेडागाड नगरपालिका,Municipality,http://chhedagadmun.gov.np,info@chhedagadmun.gov.np,9848384084
+कर्णाली प्रदेश,जाजरकोट,नलगाड नगरपालिका,Municipality,http://nalgaadmun.gov.np,ito.nalgaadmun@gmail.com,9758003502
+कर्णाली प्रदेश,जाजरकोट,भेरी नगरपालिका,Municipality,http://bherimun.gov.np,bherimun@gmail.com,089-430002
+कर्णाली प्रदेश,दैलेख,आठबीस नगरपालिका,Municipality,http://aathabismun.gov.np,aathabismun@gmail.com,089-690475
+कर्णाली प्रदेश,दैलेख,चामुण्डा बिन्द्रासैनी नगरपालिका,Municipality,http://chamundabindrasainimun.gov.np,ito.chamundabindrasainimun@gmail.com,9858038178
+कर्णाली प्रदेश,दैलेख,दुल्लु नगरपालिका,Municipality,http://dullumun.gov.np,dullumun@gmail.com,089-411038
+कर्णाली प्रदेश,दैलेख,नारायण नगरपालिका,Municipality,http://narayanmun.gov.np,ito.narayanmun@gmail.com,089-410201
+कर्णाली प्रदेश,मुगु,खत्याड गाउँपालिका,Rural Municipality,http://khatyadmun.gov.np,info@khatyadmun.gov.np,994870008
+कर्णाली प्रदेश,मुगु,मुगुमकार्मारोंग गाउँपालिका,Rural Municipality,http://mugumkarmarongmun.gov.np,info@mugumkarmarongmun.gov.np,9858322727
+कर्णाली प्रदेश,मुगु,सोरु गाउँपालिका,Rural Municipality,http://sorumun.gov.np,ito.sorumun@gmail.com,087-460081
+कर्णाली प्रदेश,डोल्पा,काईके गाउँपालिका,Rural Municipality,http://kaikemun.gov.np,ito.kaikemun@gmail.com,9800598806
+कर्णाली प्रदेश,डोल्पा,छार्का ताङसोङ गाउँपालिका,Rural Municipality,http://chharkatangsongmun.gov.np,ito.chharkatangsong.gov.np@gmail.com,087550063
+कर्णाली प्रदेश,डोल्पा,जगदुल्ला गाउँपालिका,Rural Municipality,http://jagdullamun.gov.np,info@jagdullamun.gov.np,9858320620
+कर्णाली प्रदेश,डोल्पा,डोल्पो बुद्ध गाउँपालिका,Rural Municipality,http://dolpobuddhamun.gov.np,info@dolpobuddhamun.gov.np,087550046
+कर्णाली प्रदेश,डोल्पा,मुड्केचुला गाउँपालिका,Rural Municipality,http://mudkechulamun.gov.np,info@mudkechulamun.gov.np,9858390100
+कर्णाली प्रदेश,डोल्पा,शे फोक्सुन्डो गाउँपालिका,Rural Municipality,http://shephoksundomun.gov.np,ito.shephoksundomun1@gmail.com,087-550162
+कर्णाली प्रदेश,हुम्ला,खार्पुनाथ गाउँपालिका,Rural Municipality,http://kharpunathmun.gov.np,kharpunathmun@gmail.com,9860759767
+कर्णाली प्रदेश,हुम्ला,चंखेली गाउँपालिका,Rural Municipality,http://chankhelimun.gov.np,info@chankhelimun.gov.np,9851071615
+कर्णाली प्रदेश,हुम्ला,ताँजाकोट गाउँपालिका,Rural Municipality,http://tajakotmun.gov.np,ito.tajakotmun@gmail.com,9851119292
+कर्णाली प्रदेश,हुम्ला,नाम्खा गाउँपालिका,Rural Municipality,http://namkhamun.gov.np,info@namkhamun.gov.np,9868311973
+कर्णाली प्रदेश,हुम्ला,सर्केगाड गाउँपालिका,Rural Municipality,http://sarkegadmun.gov.np,sarkegadmun.ito@gmail.com,9867941411
+कर्णाली प्रदेश,हुम्ला,सिमकोट गाउँपालिका,Rural Municipality,http://simkotmun.gov.np,info@simkotmun.gov.np,087-680094
+कर्णाली प्रदेश,जुम्ला,सिंजा गाउँपालिका,Rural Municipality,http://sinjamun.gov.np,info@sinjamun.gov.np,9858322010
+कर्णाली प्रदेश,जुम्ला,हिमा गाउँपालिका,Rural Municipality,http://himamun.gov.np,ito.himamun@gmail.com,9858320711
+कर्णाली प्रदेश,जुम्ला,पातारासी गाउँपालिका,Rural Municipality,http://patarasimun.gov.np,info@patarasimun.gov.np,9758901232
+कर्णाली प्रदेश,जुम्ला,तिला गाउँपालिका,Rural Municipality,http://tilamun.gov.np,info@tilamun.gov.np,9848845716
+कर्णाली प्रदेश,जुम्ला,तातोपानी गाउँपालिका,Rural Municipality,http://tatopanimun.gov.np,info@tatopanimun.gov.np,9849337712
+कर्णाली प्रदेश,जुम्ला,गुठिचौर गाउँपालिका,Rural Municipality,http://guthichaurmun.gov.np,info@guthichaurmun.gov.np,9858390150
+कर्णाली प्रदेश,जुम्ला,कनकासुन्दरी गाउँपालिका,Rural Municipality,http://kankasundarimun.gov.np,ito.kankasundarimun@gmail.com,00
+कर्णाली प्रदेश,कालिकोट,शुभ कालिका गाउँपालिका,Rural Municipality,http://kalikamunkalikot.gov.np,ito.kalikamunkalikot@gmail.com,"9851204935,"
+कर्णाली प्रदेश,कालिकोट,नरहरिनाथ गाउँपालिका,Rural Municipality,http://naraharinathmun.gov.np,naraharinathgapa@gmail.com,9868905457
+कर्णाली प्रदेश,कालिकोट,पचालझरना गाउँपलिका,Rural Municipality,http://pachaljharanamun.gov.np,ito.pachaljharanamun@gmail.com,9858322071
+कर्णाली प्रदेश,कालिकोट,पलाता गाउँपालिका,Rural Municipality,http://palatamun.gov.np,ito.palatamun@gmail.com,9858320838
+कर्णाली प्रदेश,कालिकोट,महावै गाउँपालिका,Rural Municipality,http://mahawaimun.gov.np,mahawaimun@gmail.com,9858050537
+कर्णाली प्रदेश,कालिकोट,सान्नी त्रिवेणी गाउँपालिका,Rural Municipality,http://sannitrivenimun.gov.np,ito.strm@gmail.com,9858320136
+कर्णाली प्रदेश,रुकुम (पश्चिम भाग),त्रिवेणी गाउँपालिका,Rural Municipality,http://trivenimunrukum.gov.np,tribenigp@gmail.com,9801925763
+कर्णाली प्रदेश,रुकुम (पश्चिम भाग),बाँफिकोट गाउँपालिका,Rural Municipality,http://banphikotmun.gov.np,ito.banphikotmun@gmail.com,9857888720
+कर्णाली प्रदेश,रुकुम (पश्चिम भाग),सानीभेरी गाउँपालिका,Rural Municipality,http://sanibherimun.gov.np,sanibherimun@gmail.com,9857824253
+कर्णाली प्रदेश,सल्यान,सिद्ध कुमाख गाउँपालिका,Rural Municipality,http://siddhakumakhmun.gov.np,info@siddhakumakhmun.gov.np,9857855004
+कर्णाली प्रदेश,सल्यान,दार्मा गाउँपालिका,Rural Municipality,http://darmamun.gov.np,info@darmamun.gov.np,"9847813131,"
+कर्णाली प्रदेश,सल्यान,त्रिवेणी गाउँपालिका,Rural Municipality,http://trivenimunsalyan.gov.np,ito.trivenimunsalyan@gmail.com,9857844603
+कर्णाली प्रदेश,सल्यान,छत्रेश्वरी गाउँपालिका,Rural Municipality,http://chhatreshworimun.gov.np,chhatreshworimun@gmail.com,9857844412
+कर्णाली प्रदेश,सल्यान,कुमाख गाउँपालिका,Rural Municipality,http://kumakhmalikamun.gov.np,ito.kumakh2073@gmail.com,9857844899
+कर्णाली प्रदेश,सल्यान,कालिमाटी गाउँपालिका,Rural Municipality,http://kalimatimun.gov.np,info@kalimatimun.gov.np,9857844300
+कर्णाली प्रदेश,सल्यान,कपुरकोट गाउँपालिका,Rural Municipality,http://kapurkotmun.gov.np,kapurkotruralmun073@gmail.com,088410069
+कर्णाली प्रदेश,सुर्खेत,चिङ्गाड गाउँपालिका,Rural Municipality,http://chingadmun.gov.np,chingadgaunpalika@gmail.com,9848025584
+कर्णाली प्रदेश,सुर्खेत,चौकुने गाउँपालिका,Rural Municipality,http://chaukunemun.gov.np,chaukunegapa@gmail.com,9858047333
+कर्णाली प्रदेश,सुर्खेत,बराहताल गाउँपालिका,Rural Municipality,http://barahatalmun.gov.np,ito.barahatalmun@gmail.com,9858067444
+कर्णाली प्रदेश,सुर्खेत,सिम्ता गाउँपालिका,Rural Municipality,http://simtamun.gov.np,simtagaupalikaskt@gmail.com,9858077500
+कर्णाली प्रदेश,जाजरकोट,कुसे गाउँपालिका,Rural Municipality,http://kushemun.gov.np,info@kushemun.gov.np,081-695060
+कर्णाली प्रदेश,जाजरकोट,जुनीचाँदे गाउँपालिका,Rural Municipality,http://junichaandemun.gov.np,junichanderuralmun@gmail.com,9866207963
+कर्णाली प्रदेश,जाजरकोट,बारेकोट गाउँपालिका,Rural Municipality,http://barekotmun.gov.np,barekotrm@gmail.com,9858080810
+कर्णाली प्रदेश,जाजरकोट,शिवालय गाउँपालिका,Rural Municipality,http://shibalayamun.gov.np,info@shibalayamun.gov.np,9858084522
+कर्णाली प्रदेश,दैलेख,गुराँस गाउँपालिका,Rural Municipality,http://guransmun.gov.np,gurans.rmp@gmail.com,089-690612
+कर्णाली प्रदेश,दैलेख,ठाँटीकाँध गाउँपालिका,Rural Municipality,http://thantikandhmun.gov.np,thatikandh.rmp@gmail.com,9848269325
+कर्णाली प्रदेश,दैलेख,डुंगेश्वर गाउँपालिका,Rural Municipality,http://dungeshwormun.gov.np,info@dungeshwormun.gov.np,9858039724
+कर्णाली प्रदेश,दैलेख,नौमुले गाउँपालिका,Rural Municipality,http://naumulemun.gov.np,naumulegapa@gmail.com,9815443666
+कर्णाली प्रदेश,दैलेख,भगवतीमाई गाउँपालिका,Rural Municipality,http://bhagawatimaimun.gov.np,rmp.bhagawatimai@gmail.com,9858020799
+कर्णाली प्रदेश,दैलेख,भैरवी गाउँपालिका,Rural Municipality,http://bhairabimun.gov.np,bhairabirm@gmail.com,9858068268
+कर्णाली प्रदेश,दैलेख,महाबु गाउँपालिका,Rural Municipality,http://mahabumun.gov.np,info@mahabumun.gov.np,9824522103
+सुदूरपश्चिम प्रदेश,कैलाली,गोदावरी नगरपालिका,Municipality,http://godawarimunkailali.gov.np,info@godawarimunkailali.gov.np,091-508001
+सुदूरपश्चिम प्रदेश,कैलाली,गौरीगंगा नगरपालिका,Municipality,http://gaurigangamun.gov.np,info@gaurigangamun.gov.np,091-418060
+सुदूरपश्चिम प्रदेश,कैलाली,घोडाघोडी नगरपालिका,Municipality,http://ghodaghodimun.gov.np,ghodaghodimun@gmail.com,091-403026
+सुदूरपश्चिम प्रदेश,कैलाली,टिकापुर नगरपालिका,Municipality,http://tikapurmun.gov.np,info@tikapurmun.gov.np,91-560118
+सुदूरपश्चिम प्रदेश,कैलाली,भजनी नगरपालिका,Municipality,http://bhajanimun.gov.np,info@bhajanimun.gov.np,091-580101
+सुदूरपश्चिम प्रदेश,कैलाली,लम्किचुहा नगरपालिका,Municipality,http://lamkichuhamun.gov.np,info@lamkichuhamun.gov.np,091-419046
+सुदूरपश्चिम प्रदेश,डोटी,दिपायल सिलगढी नगरपालिका,Municipality,http://dipayalsilgadhimun.gov.np,info@dipayalsilgadhimun.gov.np,094-420297
+सुदूरपश्चिम प्रदेश,डोटी,शिखर नगरपालिका,Municipality,http://shikharmun.gov.np,shikharmunicipality@gmail.com,9858485777
+सुदूरपश्चिम प्रदेश,अछाम,कमलबजार नगरपालिका,Municipality,http://kamalbazarmun.gov.np,Kamalbazarmun@gmail.com,9858431111
+सुदूरपश्चिम प्रदेश,अछाम,पंचदेवल विनायक नगरपालिका,Municipality,http://panchadewalbinayakmun.gov.np,info@panchadewalbinayakmun.gov.np,097-500003
+सुदूरपश्चिम प्रदेश,अछाम,मंगलसेन नगरपालिका,Municipality,http://mangalsenmun.gov.np,mmunicipalityachham@gmail.com,097-620138
+सुदूरपश्चिम प्रदेश,अछाम,साँफेवगर नगरपालिका,Municipality,http://sanfebagarmun.gov.np,sanfebagarmun@gmail.com,097-625137
+सुदूरपश्चिम प्रदेश,बाजुरा,त्रिवेणी नगरपालिका,Municipality,http://trivenimunbajura.gov.np,ito.trivenimun@gmail.com,"9852029403,9840054882"
+सुदूरपश्चिम प्रदेश,बाजुरा,बडिमालिका नगरपालिका,Municipality,http://badimalikamun.gov.np,info@badimalikamun.gov.np,097-541067
+सुदूरपश्चिम प्रदेश,बाजुरा,बुढीगंगा नगरपालिका,Municipality,http://budhigangamunbajura.gov.np,info@budhigangamunbajura.gov.np,9858483990
+सुदूरपश्चिम प्रदेश,बझाङ,जयपृथ्वी नगरपालिका,Municipality,http://jayaprithvimun.gov.np,info@jayaprithvimun.gov.np,092421508
+सुदूरपश्चिम प्रदेश,बझाङ,बुंगल नगरपालिका,Municipality,http://bungalmun.gov.np,info@bungalmun.gov.np,9749125805
+सुदूरपश्चिम प्रदेश,दार्चुला,महाकाली नगरपालिका,Municipality,http://mahakalimun.gov.np,info@mahakalimun.gov.np,093-420137
+सुदूरपश्चिम प्रदेश,दार्चुला,शैल्यशिखर नगरपालिका,Municipality,http://shailyashikharmun.gov.np,shailyashikhar.gov@gmail.com,093-400086
+सुदूरपश्चिम प्रदेश,बैतडी,पुर्चौडी नगरपालिका,Municipality,http://purchaudimun.gov.np,ito.purchaundi@gmail.com,096690803
+सुदूरपश्चिम प्रदेश,बैतडी,मेलौली नगरपालिका,Municipality,http://melaulimun.gov.np,info@melaulimun.gov.np,9858783940
+सुदूरपश्चिम प्रदेश,बैतडी,पाटन नगरपालिका,Municipality,http://patanmun.gov.np,ptnmun@gmail.com,095-400057
+सुदूरपश्चिम प्रदेश,बैतडी,दशरथचन्द नगरपालिका,Municipality,http://dasharathchandmun.gov.np,dnpbaitadi@gmail.com,095-52171
+सुदूरपश्चिम प्रदेश,डडेल्धुरा,अमरगढी नगरपालिका,Municipality,http://amargadhimun.gov.np,info@amargadhimun.gov.np,096-410222
+सुदूरपश्चिम प्रदेश,डडेल्धुरा,परशुराम नगरपालिका,Municipality,http://parshurammun.gov.np,parshurammun@gmail.com,096-411004
+सुदूरपश्चिम प्रदेश,कञ्चनपुर,कृष्णपुर नगरपालिका,Municipality,http://krishnapurmun.gov.np,info@krishnapurmun.gov.np,099-412046
+सुदूरपश्चिम प्रदेश,कञ्चनपुर,पुनर्वास नगरपालिका,Municipality,http://punarbasmun.gov.np,info@punarbasmun.gov.np,099-420055
+सुदूरपश्चिम प्रदेश,कञ्चनपुर,बेदकोट नगरपालिका,Municipality,http://bedkotmun.gov.np,info@bedkotmun.gov.np,099-413121
+सुदूरपश्चिम प्रदेश,कञ्चनपुर,बेलौरी नगरपालिका,Municipality,http://belaurimun.gov.np,info@belaurimun.gov.np,099-580221
+सुदूरपश्चिम प्रदेश,कञ्चनपुर,भिमदत्त नगरपालिका,Municipality,http://bheemdattamun.gov.np,info@bheemdattamun.gov.np,"099-521322,"
+सुदूरपश्चिम प्रदेश,कञ्चनपुर,दोधारा चाँदनी नगरपालिका,Municipality,http://dodharachandanimun.gov.np,info@dodharachandanimun.gov.np,099-400184
+सुदूरपश्चिम प्रदेश,कञ्चनपुर,शुक्लाफाँट नगरपालिका,Municipality,http://shuklaphantamun.gov.np,info@shuklaphantamun.gov.np,099-540010
+सुदूरपश्चिम प्रदेश,कैलाली,कैलारी गाउँपालिका,Rural Municipality,http://kailarimun.gov.np,info@kailarimun.gov.np,091545015
+सुदूरपश्चिम प्रदेश,कैलाली,चुरे गाउँपालिका,Rural Municipality,http://churemun.gov.np,chure.gaupalika@gmail.com,9848460012
+सुदूरपश्चिम प्रदेश,कैलाली,जानकी गाउँपालिका,Rural Municipality,http://janakimunkailali.gov.np,janakiruralmun@gmail.com,091-500077
+सुदूरपश्चिम प्रदेश,कैलाली,जोशीपुर गाउँपालिका,Rural Municipality,http://joshipurmun.gov.np,info@joshipurmun.gov.np,091-401102
+सुदूरपश्चिम प्रदेश,कैलाली,बर्दगोरिया गाउँपालिका,Rural Municipality,http://bardgoriyamun.gov.np,info@bardgoriyamun.gov.np,091-404089
+सुदूरपश्चिम प्रदेश,कैलाली,मोहन्याल गाउँपालिका,Rural Municipality,http://mohanyalmun.gov.np,ito.mohanyalmun@gmail.com,9858426759
+सुदूरपश्चिम प्रदेश,डोटी,आदर्श गाउँपालिका,Rural Municipality,http://aadarshamun.gov.np,aadarshmun@gmail.com,9868845023
+सुदूरपश्चिम प्रदेश,डोटी,के.आई.सिंह गाउँपालिका,Rural Municipality,http://kisinghmun.gov.np,kisingh.rm@gmail.com,9859005300
+सुदूरपश्चिम प्रदेश,डोटी,जोरायल गाउँपालिका,Rural Municipality,http://jorayalmun.gov.np,info@jorayalmun.gov.np,9749118051
+सुदूरपश्चिम प्रदेश,डोटी,पूर्वीचौकी गाउँपालिका,Rural Municipality,http://purbichaukimun.gov.np,info@purbichaukimun.gov.np,9858440239
+सुदूरपश्चिम प्रदेश,डोटी,बडीकेदार गाउँपालिका,Rural Municipality,http://badikedarmun.gov.np,info@badikedarmun.gov.np,9858428000
+सुदूरपश्चिम प्रदेश,डोटी,बोगटान फुड्सिल गाउँपालिका,Rural Municipality,http://bogatanmun.gov.np,info@bogatanmun.gov.np,९८५८४८०१८०
+सुदूरपश्चिम प्रदेश,डोटी,सायल गाउँपालिका,Rural Municipality,http://sayalmun.gov.np,sayal.doti@gmail.com,9858444666
+सुदूरपश्चिम प्रदेश,अछाम,चौरपाटी गाउँपालिका,Rural Municipality,http://chaurpatimun.gov.np,chaurpatigaupalika@gmail.com,9848753194
+सुदूरपश्चिम प्रदेश,अछाम,रामारोशन गाउँपालिका,Rural Municipality,http://ramaroshanmun.gov.np,icto.ramaroshanmun@gmail.com,097-620270
+सुदूरपश्चिम प्रदेश,अछाम,मेल्लेख गाउँपालिका,Rural Municipality,http://mellekhmun.gov.np,info@mellekhmun.gov.np,9858426090
+सुदूरपश्चिम प्रदेश,अछाम,बान्नीगढी जयगढ गाउँपालिका,Rural Municipality,http://bannigadhijaygadhmun.gov.np,log.bannigadhi@gmail.com,9843227919
+सुदूरपश्चिम प्रदेश,अछाम,ढकारी गाउँपालिका,Rural Municipality,http://dhakarimun.gov.np,info@dhakarimun.gov.np,9864811102
+सुदूरपश्चिम प्रदेश,बाजुरा,गौमुल गाउँपालिका,Rural Municipality,http://gaumulmun.gov.np,ito.gaumulmun@gmail.com,9848492727
+सुदूरपश्चिम प्रदेश,बाजुरा,खप्तड छेडेदह गाउँपालिका,Rural Municipality,http://chhededahamun.gov.np,icto.chhededaha@gmail.com,096-690801
+सुदूरपश्चिम प्रदेश,बाजुरा,जगन्नाथ गाउँपालिका,Rural Municipality,http://jagganathmun.gov.np,info@jagganathmun.gov.np,9749011330
+सुदूरपश्चिम प्रदेश,बाजुरा,स्वामीकार्तिक खापर गाउँपालिका,Rural Municipality,http://swamikartikmun.gov.np,info@swamikartikmun.gov.np,9849483021
+सुदूरपश्चिम प्रदेश,बाजुरा,हिमाली गाउँपालिका,Rural Municipality,http://himalimun.gov.np,info@himalimun.gov.np,9858021521
+सुदूरपश्चिम प्रदेश,बझाङ,मष्टा गाउँपालिका,Rural Municipality,http://mastamun.gov.np,ito.mastamun@gmail.com,9800669821
+सुदूरपश्चिम प्रदेश,बझाङ,खप्तडछान्ना गाउँपालिका,Rural Municipality,http://khaptadchhannamun.gov.np,info@khaptadchhannamun.gov.np,9849908246
+सुदूरपश्चिम प्रदेश,बझाङ,छबिसपाथिभेरा गाउँपालिका,Rural Municipality,http://chhabispathiveramun.gov.np,info@chhabispathiveramun.gov.np,9863100017
+सुदूरपश्चिम प्रदेश,बझाङ,तालकोट गाँउपालिका,Rural Municipality,http://talkotmun.gov.np,ito.muntalkot@gmail.com,9858420845
+सुदूरपश्चिम प्रदेश,बझाङ,थलारा गाउँपालिका,Rural Municipality,http://thalaramun.gov.np,info@thalaramun.gov.np,9840927341
+सुदूरपश्चिम प्रदेश,बझाङ,दुर्गाथली गाउँपालिका,Rural Municipality,http://durgathalimun.gov.np,durgathalimun23@gmail.com,9858485620
+सुदूरपश्चिम प्रदेश,बझाङ,केदारस्युँ गाउँपालिका,Rural Municipality,http://kedarasyumun.gov.np,kedarasyumun@gmail.com,9867875898
+सुदूरपश्चिम प्रदेश,बझाङ,साईपाल गाउँपालिका,Rural Municipality,http://kandamun.gov.np,ito.saipalmun@gmail.com,9864326715
+सुदूरपश्चिम प्रदेश,दार्चुला,व्याँस गाउँपालिका,Rural Municipality,http://vyansmun.gov.np,info@vyansmun.gov.np,9868735005
+सुदूरपश्चिम प्रदेश,दार्चुला,लेकम गाउँपालिका,Rural Municipality,http://lekammun.gov.np,info@lekammun.gov.np,9865851720
+सुदूरपश्चिम प्रदेश,दार्चुला,मालिकार्जुन गाउँपालिका,Rural Municipality,http://malikarjunmun.gov.np,info@malikarjunmun.gov.np,9848711514
+सुदूरपश्चिम प्रदेश,दार्चुला,मार्मा गाउँपालिका,Rural Municipality,http://marmamun.gov.np,info@marmamun.gov.np,9759503773
+सुदूरपश्चिम प्रदेश,दार्चुला,नौगाड गाउँपालिका,Rural Municipality,http://naugadmun.gov.np,info@naugadmun.gov.np,9868896269
+सुदूरपश्चिम प्रदेश,दार्चुला,दुहुँ गाउँपालिका,Rural Municipality,http://duhunmun.gov.np,info@duhunmun.gov.np,9746244496
+सुदूरपश्चिम प्रदेश,दार्चुला,अपिहिमाल गाउँपालिका,Rural Municipality,http://apihimalmun.gov.np,info@apihimalmun.gov.np,9858775037
+सुदूरपश्चिम प्रदेश,बैतडी,दोगडाकेदार गाउँपालिका,Rural Municipality,http://dogdakedarmun.gov.np,info@dogdakedarmun.gov.np,9858781100
+सुदूरपश्चिम प्रदेश,बैतडी,पंचेश्वर गाउँपालिका,Rural Municipality,http://pancheshwormun.gov.np,ito.pancheshwormun@gmail.com,9858784000
+सुदूरपश्चिम प्रदेश,बैतडी,शिवनाथ गाउँपालिका,Rural Municipality,http://shivanathmun.gov.np,ito.shivanathmun@gmail.com,९८४८७६९६७९
+सुदूरपश्चिम प्रदेश,बैतडी,सिगास गाउँपालिका,Rural Municipality,http://sigasmun.gov.np,info@sigasmun.gov.np,9848889937
+सुदूरपश्चिम प्रदेश,डडेल्धुरा,अजयमेरु गाउँपालिका,Rural Municipality,http://ajayamerumun.gov.np,ito@ajayamerumun.gov.np,9858750226
+सुदूरपश्चिम प्रदेश,डडेल्धुरा,आलिताल गाउँपालिका,Rural Municipality,http://aalitalmun.gov.np,info@aalitalmun.gov.np,091693962
+सुदूरपश्चिम प्रदेश,डडेल्धुरा,गन्यापधुरा गाउँपालिका,Rural Municipality,http://ganyapadhuramun.gov.np,ganapdhurarm@gmail.com,9858788707
+सुदूरपश्चिम प्रदेश,डडेल्धुरा,नवदुर्गा गाउँपालिका,Rural Municipality,http://navadurgamun.gov.np,nawadurgaruralmun@gmail.com,9858745430
+सुदूरपश्चिम प्रदेश,डडेल्धुरा,भागेश्वर गाउँपालिका,Rural Municipality,http://bhageshwormun.gov.np,info@bhageshwormun.gov.np,9841963896
+सुदूरपश्चिम प्रदेश,कञ्चनपुर,बेलडाँडी गाउँपालिका,Rural Municipality,http://beldandimun.gov.np,info@beldandimun.gov.np,9858731111
+सुदूरपश्चिम प्रदेश,कञ्चनपुर,लालझाडी गाउँपालिका,Rural Municipality,http://laljhadimun.gov.np,info@laljhadimun.gov.np,9858754111
