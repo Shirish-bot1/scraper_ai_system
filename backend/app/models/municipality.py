@@ -3,6 +3,7 @@ from sqlalchemy.sql import func
 from app.database.db import Base
 
 
+
 class Municipality(Base):
     __tablename__ = "municipalities"
 
@@ -18,3 +19,4 @@ class Municipality(Base):
     phone = Column(String(100))
 
     created_at = Column(TIMESTAMP, server_default=func.now())
+   

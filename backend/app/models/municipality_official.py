@@ -3,6 +3,7 @@ from sqlalchemy.sql import func
 from app.database.db import Base
 
 
+
 class MunicipalityOfficial(Base):
     __tablename__ = "municipality_officials"
 
@@ -12,6 +13,7 @@ class MunicipalityOfficial(Base):
         Integer,
         ForeignKey("municipalities.id", ondelete="CASCADE")
     )
+   
     
     province = Column(String(100))
     district = Column(String(100))
