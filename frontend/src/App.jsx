@@ -1,55 +1,88 @@
-import { useEffect, useRef, useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 
 export default function App() {
-  const [municipality, setMunicipality] = useState("सुर्योदय नगरपालिका");
+  const [municipality, setMunicipality] = useState("");
   const [question, setQuestion] = useState("");
   const [chat, setChat] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [downloadLimit, setDownloadLimit] = useState(20);
+
+  // 🆕 SCRAPER STATES
+  const [scrapeUrl, setScrapeUrl] = useState("");
+  const [scrapeLoading, setScrapeLoading] = useState(false);
+
+  // 🆕 MUNICIPALITIES FETCH
+  const [municipalities, setMunicipalities] = useState([]);
+  const [munLoading, setMunLoading] = useState(true);
+  const [munError, setMunError] = useState(null);
 
   const chatEndRef = useRef(null);
 
   useEffect(() => {
-    chatEndRef.current?.scrollIntoView({
-      behavior: "smooth",
-    });
+    chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [chat]);
 
+  // Fetch municipalities on mount
+  useEffect(() => {
+    let mounted = true;
+    const fetchMunicipalities = async () => {
+      setMunLoading(true);
+      setMunError(null);
+      try {
+        const res = await axios.get("http://127.0.0.1:8000/municipalities");
+        if (!mounted) return;
+        const list = Array.isArray(res.data) ? res.data : [];
+        // sort alphabetically using Nepali locale if available
+        const sorted = [...list].sort((a, b) => a.localeCompare(b, "ne"));
+        setMunicipalities(sorted);
+        // set default selected municipality if none selected
+        if (sorted.length > 0 && !municipality) {
+          setMunicipality(sorted[0]);
+          setChat((prev) => [
+            ...prev,
+            { role: "ai", text: `🔎 Selected: ${sorted[0]}` },
+          ]);
+        }
+      } catch (err) {
+        setMunError("Failed to load municipalities");
+      } finally {
+        if (mounted) setMunLoading(false);
+      }
+    };
+
+    fetchMunicipalities();
+    return () => {
+      mounted = false;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // ================= CHAT =================
   const askAI = async () => {
     if (!question.trim()) return;
 
-    const userMsg = {
-      role: "user",
-      text: question,
-    };
-
-    setChat((prev) => [...prev, userMsg]);
+    setChat((prev) => [...prev, { role: "user", text: question }]);
     setLoading(true);
 
     try {
-      const res = await axios.post(
-        "http://127.0.0.1:8000/chat/",
-        {
-          municipality,
-          question,
-        }
-      );
+      const res = await axios.post("http://127.0.0.1:8000/chat/", {
+        municipality,
+        question,
+      });
 
       setChat((prev) => [
         ...prev,
         {
           role: "ai",
           text: res.data.answer,
+          csvs: res.data.csv_files || [],
         },
       ]);
     } catch (err) {
       setChat((prev) => [
         ...prev,
-        {
-          role: "ai",
-          text:
-            "❌ Unable to connect to Municipality AI Server",
-        },
+        { role: "ai", text: "❌ Backend not reachable" },
       ]);
     }
 
@@ -57,174 +90,200 @@ export default function App() {
     setLoading(false);
   };
 
+  // ================= SCRAPER =================
+  const scrapeWebsite = async () => {
+    if (!scrapeUrl.trim()) return;
+
+    setScrapeLoading(true);
+
+    try {
+      const res = await axios.post("http://127.0.0.1:8000/scrape", {
+        url: scrapeUrl,
+      });
+
+      setChat((prev) => [
+        ...prev,
+        {
+          role: "ai",
+          text: "🕷️ Scraping completed successfully",
+          scrapeData: res.data.data,
+        },
+      ]);
+    } catch (err) {
+      setChat((prev) => [
+        ...prev,
+        {
+          role: "ai",
+          text: "❌ Scraping failed",
+        },
+      ]);
+    }
+
+    setScrapeLoading(false);
+  };
+
+  // ================= CSV DOWNLOAD =================
+  const downloadCSV = () => {
+    window.open(
+      `http://127.0.0.1:8000/export-csv?limit=${downloadLimit}`,
+      "_blank"
+    );
+  };
+
   return (
     <div style={styles.page}>
-      {/* HEADER */}
+      {/* ================= SIDEBAR ================= */}
+      <div style={styles.sidebar}>
+        <h2 style={styles.logo}>🏛️ Municipality AI</h2>
 
-      <div style={styles.header}>
-        <div>
-          <h1 style={styles.title}>
-            🏛️ Municipality AI Assistant
-          </h1>
+        <p style={styles.subText}>Nepal Government Data Assistant</p>
 
-          <p style={styles.subtitle}>
-            Nepal Local Government Information System
-          </p>
+        {/* CURRENT MUNICIPALITY (read-only display) */}
+        <div style={{ fontSize: 12, color: "#94a3b8", marginBottom: 6 }}>
+          Selected Municipality
         </div>
+        <input
+  value={municipality}
+  onChange={(e) => setMunicipality(e.target.value)}
+  placeholder="Select or type..."
+  style={styles.input}
+/>
 
-        <div style={styles.badge}>
-          AI Powered
-        </div>
-      </div>
+        {/* LIMIT */}
+        <input
+          type="number"
+          value={downloadLimit}
+          onChange={(e) => setDownloadLimit(e.target.value)}
+          style={styles.input}
+        />
 
-      {/* DASHBOARD CARDS */}
+        {/* DOWNLOAD */}
+        <button onClick={downloadCSV} style={styles.downloadBtn}>
+          📥 Download CSV
+        </button>
 
-      <div style={styles.cards}>
-        <div style={styles.card}>
-          <div style={styles.cardIcon}>👨‍💼</div>
-          <div>
-            <div style={styles.cardTitle}>
-              Mayor Information
-            </div>
-            <div style={styles.cardText}>
-              Contact details & leadership
-            </div>
-          </div>
-        </div>
+        {/* ================= SCRAPER ================= */}
+        <div style={styles.sectionTitle}>🕷️ Scraper Tool</div>
 
-        <div style={styles.card}>
-          <div style={styles.cardIcon}>📞</div>
-          <div>
-            <div style={styles.cardTitle}>
-              Municipality Contacts
-            </div>
-            <div style={styles.cardText}>
-              Official phone & email
-            </div>
-          </div>
-        </div>
+        <input
+          value={scrapeUrl}
+          onChange={(e) => setScrapeUrl(e.target.value)}
+          placeholder="Enter municipality URL..."
+          style={styles.input}
+        />
 
-        <div style={styles.card}>
-          <div style={styles.cardIcon}>🌐</div>
-          <div>
-            <div style={styles.cardTitle}>
-              Government Services
-            </div>
-            <div style={styles.cardText}>
-              Websites & information
-            </div>
-          </div>
-        </div>
-      </div>
+        <button onClick={scrapeWebsite} style={styles.downloadBtn}>
+          {scrapeLoading ? "Scraping..." : "🚀 Scrape Website"}
+        </button>
 
-      {/* CHAT AREA */}
+        {/* ================= MUNICIPALITY SCROLLER ================= */}
+        <div style={styles.sectionTitle}>📜 Municipalities (Alphabetical)</div>
 
-      <div style={styles.chatContainer}>
-        <div style={styles.chatHeader}>
-          💬 Municipality Chat Assistant
-        </div>
-
-        <div style={styles.chatBox}>
-          {chat.length === 0 && (
-            <div style={styles.welcome}>
-              <h2>
-                Welcome to Municipality AI
-              </h2>
-
-              <p>
-                Ask about mayors, deputy mayors,
-                municipality contacts, websites,
-                districts and official information.
-              </p>
-
-              <div style={styles.examples}>
-                <div style={styles.exampleCard}>
-                  Who is the mayor?
-                </div>
-
-                <div style={styles.exampleCard}>
-                  Give municipality contact
-                </div>
-
-                <div style={styles.exampleCard}>
-                  What is the official website?
-                </div>
-              </div>
-            </div>
+        <div style={styles.scrollBox}>
+          {munLoading && (
+            <div style={{ padding: 12, color: "#94a3b8" }}>Loading...</div>
           )}
 
-          {chat.map((msg, index) => (
+          {munError && (
+            <div style={{ padding: 12, color: "#f87171" }}>{munError}</div>
+          )}
+
+          {!munLoading &&
+            !munError &&
+            municipalities.map((item, i) => (
+              <div
+                key={i}
+                onClick={() => {
+                  setMunicipality(item);
+
+                  setChat((prev) => [
+                    ...prev,
+                    {
+                      role: "ai",
+                      text: `🔎 Selected: ${item}`,
+                    },
+                  ]);
+                }}
+                style={{
+                  ...styles.scrollItem,
+                  background: municipality === item ? "#1d4ed8" : "#0f172a",
+                }}
+              >
+                {item}
+              </div>
+            ))}
+
+          {!munLoading && !munError && municipalities.length === 0 && (
+            <div style={{ padding: 12, color: "#94a3b8" }}>
+              No municipalities found
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* ================= MAIN CHAT ================= */}
+      <div style={styles.main}>
+        <div style={styles.header}>Municipality AI Assistant</div>
+
+        <div style={styles.chatArea}>
+          {chat.length === 0 && (
+            <div style={styles.empty}>Ask anything about Nepal municipalities</div>
+          )}
+
+          {chat.map((msg, i) => (
             <div
-              key={index}
+              key={i}
               style={{
                 display: "flex",
-                justifyContent:
-                  msg.role === "user"
-                    ? "flex-end"
-                    : "flex-start",
+                flexDirection: "column",
+                alignItems: msg.role === "user" ? "flex-end" : "flex-start",
+                marginBottom: 15,
               }}
             >
+              <div style={styles.role}>{msg.role === "user" ? "You" : "AI"}</div>
+
               <div
                 style={{
                   ...styles.message,
-
                   background:
                     msg.role === "user"
-                      ? "linear-gradient(135deg,#2563eb,#0891b2)"
-                      : "#ffffff",
-
-                  color:
-                    msg.role === "user"
-                      ? "#fff"
+                      ? "linear-gradient(135deg,#3b82f6,#2563eb)"
                       : "#111827",
                 }}
               >
                 {msg.text}
               </div>
+
+              {/* SCRAPED DATA */}
+              {msg.scrapeData && (
+                <div style={styles.csvBox}>
+                  <div style={styles.csvTitle}>🧠 Scraped Data</div>
+
+                  <pre style={styles.jsonBox}>
+                    {JSON.stringify(msg.scrapeData, null, 2)}
+                  </pre>
+                </div>
+              )}
             </div>
           ))}
 
-          {loading && (
-            <div style={styles.typing}>
-              🤖 AI is generating response...
-            </div>
-          )}
+          {loading && <div style={styles.loading}>AI thinking...</div>}
 
           <div ref={chatEndRef} />
         </div>
-      </div>
 
-      {/* INPUT SECTION */}
-
-      <div style={styles.inputContainer}>
-        <input
-          value={municipality}
-          onChange={(e) =>
-            setMunicipality(e.target.value)
-          }
-          placeholder="Municipality Name"
-          style={styles.municipalityInput}
-        />
-
-        <div style={styles.inputRow}>
+        {/* INPUT BAR */}
+        <div style={styles.inputBar}>
           <input
             value={question}
-            onChange={(e) =>
-              setQuestion(e.target.value)
-            }
-            onKeyDown={(e) =>
-              e.key === "Enter" && askAI()
-            }
-            placeholder="Ask anything about municipality..."
-            style={styles.questionInput}
+            onChange={(e) => setQuestion(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && askAI()}
+            placeholder="Ask something..."
+            style={styles.chatInput}
           />
 
-          <button
-            onClick={askAI}
-            disabled={loading}
-            style={styles.button}
-          >
-            {loading ? "..." : "Send"}
+          <button onClick={askAI} style={styles.sendBtn}>
+            ➜
           </button>
         </div>
       </div>
@@ -232,261 +291,147 @@ export default function App() {
   );
 }
 
+/* ================= STYLES ================= */
+
 const styles = {
   page: {
-    minHeight: "100vh",
-    padding: "20px",
-    fontFamily: "Segoe UI, sans-serif",
-
-    background:
-      "linear-gradient(135deg,#0f172a 0%,#0b4f6c 45%,#0f766e 100%)",
+    display: "flex",
+    height: "100vh",
+    background: "#0a0f1c",
+    color: "#fff",
+    fontFamily: "Segoe UI",
   },
+
+  sidebar: {
+    width: 300,
+    padding: 20,
+    background: "#050816",
+    borderRight: "1px solid #1f2937",
+    display: "flex",
+    flexDirection: "column",
+    gap: 10,
+  },
+
+  logo: { marginBottom: 5 },
+
+  subText: {
+    fontSize: 12,
+    color: "#94a3b8",
+    marginBottom: 10,
+  },
+
+  sectionTitle: {
+    marginTop: 10,
+    fontSize: 12,
+    color: "#94a3b8",
+  },
+
+  input: {
+    padding: 10,
+    borderRadius: 8,
+    border: "1px solid #334155",
+    background: "#0f172a",
+    color: "#fff",
+  },
+
+  downloadBtn: {
+    padding: 10,
+    borderRadius: 8,
+    border: "none",
+    background: "linear-gradient(135deg,#3b82f6,#06b6d4)",
+    color: "#fff",
+    cursor: "pointer",
+  },
+
+  scrollBox: {
+    maxHeight: 280,
+    overflowY: "auto",
+    border: "1px solid #334155",
+    borderRadius: 8,
+    marginTop: 5,
+  },
+
+  scrollItem: {
+    padding: 10,
+    cursor: "pointer",
+    borderBottom: "1px solid #1f2937",
+    color: "#cbd5e1",
+  },
+
+  main: { flex: 1, display: "flex", flexDirection: "column" },
 
   header: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-
-    background: "rgba(255,255,255,0.12)",
-    backdropFilter: "blur(15px)",
-
-    border: "1px solid rgba(255,255,255,0.15)",
-
-    borderRadius: "22px",
-    padding: "25px",
-
-    color: "white",
-
-    boxShadow:
-      "0 8px 32px rgba(0,0,0,0.2)",
+    padding: 15,
+    borderBottom: "1px solid #1f2937",
+    background: "#0b1220",
   },
 
-  title: {
-    margin: 0,
-    fontSize: "30px",
-    fontWeight: "700",
-  },
-
-  subtitle: {
-    marginTop: "6px",
-    color: "#dbeafe",
-  },
-
-  badge: {
-    background:
-      "linear-gradient(135deg,#10b981,#06b6d4)",
-
-    color: "white",
-
-    padding: "10px 18px",
-
-    borderRadius: "999px",
-
-    fontWeight: "bold",
-  },
-
-  cards: {
-    marginTop: "20px",
-
-    display: "grid",
-
-    gridTemplateColumns:
-      "repeat(auto-fit,minmax(250px,1fr))",
-
-    gap: "15px",
-  },
-
-  card: {
-    background: "rgba(255,255,255,0.12)",
-
-    backdropFilter: "blur(15px)",
-
-    border: "1px solid rgba(255,255,255,0.15)",
-
-    borderRadius: "18px",
-
-    padding: "20px",
-
-    color: "white",
-
-    display: "flex",
-
-    gap: "15px",
-
-    alignItems: "center",
-  },
-
-  cardIcon: {
-    fontSize: "32px",
-  },
-
-  cardTitle: {
-    fontWeight: "bold",
-  },
-
-  cardText: {
-    color: "#cbd5e1",
-    fontSize: "13px",
-  },
-
-  chatContainer: {
-    marginTop: "20px",
-
-    background: "rgba(255,255,255,0.12)",
-
-    backdropFilter: "blur(20px)",
-
-    border: "1px solid rgba(255,255,255,0.15)",
-
-    borderRadius: "22px",
-
-    overflow: "hidden",
-
-    boxShadow:
-      "0 8px 32px rgba(0,0,0,0.2)",
-  },
-
-  chatHeader: {
-    padding: "15px 20px",
-
-    background:
-      "linear-gradient(135deg,#2563eb,#059669)",
-
-    color: "white",
-
-    fontWeight: "bold",
-  },
-
-  chatBox: {
-    height: "450px",
-
+  chatArea: {
+    flex: 1,
+    padding: 20,
     overflowY: "auto",
-
-    padding: "20px",
-
-    display: "flex",
-
-    flexDirection: "column",
-
-    gap: "12px",
   },
 
-  welcome: {
+  empty: {
     textAlign: "center",
-
-    color: "white",
-
-    marginTop: "80px",
+    marginTop: 100,
+    color: "#94a3b8",
   },
 
-  examples: {
-    display: "flex",
-
-    justifyContent: "center",
-
-    flexWrap: "wrap",
-
-    gap: "10px",
-
-    marginTop: "25px",
-  },
-
-  exampleCard: {
-    background: "rgba(255,255,255,0.15)",
-
-    padding: "12px 18px",
-
-    borderRadius: "12px",
-
-    color: "white",
+  role: {
+    fontSize: 11,
+    marginBottom: 5,
+    color: "#94a3b8",
   },
 
   message: {
-    maxWidth: "75%",
-
-    padding: "14px 18px",
-
-    borderRadius: "18px",
-
-    lineHeight: "1.6",
-
-    boxShadow:
-      "0 6px 20px rgba(0,0,0,0.08)",
+    maxWidth: "70%",
+    padding: 12,
+    borderRadius: 12,
   },
 
-  typing: {
-    color: "white",
+  csvBox: { marginTop: 8 },
 
-    fontSize: "14px",
+  csvTitle: {
+    fontSize: 11,
+    color: "#94a3b8",
+    marginBottom: 5,
   },
 
-  inputContainer: {
-    marginTop: "20px",
-
-    background: "rgba(255,255,255,0.12)",
-
-    backdropFilter: "blur(15px)",
-
-    border: "1px solid rgba(255,255,255,0.15)",
-
-    borderRadius: "22px",
-
-    padding: "20px",
+  jsonBox: {
+    background: "#0f172a",
+    padding: 10,
+    borderRadius: 8,
+    color: "#cbd5e1",
+    overflowX: "auto",
   },
 
-  municipalityInput: {
-    width: "100%",
-
-    padding: "14px",
-
-    borderRadius: "12px",
-
-    border: "none",
-
-    marginBottom: "12px",
-
-    fontSize: "15px",
-
-    outline: "none",
+  loading: {
+    color: "#94a3b8",
   },
 
-  inputRow: {
+  inputBar: {
     display: "flex",
-
-    gap: "10px",
+    padding: 15,
+    borderTop: "1px solid #1f2937",
   },
 
-  questionInput: {
+  chatInput: {
     flex: 1,
-
-    padding: "14px",
-
-    borderRadius: "12px",
-
-    border: "none",
-
-    outline: "none",
-
-    fontSize: "15px",
+    padding: 12,
+    borderRadius: 10,
+    border: "1px solid #334155",
+    background: "#0f172a",
+    color: "#fff",
   },
 
-  button: {
-    padding: "14px 28px",
-
-    borderRadius: "12px",
-
+  sendBtn: {
+    marginLeft: 10,
+    width: 50,
     border: "none",
-
-    fontWeight: "bold",
-
-    color: "white",
-
-    background:
-      "linear-gradient(135deg,#2563eb,#06b6d4,#059669)",
-
+    borderRadius: 10,
+    background: "linear-gradient(135deg,#3b82f6,#06b6d4)",
+    color: "#fff",
     cursor: "pointer",
-
-    boxShadow:
-      "0 8px 25px rgba(37,99,235,0.35)",
   },
 };

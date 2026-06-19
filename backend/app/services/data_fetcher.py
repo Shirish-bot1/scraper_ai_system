@@ -2,6 +2,7 @@ from collections import defaultdict
 from app.database.db import SessionLocal
 from app.models.municipality import Municipality
 from app.models.municipality_official import MunicipalityOfficial
+import pandas as pd
 
 def get_complete_municipality_data(name: str):
     """
@@ -84,5 +85,171 @@ def get_full_database_dump():
     except Exception as e:
         print(f"Error in full database dump: {e}")
         return []
+    finally:
+        db.close()
+
+    
+def get_export_data():
+
+    db = SessionLocal()
+
+    try:
+
+        municipalities = db.query(
+            Municipality
+        ).all()
+
+        export_rows = []
+
+        for mun in municipalities:
+
+            officials = db.query(
+                MunicipalityOfficial
+            ).filter(
+                MunicipalityOfficial.municipality_id == mun.id
+            ).all()
+
+            if officials:
+
+                for o in officials:
+
+                    export_rows.append({
+                        "Province": mun.province,
+                        "District": mun.district,
+                        "Municipality": mun.municipality_name,
+                        "Type": mun.municipality_type,
+                        "Website": mun.website,
+                        "Email": mun.email,
+                        "Phone": mun.phone,
+
+                        "Mayor": o.mayor_name,
+                        "Mayor Email": o.mayor_email,
+                        "Mayor Phone": o.mayor_phone,
+
+                        "Deputy Mayor": o.deputy_mayor_name,
+                        "Deputy Email": o.deputy_mayor_email,
+                        "Deputy Phone": o.deputy_mayor_phone,
+                    })
+
+            else:
+
+                export_rows.append({
+                    "Province": mun.province,
+                    "District": mun.district,
+                    "Municipality": mun.municipality_name,
+                    "Type": mun.municipality_type,
+                    "Website": mun.website,
+                    "Email": mun.email,
+                    "Phone": mun.phone,
+                })
+
+        return export_rows
+
+    finally:
+        db.close()    
+
+def export_municipalities_to_csv(limit=20):
+
+    db = SessionLocal()
+
+    try:
+        municipalities = db.query(Municipality).limit(limit).all()
+
+        rows = []
+
+        for mun in municipalities:
+
+            official = (
+                db.query(MunicipalityOfficial)
+                .filter(
+                    MunicipalityOfficial.municipality_id == mun.id
+                )
+                .first()
+            )
+
+            rows.append({
+                "Province": mun.province,
+                "District": mun.district,
+                "Municipality": mun.municipality_name,
+                "Type": mun.municipality_type,
+                "Website": mun.website,
+                "Email": mun.email,
+                "Phone": mun.phone,
+
+                "Mayor": official.mayor_name if official else "",
+                "Mayor Email": official.mayor_email if official else "",
+                "Mayor Phone": official.mayor_phone if official else "",
+
+                "Deputy Mayor": official.deputy_mayor_name if official else "",
+                "Deputy Email": official.deputy_mayor_email if official else "",
+                "Deputy Phone": official.deputy_mayor_phone if official else "",
+            })
+
+        df = pd.DataFrame(rows)
+
+        file_path = f"exports/municipality_export_{limit}.csv"
+
+        df.to_csv(
+            file_path,
+            index=False,
+            encoding="utf-8-sig"
+        )
+
+        return file_path
+
+    finally:
+        db.close()    
+
+def get_multiple_municipalities(limit=20):
+
+    db = SessionLocal()
+
+    try:
+
+        if limit == -1:
+            municipalities = db.query(Municipality).all()
+        else:
+            municipalities = (
+                db.query(Municipality)
+                .limit(limit)
+                .all()
+            )
+
+        results = []
+
+        for mun in municipalities:
+
+            official = (
+                db.query(MunicipalityOfficial)
+                .filter(
+                    MunicipalityOfficial.municipality_id == mun.id
+                )
+                .first()
+            )
+
+            results.append({
+                "province": mun.province,
+                "district": mun.district,
+                "municipality": mun.municipality_name,
+                "type": mun.municipality_type,
+                "website": mun.website,
+                "email": mun.email,
+                "phone": mun.phone,
+
+                "mayor": official.mayor_name if official else "",
+                "mayor_phone": official.mayor_phone if official else "",
+
+                "deputy_mayor": (
+                    official.deputy_mayor_name
+                    if official else ""
+                ),
+                "deputy_phone": (
+                    official.deputy_mayor_phone
+                    if official else ""
+                )
+            })
+
+        return results
+
     finally:
         db.close()
