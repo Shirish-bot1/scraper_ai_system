@@ -352,24 +352,30 @@ const styles = {
   },
 
   scrollItem: {
-    padding: 10,
-    cursor: "pointer",
-    borderBottom: "1px solid #1f2937",
-    color: "#cbd5e1",
+    padding: 12,
+  cursor: "pointer",
+  borderBottom: "1px solid #1f2937",
+  color: "#cbd5e1",
+  transition: "0.2s",
   },
 
   main: { flex: 1, display: "flex", flexDirection: "column" },
 
   header: {
-    padding: 15,
-    borderBottom: "1px solid #1f2937",
-    background: "#0b1220",
+      padding: "18px 25px",
+  borderBottom: "1px solid #1f2937",
+  background: "#0b1220",
+  fontSize: 20,
+  fontWeight: 600,
   },
 
   chatArea: {
-    flex: 1,
-    padding: 20,
-    overflowY: "auto",
+     flex: 1,
+  padding: "25px 40px",
+  overflowY: "auto",
+  display: "flex",
+  flexDirection: "column",
+  gap: 12,
   },
 
   empty: {
@@ -385,9 +391,14 @@ const styles = {
   },
 
   message: {
-    maxWidth: "70%",
-    padding: 12,
-    borderRadius: 12,
+    maxWidth: "80%",
+  padding: 14,
+  borderRadius: 14,
+  whiteSpace: "pre-wrap",
+  wordBreak: "break-word",
+  overflowWrap: "anywhere",
+  lineHeight: 1.6,
+  fontSize: 14,
   },
 
   csvBox: { marginTop: 8 },
@@ -400,10 +411,14 @@ const styles = {
 
   jsonBox: {
     background: "#0f172a",
-    padding: 10,
-    borderRadius: 8,
-    color: "#cbd5e1",
-    overflowX: "auto",
+  padding: 15,
+  borderRadius: 10,
+  color: "#cbd5e1",
+  overflowX: "auto",
+  maxHeight: "400px",
+  overflowY: "auto",
+  whiteSpace: "pre-wrap",
+  wordBreak: "break-word",
   },
 
   loading: {
@@ -417,12 +432,14 @@ const styles = {
   },
 
   chatInput: {
-    flex: 1,
-    padding: 12,
-    borderRadius: 10,
-    border: "1px solid #334155",
-    background: "#0f172a",
-    color: "#fff",
+     flex: 1,
+  padding: 14,
+  fontSize: 15,
+  borderRadius: 12,
+  border: "1px solid #334155",
+  background: "#0f172a",
+  color: "#fff",
+  outline: "none",
   },
 
   sendBtn: {

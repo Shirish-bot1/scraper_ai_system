@@ -1,5 +1,4 @@
 ﻿Province,District,Municipality,Type,Website,Email,Phone,Mayor,Mayor Email,Mayor Phone,Deputy Mayor,Deputy Email,Deputy Phone
-Bagmati,Kathmandu,Test Municipality,Metropolitan,https://test.gov.np,test@test.com,123456,,,,,,
 कोशी प्रदेश,भोजपुर,भोजपुर नगरपालिका,Municipality,http://bhojpurmun.gov.np,info@bhojpurmun.gov.np,029-420102,भोजराज श्रेष्ठ,bhojraj.bhojpur@gmail.com,९८५२०७७१११,निर्मला राई,nirmala.rai@gmail.com,९८४२७७११११
 कोशी प्रदेश,भोजपुर,षडानन्द नगरपालिका,Municipality,http://shadanandamun.gov.np,shadanandanagarpalika@gmail.com,029-421125,सुरेन्द्रकुमार उदास,surendra.udas@gmail.com,९८५२०७७२२२,प्रमिला राई,pramila.rai@gmail.com,९८४२७७२२२२
 कोशी प्रदेश,धनकुटा,धनकुटा नगरपालिका,Municipality,http://dhankutamun.gov.np,mundkt@gmail.com,026-520126,चिन्तन तामाङ्ग,tamangchintan@gmail.com,९८५२०७०९९९,भिमा देवी खनाल,bhima.khanal@gmail.com,९८५२०७०८८८
@@ -19,3 +18,4 @@ Bagmati,Kathmandu,Test Municipality,Metropolitan,https://test.gov.np,test@test.c
 कोशी प्रदेश,मोरङ,उर्लाबारी नगरपालिका,Municipality,http://urlabarimun.gov.np,info@urlabarimun.gov.np,021540459,गंगाप्रसाद खरेल,gangakharel@gmail.com,९८५२०५४४४४,मीना खतिवडा,mina.khatiwada@gmail.com,९८४२०५४४४४
 कोशी प्रदेश,सोलुखुम्बु,सोलुदुधकुण्ड नगरपालिका,Municipality,http://solududhkundamun.gov.np,info@solududhkundamun.gov.np,038-520264,नाम्गेल जाङ्बु शेर्पा,namgel.solu@gmail.com,९८५३८२०१११,गान्धीमाया तामाङ,gandhimaya@gmail.com,९८४३८२०१११
 कोशी प्रदेश,खोटाङ,दिक्तेल रुपाकोट मझुवागढी नगरपालिका,Municipality,http://rupakotmajhuwagadhimun.gov.np,rupakotmun@gmail.com,036-420683,तीर्थराज भट्टराई,tirtha.diktel@gmail.com,९८५३६२०१११,विसन राई,bisan.rai@gmail.com,९८४३६२०१११
+कोशी प्रदेश,खोटाङ,हलेसी तुवाचुङ नगरपालिका,Municipality,http://halesituwachungmun.gov.np,tuwachung.mun@gmail.com,9851009879,विमला राई,vimala.halesi@gmail.com,९८५३६२०२२२,रमेशकुमार राउत,ramesh.halesi@gmail.com,९८४३६२०२२२

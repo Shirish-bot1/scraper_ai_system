@@ -147,6 +147,12 @@ from app.services.data_fetcher import (
 
 from app.ai_agent import chat_with_agent
 from app.scrapper.official_scraper import scrape_municipality
+from app.automations.scheduler import start_scheduler
+from app.automations.automation_runner import (
+    run_scraper,
+    import_data,
+    full_automation
+)
 
 
 # =========================
@@ -175,6 +181,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+start_scheduler()
 
 
 # =========================
@@ -310,3 +318,32 @@ async def scrape_website(request: ScraperRequest):
             status_code=500,
             detail=f"Scraping failed: {str(e)}"
         )
+
+@app.post("/automation/scrape")
+async def run_scraper_api():
+    run_scraper()
+
+    return {
+        "status": "success",
+        "message": "Scraping completed"
+    }
+
+
+@app.post("/automation/import")
+async def import_data_api():
+    import_data()
+
+    return {
+        "status": "success",
+        "message": "CSV import completed"
+    }
+
+
+@app.post("/automation/run-all")
+async def run_all_api():
+    full_automation()
+
+    return {
+        "status": "success",
+        "message": "Full automation completed"
+    }    

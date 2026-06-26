@@ -37,4 +37,4 @@ def import_csv_to_db(csv_file_path):
 if __name__ == "__main__":
     # Point this to your CSV file
     # Ensure municipalities.csv is in the same folder as this script
-    import_csv_to_db('municipalities.csv')
+    import_csv_to_db(r'C:\Users\shiri\scraper_ai_system\backend\app\automations\municipalities.csv')
