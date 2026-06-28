@@ -29,7 +29,6 @@ Province,District,Municipality,Type,Website,Leader/Mayor Name,Leader/Mayor Phone
 कोशी प्रदेश,सुनसरी,बराहक्षेत्र नगरपालिका,Municipality,http://barahamun.gov.np,रमेश कार्की,९८५२०५५१११,ramesh.baraha@gmail.com,नन्दकुमारी सुनुवार,९८४२०५५१११,nanda.sunuwar@gmail.com
 कोशी प्रदेश,सुनसरी,रामधुनी नगरपालिका,Municipality,http://ramdhunimun.gov.np,शंकरलाल चौधरी,९८५२०५६२२२,shankar.ramdhuni@gmail.com,तारा थापा,९८४२०५६२२२,tara.thapa@gmail.com
 कोशी प्रदेश,मोरङ,लेटाङ नगरपालिका,Municipality,http://letangmun.gov.np,भूपेन्द्रकुमार लावती,९८५२०४६१११,bhupendra.letang@gmail.com,कृष्णकुमारी पोखरेल,९८४२०४६१११,krishna.letang@gmail.com
-कोशी प्रदेश,मोरङ,सुnder हरैचा नगरपालिका,Municipality,http://sundarharaichamun.gov.np,,,,,,
 कोशी प्रदेश,मोरङ,सुनवर्षी नगरपालिका,Municipality,http://sunawarshimun.gov.np,श्यामकुमार राजवंशी,९८५२०४३१११,shyam.sunawarshi@gmail.com,मीरादेवी दास,९८४२०४३१११,mira.das@gmail.com
 कोशी प्रदेश,मोरङ,रतुवामाई नगरपालिका,Municipality,http://ratuwamaimun.gov.np,नागेश्वरप्रसाद सिंह गनगाई,९८५२०४११११,nageshwar.ratuwamai@gmail.com,दमयन्तादेवी चुडाल,९८४२०४११११,damayanta@gmail.com
 कोशी प्रदेश,मोरङ,रंगेली नगरपालिका,Municipality,http://rangelimun.gov.np,दिलीपकुमार अग्रवाल,९८५२०५८१११,dilip.rangeli@gmail.com,भूमाकुमारी पराजुली,९८४२०५८१११,bhuma.pajuli@gmail.com
@@ -120,9 +119,6 @@ Province,District,Municipality,Type,Website,Leader/Mayor Name,Leader/Mayor Phone
 मधेश प्रदेश,सिराहा,कर्जन्हा नगरपालिका,Municipality,http://karjanhamun.gov.np,भोलाप्रसाद पोखरेल,९८५२८११०२४,bhola.karjanha@gmail.com,लक्ष्मीकुमारी श्रेष्ठ,९८४२८११०२४,laxmi.karjanha@gmail.com
 मधेश प्रदेश,सिराहा,धनगढीमाई नगरपालिका,Municipality,http://dhangadhimaimun.gov.np,शिवशंकर महतो,९८५२८४५२३८,shivashankar.dhangadhimai@gmail.com,संगीताकुमारी चौधरी,९८४२८४५२३८,sangita.dhangadhimai@gmail.com
 मधेश प्रदेश,सिराहा,मिर्चैया नगरपालिका,Municipality,http://mirchaiyamun.gov.np,श्रवणकुमार यादव,९८५२८५०१०१,shrawan.mirchaiya@gmail.com,जीवछीदेवी साह,९८४२८५०१०१,jibachhi.mirchaiya@gmail.com
-मधेश प्रदेश,सिराहा,लहान नगरपालिका,Municipality,http://lahanmun.gov.np,महेशप्रसाद चौधरी,९८५२८५६MT८,mahesh.lahan@gmail.com,रामचरितर महतो,९८४२८५६MT८,ramcharitar.lahan@gmail.com
-मधेश प्रदेश,सिराहा,सिरहा नगरपालिका,Municipality,http://sirahamun.gov.np,नवीनकुमार यादव,९८५२८५२०MT,navin.siraha@gmail.com,बबिताकुमारी साह,९८४२८५२०MT,babita.siraha@gmail.com
-मधेश प्रदेश,सिराहा,सुखीपुर नगरपालिका,Municipality,http://sukhipurmun.gov.np,रामऔतार यादव,९८६१८५MT००,ramautar.sukhipur@gmail.com,रेणुकुमारी महतो,९८४१८५MT००,renu.sukhipur@gmail.com
 मधेश प्रदेश,सिराहा,गोलबजार नगरपालिका,Municipality,http://golbazarmun.gov.np,श्यामकुमार श्रेष्ठ,९८५२८५०४९९,shyam.golbazar@gmail.com,रेशमकुमारी थापा,९८४२८५०४९९,resham.golbazar@gmail.com
 मधेश प्रदेश,सिराहा,कल्याणपुर नगरपालिका,Municipality,http://kalyanpurmun.gov.np,रामपुकार साह,९८५२८३४३६५,rampukar.kalyanpur@gmail.com,धीरजकुमारी देवी,९८४२८३४३६४,dhiraj.kalyanpur@gmail.com
 मधेश प्रदेश,धनुषा,मिथिला विहारी नगरपालिका,Municipality,http://mithilabiharimun.gov.np,राजेन्द्रप्रसाद यादव,९८४१६६३८१५,rajendra.mithilabihari@gmail.com,शोभादेवी साह,९८४१६६३८१४,shobha.mithilabihari@gmail.com
@@ -131,23 +127,6 @@ Province,District,Municipality,Type,Website,Leader/Mayor Name,Leader/Mayor Phone
 मधेश प्रदेश,धनुषा,शहिदनगर नगरपालिका,Municipality,http://shahidnagarmun.gov.np,दिनेशप्रसाद यादव,९८५४०२९७७०,dinesh.shahidnagar@gmail.com,सुनीताकुमारी सिंह,९८४४०२९७६९,sunita.shahidnagar@gmail.com
 मधेश प्रदेश,धनुषा,सबैला नगरपालिका,Municipality,http://sabailamun.gov.np,कारीराम यादव,९८५४०२४२८२,kariram.sabaila@gmail.com,रहीमा खातुन,९८४४०२४२८१,rahima.sabaila@gmail.com
 मधेश प्रदेश,धनुषा,विदेह नगरपालिका,Municipality,http://bidehamun.gov.np,बेचन दास,९८६८०२३६३१,bechan.bideha@gmail.com,आशादेवी झा,९८४८०२३६३०,asha.bideha@gmail.com
-मधेश प्रदेश,धनुषा,मिथिला नगरपालिका,Municipality,http://mithilamun.gov.np,महेन्द्र महतो,९८५४०५६MDA,mahendra.mithila@gmail.com,सुनीता सिंह दनुवार,९८४४०५६MDA,sunita.mithila@gmail.com
-मधेश प्रदेश,धनुषा,नगराइन नगरपालिका,Municipality,http://nagrainmun.gov.np,विनयकुमार यादव,९८५४०२९७७३,vinay.nagrain@gmail.com,राधादेवी यादव,९८४४०२९७७२,radha.nagrain@gmail.com
-मधेश प्रदेश,धनुषा,धनुषाधाम नगरपालिका,Municipality,http://dhanushadhammun.gov.np,बालेश्वर मण्डल,९८५४०४MTMDE,baleshwar.dhanushadham@gmail.com,विद्यादेवी भुजेल,९८४४०४MTMDE,vidya.dhanushadham@gmail.com
-मधेश प्रदेश,धनुषा,गणेशमान–चारनाथ नगरपालिका,Municipality,http://ganeshmancharnathmun.gov.np,जीतप्रसाद यादव,९८५४०४२७३०,jitprasad.ganeshman@gmail.com,गुन्जेश्वरीदेवी महतो,९८४४०४२७२९,gunjeshwari.ganeshman@gmail.com
-मधेश प्रदेश,धनुषा,क्षिरेश्वरनाथ नगरपालिका,Municipality,http://kshireshwornathmun.gov.np,सुखदेव यादव,९८५४०५४MDA,sukhdev.kshireshwornath@gmail.com,रचना माथेमा,९८४४०५४MDA,rachana.kshireshwornath@gmail.com
-मधेश प्रदेश,महोत्तरी,बलवा नगरपालिका,Municipality,http://balwamun.gov.np,विनोदकुमार यादव,९८०३२८MDE३,vinod.balwa@gmail.com,रामदुलारी देवी,९८०३२८MDE२,ramdulari.balwa@gmail.com
-मधेश प्रदेश,महोत्तरी,औरही नगरपालिका,Municipality,http://aurahimunmahottari.gov.np,प्रदीपकुमार खड्का,९८५४०३१०NT,pradeep.aurahi@gmail.com,रेणुकुमारी झा,९८४४०३१०NT,renu.aurahi@gmail.com
-मधेश प्रदेश,महोत्तरी,भँगाहा नगरपालिका,Municipality,http://bhagahamun.gov.np,संजीवकुमार साह,९८५४०३२०MD,sanjeev.bhagaha@gmail.com,शान्तिकुमारी सिंह,९८४४०३२०MD,shanti.bhagaha@gmail.com
-मधेश प्रदेश,महोत्तरी,मनरा सिसवा नगरपालिका,Municipality,http://manarashiswamun.gov.np,मोहनकुमार पाण्डे,९८५४०३३११०,mohan.manarasiswa@gmail.com,शकुन्तलादेवी महतो,९८४४०३३१०९,shakuntala.manarasiswa@gmail.com
-मधेश प्रदेश,महोत्तरी,रामगोपालपुर नगरपालिका,Municipality,http://ramgopalpurmun.gov.np,रामउद्गार मण्डल,९८५४०५४MT१,ramudgar.ramgopalpur@gmail.com,रीताकुमारी यादव,९८४४०५४MT१,rita.ramgopalpur@gmail.com
-कोशी प्रदेश,ताप्लेजुङ,फुङलिङ नगरपालिका,Municipality,http://phunglingmun.gov.np,अमिर मादेन,९८५२६६०MTE,amir.phungling@gmail.com,भीमादेवी ओझा,९८४२६६०MTE,bhima.phungling@gmail.com
-कोशी प्रदेश,पाँचथर,फिदिम नगरपालिका,Municipality,http://phidimmun.gov.np,मित्रप्रसाद थाम्सुहाङ,९८५२६५MTE७,mitra.phidim@gmail.com,राधाकृष्ण न्यौपाने,९८४२६५MTE७,radha.phidim@gmail.com
-कोशी प्रदेश,इलाम,ईलाम नगरपालिका,Municipality,http://ilammun.gov.np,केदार थापा,९८५२६५MDTD,kedar.ilam@gmail.com,विष्णु कुमारी लिम्बु,९८४२६५MDTD,vishnu.ilam@gmail.com
-कोशी प्रदेश,इलाम,देउमाई नगरपालिका,Municipality,http://deumaimun.gov.np,सूर्यप्रसाद पोखरेल,९८५२६४MDA१,surya.deumai@gmail.com,पदममाया राई,९८४२६४MDA१,padammaya.deumai@gmail.com
-कोशी प्रदेश,इलाम,माई नगरपालिका,Municipality,http://maimun.gov.np,खम्बसिंह लिम्बु,९८५२६४MT२२,khambasingh.mai@gmail.com,प्रमिला राई,९८४२६४MT२२,pramila.mai@gmail.com
-कोशी प्रदेश,इलाम,सुर्योदय नगरपालिका,Municipality,http://suryodayamun.gov.np,रणबहादुर राई,९८५२६५MDA०,ranbahadur.suryodaya@gmail.com,दुर्गाकुमार बराल,९८४२६५MDA०,durga.suryodaya@gmail.com
-कोशी प्रदेश,झापा,अर्जुनधारा नगरपालिका,Municipality,http://arjundharamun.gov.np,बलदेव सिंह गोम्देन,९८५२६५९MDA,baldev.arjundhara@gmail.com,खडानन्द खतिवडा,९८४२६५९MDA,khadananda.arjundhara@gmail.com
 कोशी प्रदेश,झापा,कन्काई नगरपालिका,Municipality,http://kankaimun.gov.np,राजेन्द्रकुमार पोखरेल,९८५२६५११११,rajendra.kankai@gmail.com,आशा शर्मा शिवाकोटी,९८४२६५११११,asha.kankai@gmail.com
 कोशी प्रदेश,झापा,गौरादह नगरपालिका,Municipality,http://gauradahamun.gov.np,छत्रपति सुवेदी,९८५२६५७००६,chhatrapati.gauradah@gmail.com,जलवर्षा राजवंशी,९८४२६५७००६,jalbarsha.gauradah@gmail.com
 कोशी प्रदेश,झापा,दमक नगरपालिका,Municipality,http://damakmun.gov.np,रामकुमार थापा,९८५२६५८१३७,ramkumar.damak@gmail.com,रेगिना भट्टराई,९८४२६५८१३७,regina.damak@gmail.com
@@ -158,101 +137,6 @@ Province,District,Municipality,Type,Website,Leader/Mayor Name,Leader/Mayor Phone
 कोशी प्रदेश,संखुवासभा,मादी नगरपालिका,Municipality,http://madimun.gov.np,जीवन लिम्बु,९८५२०४२००२,jeevan.madi@gmail.com,समता राई,९८४२०४२००२,samata.madi@gmail.com
 कोशी प्रदेश,संखुवासभा,पाँचखपन नगरपालिका,Municipality,http://panchkhapanmun.gov.np,विपिन राई,९८५२०४११०८,bipin.panchkhapan@gmail.com,अनन्या राई,९८४२०४११०८,ananya.panchkhapan@gmail.com
 कोशी प्रदेश,संखुवासभा,धर्मदेवी नगरपालिका,Municipality,http://dharmadevimun.gov.np,उदयचन्द्र पौडेल,९८५२०४१४००,uday.dharmadevi@gmail.com,तारा महत,९८४२०४१४००,tara.dharmadevi@gmail.com
-कोशी प्रदेश,संखुवासभा,खाँदवारी नगरपालिका,Municipality,http://khandbarimun.gov.np,महेश थपलिया,९८५२०५६MTE,mahesh.khandbari@gmail.com,महेश्वरा श्रेष्ठ,९८४२०५६MTE,maheshwara.khandbari@gmail.com
-कोशी प्रदेश,तेह्रथुम,म्याङलुङ नगरपालिका,Municipality,http://myanglungmun.gov.np,सञ्जयकुमार तुम्बाहाङ्फे,९८५२६४६MDE,sanjay.myanglung@gmail.com,जमुनादेवी सुवेदी,९८४२६४६MDE,jamuna.myanglung@gmail.com
-कोशी प्रदेश,तेह्रथुम,लालीगुराँस नगरपालिका,Municipality,http://laliguransmun.gov.np,अर्जुनबाबु माबोहाङ,९८५२६४MDNT,arjun.laligurans@gmail.com,जमुना मगर कार्की,९८४२६४MDNT,jamuna.laligurans@gmail.com
-मधेश प्रदेश,महोत्तरी,लोहरपट्टी नगरपालिका,Municipality,http://loharpattimun.gov.np,शैलेन्द्रकुमार यादव,९८०१६३१३१५,shailendra.loharpatti@gmail.com,सरिता शर्मा,९८००६३१३१४,sarita.loharpatti@gmail.com
-मधेश प्रदेश,महोत्तरी,बर्दिबास नगरपालिका,Municipality,http://bardibasmun.gov.np,प्रह्लादकुमार क्षेत्री,९८५४०५५११२,prahlad.bardibas@gmail.com,तारादेवी महतो,९८४४०५५१११,tara.bardibas@gmail.com
-मधेश प्रदेश,महोत्तरी,जलेश्वर नगरपालिका,Municipality,http://jaleshwarmun.gov.np,सुरेश साह सोनार,९८५४०३MTNT,suresh.jaleshwar@gmail.com,रौशन खातुन,९८४४०३MTNT,raushan.jaleshwar@gmail.com
-मधेश प्रदेश,सर्लाही,हरिवन नगरपालिका,Municipality,http://harionmun.gov.np,रमेश बुढाथोकी,९८५४०३०NDD,ramesh.harivon@gmail.com,हरिमाया घिमिरे,९८४४०३०NDD,harimaya.harivon@gmail.com
-मधेश प्रदेश,सर्लाही,हरिपुर्वा नगरपालिका,Municipality,http://haripurwamun.gov.np,विनोदकुमार साह,९८४४११२८५०,binod.haripurwa@gmail.com,सुमित्रादेवी महतो,९८२४११२८४९,sumitra.haripurwa@gmail.com
-मधेश प्रदेश,सर्लाही,बरहथवा नगरपालिका,Municipality,http://barhathwamun.gov.np,कल्पनाकुमारी कटुवाल,९८५४०४MDMT,kalpana.barhathwa@gmail.com,रामबाबु साह,९८४४०४MDMT,rambabu.barhathwa@gmail.com
-मधेश प्रदेश,सर्लाही,लालबन्दी नगरपालिका,Municipality,http://lalbandimun.gov.np,वासुदेव अधिकारी,९८५४०५०MTE,basudev.lalbandi@gmail.com,सुशीला गिरी,९८४४०५०MTE,sushila.lalbandi@gmail.com
-मधेश प्रदेश,सर्लाही,मलंगवा नगरपालिका,Municipality,http://malangwamun.gov.np,नागेन्द्रप्रसाद यादव,९८५४०५२०MT,nagendra.malangwa@gmail.com,शकुन्तला देवी,९८४४०५२०MT,shakuntala.malangwa@gmail.com
-मधेश प्रदेश,सर्लाही,गोडैटा नगरपालिका,Municipality,http://godaitamun.gov.np,देवेन्द्रकुमार यादव,९८५४०३८३८३,devendra.godaita@gmail.com,अञ्जनादेवी यादव,९८४४०३८३८२,anjana.godaita@gmail.com
-मधेश प्रदेश,सर्लाही,ईश्वरपुर नगरपालिका,Municipality,http://ishworpurmun.gov.np,मनोजकुमार आचार्य,९८५४०४२MTE,manoj.ishworpur@gmail.com,रञ्जितादेवी साह,९८४४०४२MTE,ranjita.ishworpur@gmail.com
-मधेश प्रदेश,सर्लाही,हरिपुर नगरपालिका,Municipality,http://haripurmun.gov.np,गोपाल पन्जियार,९८५४०४MDTD,gopal.haripur@gmail.com,रेणुकादेवी काफ्ले,९८४४०४MDTD,renuka.haripur@gmail.com
-मधेश प्रदेश,सर्लाही,बागमती नगरपालिका,Municipality,http://bagmatimunsarlahi.gov.np,भरतकुमार थापा,९८५४०४MTMD,bharat.bagmati@gmail.com,लीलाकुमारी मोक्तान,९८४४०४MTMD,lila.bagmati@gmail.com
-मधेश प्रदेश,रौतहट,गढीमाई नगरपालिका,Municipality,http://gadhimaimun.gov.np,श्यामप्रसाद यादव,९८६५०५MDTM,shyam.gadhimai@gmail.com,स्मृति चौधरी,९८४५०५MDTM,smriti.gadhimai@gmail.com
-मधेश प्रदेश,रौतहट,राजपुर नगरपालिका,Municipality,http://rajpurmunrautahat.gov.np,मोहम्मद राजिक आलम,९८५५०४४MTE,rajik.rajpur@gmail.com,नाजिरा खातुन,९८४५०४४MTE,nazira.rajpur@gmail.com
-मधेश प्रदेश,रौतहट,कटहरीया नगरपालिका,Municipality,http://katahariyamun.gov.np,अजयप्रकाश जायसवाल,९८५५०६७ODD,ajay.katahariya@gmail.com,रीतादेवी यादव,९८४५०६७ODD,rita.katahariya@gmail.com
-मधेश प्रदेश,रौतहट,ईशनाथ नगरपालिका,Municipality,http://ishnathmun.gov.np,सन्तोषकुमार मेहता,९८५५०४MDMT,santosh.ishnath@gmail.com,हुसने आरा खातुन,९८४५०४MDMT,husne.ishnath@gmail.com
-मधेश प्रदेश,रौतहट,गरुडा नगरपालिका,Municipality,http://garudamun.gov.np,कन्तमणि प्रसाद जयसवाल,९८५५०५६MDT,kantamani.garuda@gmail.com,पुनमकुमारी चौधरी,९८४५०५६MDT,punam.garuda@gmail.com
-मधेश प्रदेश,रौतहट,गौर नगरपालिका,Municipality,http://gaurmun.gov.np,शम्भु साह,९८५५०५२०MD,shambhu.gaur@gmail.com,शैलकुमारी देवी,९८४५०५२०MD,shail.gaur@gmail.com
-मधेश प्रदेश,रौतहट,मौलापुर नगरपालिका,Municipality,http://maulapurmun.gov.np,रिनाकुमारी साह,९८५५०९९NTN,rina.maulapur@gmail.com,तारकेश्वरप्रसाद यादव,९८४५०९९NTN,tarakeshwar.maulapur@gmail.com
-मधेश प्रदेश,रौतहट,राजदेवी नगरपालिका,Municipality,http://rajdevimun.gov.np,भिखारीप्रसाद यादव,९८५५०४MDTD,bhikhari.rajdevi@gmail.com,राजकुमारी देवी,९८४५०४MDTD,rajkumari.rajdevi@gmail.com
-मधेश प्रदेश,रौतहट,गुजरा नगरपालिका,Municipality,http://gujaramun.gov.np,सन्तलालप्रसाद चौधरी,९८४५०२MDTD,santalal.gujara@gmail.com,रौशन खातुन,९८२५०२MDTD,raushan.gujara@gmail.com
-मधेश प्रदेश,रौतहट,माधवनारायण नगरपालिका,Municipality,http://madhavnarayanmun.gov.np,बैजनाथप्रसाद यादव,९८५५०४४MTE,baijnath.madhavnarayan@gmail.com,अन्जुकुमारी यादव,९८४५०४४MTE,anju.madhavnarayan@gmail.com
-मधेश प्रदेश,रौतहट,वृन्दावन नगरपालिका,Municipality,http://brindawanmun.gov.np,विनोदप्रसाद कुर्मी,९८५५०१MDMT,vinod.vrindavan@gmail.com,संगीताकुमारी राम,९८४५०१MDMT,sangita.vrindavan@gmail.com
-मधेश प्रदेश,रौतहट,चन्द्रपुर नगरपालिका,Municipality,http://chandrapurmun.gov.np,संजयकुमार काफ्ले,९८५५०५NDA,sanjay.chandrapur@gmail.com,जयमालाकुमारी चौधरी,९८४५०५NDA,jayamala.chandrapur@gmail.com
-मधेश प्रदेश,बारा,सिम्रौनगढ नगरपालिका,Municipality,http://simraungadhmun.gov.np,किशोरीप्रसाद कलवार,९८५५०४MDTD,kishori.simraungadh@gmail.com,नजमु शेखा,९८४५०४MDTD,najmu.simraungadh@gmail.com
-मधेश प्रदेश,बारा,महागढीमाई नगरपालिका,Municipality,http://mahagadhimaimun.gov.np,उपेन्द्रप्रसाद यादव,९८५५०४MTMD,upendra.mahagadhimai@gmail.com,तारादेवी कनुइन,९८४५०४MTMD,tara.mahagadhimai@gmail.com
-मधेश प्रदेश,बारा,निजगढ नगरपालिका,Municipality,http://nijgadhmun.gov.np,सुरथ पुरी,९८५५०५NDA,surath.nijgadh@gmail.com,सोममाया थिङ,९८४५०५NDA,sommaya.nijgadh@gmail.com
-मधेश प्रदेश,बारा,कोल्हवी नगरपालिका,Municipality,http://kolhabimun.gov.np,रामप्रसाद चौधरी,९८५५०४MDTD,ramprasad.kolhabi@gmail.com,सुनैना चौधरी,९८४५०४MDTD,sunaina.kolhabi@gmail.com
-मधेश प्रदेश,बारा,पचरौता नगरपालिका,Municipality,http://pachrautamun.gov.np,जलन्धर सिंह क्षेत्री,९८५५०४ODOD,jalandhar.pachrauta@gmail.com,नसिमा खातुन,९८४५०४ODOD,nasima.pachrauta@gmail.com
-मधेश प्रदेश,पर्सा,पोखरिया नगरपालिका,Municipality,http://pokhariyamun.gov.np,प्रद्युम्नप्रसाद चौहान,९८५५०८MTE,pradyumna.pokhariya@gmail.com,रुबीकुमारी ठाकुर,९८४५०८MTE,rubi.pokhariya@gmail.com
-मधेश प्रदेश,पर्सा,पर्सागढी नगरपालिका,Municipality,http://parsagadhimun.gov.np,गोकर्ण पाठक,९८५५०MTMTD,gokarna.parsagadhi@gmail.com,पूजाकुमारी चौधरी,९८४५०MTMTD,puja.parsagadhi@gmail.com
-मधेश प्रदेश,पर्सा,बहुदरमाई नगरपालिका,Municipality,http://bahudarmaimun.gov.np,सिंगासनसाह तेली,९८५५०MTMTE,singasan.bahudarmai@gmail.com,सुष्माकुमारी कुशवाहा,९८४५०MTMTE,sushma.bahudarmai@gmail.com
-मधेश प्रदेश,सप्तरी,अग्नीसाइर कृष्णासवरन गाउँपालिका,Rural Municipality,http://agnisairkrishnasawaranmun.gov.np,दिनानाथ चौधरी,९८०४७६MDND,dinanath.agnisair@gmail.com,कल्पनाकुमारी चौधरी,९८४४७६MDND,kalpana.agnisair@gmail.com
-मधेश प्रदेश,सप्तरी,छिन्नमस्ता गाउँपालिका,Rural Municipality,http://chhinnamastamun.gov.np,विद्यानन्द चौधरी,९८५२८२MTDM,vidyanand.chhinnamasta@gmail.com,राजुकुमारी यादव,९८४२८२MTDM,raju.chhinnamasta@gmail.com
-मधेश प्रदेश,सप्तरी,तिरहुत गाउँपालिका,Rural Municipality,http://tirahutmun.gov.np,मिलनकुमार यादव,९८५२८६MDMD,milan.tirahut@gmail.com,रेणुकुमारी यादव,९८४२८६MDMD,renu.tirahut@gmail.com
-मधेश प्रदेश,सप्तरी,तिलाठीकोईलाडी गाउँपालिका,Rural Municipality,http://tilathikoiladimun.gov.np,अरुणकुमार मण्डल,९८५२८२MMMD,arun.tilathikoiladi@gmail.com,आभाकुमारी दास,९८४२८२MMMD,abha.tilathikoiladi@gmail.com
-मधेश प्रदेश,सप्तरी,बिष्णुपुर गाउँपालिका,Rural Municipality,http://bishnupurmunsaptari.gov.np,उमेशकुमार यादव,९८५२८२MDTD,umesh.bishnupur@gmail.com,उषाकुमारी यादव,९८४२८२MDTD,usha.bishnupur@gmail.com
-मधेश प्रदेश,सप्तरी,राजगढ गाउँपालिका,Rural Municipality,http://rajgadhmun.gov.np,ओमप्रकाश मण्डल,९८०१५MDEND,omprakash.rajgadh@gmail.com,पुष्पाकुमारी यादव,९८००५MDEND,pushpa.rajgadh@gmail.com
-मधेश प्रदेश,सप्तरी,महादेवा गाउँपालिका,Rural Municipality,http://mahadevamun.gov.np,सुनीलकुमार मण्डल,९८१५७२९५६६,sunil.mahadeva@gmail.com,अर्चनाकुमारी यादव,९८१५७२९५६५,archana.mahadeva@gmail.com
-मधेश प्रदेश,सप्तरी,रुपनी गाउँपालिका,Rural Municipality,http://rupanimun.gov.np,दिनेशकुमार यादव,९८५२८२००३५,dinesh.rupani@gmail.com,पुष्पाकुमारी श्रेष्ठ,९८४२८२०MDM,pushpa.rupani@gmail.com
-मधेश प्रदेश,सप्तरी,बलान-विहुल गाउँपालिका,Rural Municipality,http://balanbihulmun.gov.np,खेमचन्द्र यादव,९८५२६६०६०७,khemchandra.balanbihul@gmail.com,रेशमकुमारी चौधरी,९८४२६६०६MD,resham.balanbihul@gmail.com
-मधेश प्रदेश,सिराहा,नरहा गाउँपालिका,Rural Municipality,http://narahamun.gov.np,रामप्रमोद यादव,९८५२८२५२०६,rampramod.naraha@gmail.com,गुलाबदेवी यादव,९८४२८२५२०५,gulab.naraha@gmail.com
-मधेश प्रदेश,सिराहा,नवराजपुर गाउँपालिका,Rural Municipality,http://nawarajpurmun.gov.np,शिवउद्गार यादव,९८२४७०NDNT,shivaudgar.nawarajpur@gmail.com,शोभाकुमारी यादव,९८१४७०NDNT,shobha.nawarajpur@gmail.com
-मधेश प्रदेश,सिराहा,बरियारपट्टी गाउँपालिका,Rural Municipality,http://bariyapattimun.gov.np,सन्तोषकुमार महतो,९८१६७२३८८०,santosh.bariyarpatti@gmail.com,रेखाकुमारी यादव,९८०६७२३८७९,rekha.bariyarpatti@gmail.com
-मधेश प्रदेश,सिराहा,भगवानपुर गाउँपालिका,Rural Municipality,http://bhagwanpurmun.gov.np,उग्रनारायण यादव,९८५२८५८MDA,ugranarayan.bhagwanpur@gmail.com,रेखाकुमारी यादव,९८४२८५८MDA,rekha.bhagwanpur@gmail.com
-मधेश प्रदेश,सिराहा,लक्ष्मीपुर पतारी गाउँपालिका,Rural Municipality,http://laxmipurpatarimun.gov.np,शत्रुधनप्रसाद सिंह,९८५२८३३६१६,shatrudhan.laxmipurpatari@gmail.com,आशादेवी यादव,९८४२८३३६१५,asha.laxmipurpatari@gmail.com
-मधेश प्रदेश,सिराहा,विष्णुपुर गाउँपालिका,Rural Municipality,http://bishnupurmunsiraha.gov.np,जागेश्वर यादव,९८५२८५MDAA,jageshwar.bishnupur@gmail.com,उषाकुमारी यादव,९८४२८५MDAA,usha.bishnupur@gmail.com
-मधेश प्रदेश,धनुषा,औरही गाउँपालिका,Rural Municipality,http://aurahimundhanusha.gov.np,उमाशंकर प्रसाद यादव,९८५४०२७९०५,umashankar.aurahi@gmail.com,पुनमकुमारी यादव,९८४४०२७९०४,punam.aurahi@gmail.com
-मधेश प्रदेश,धनुषा,जनकनन्दिनी गाउँपालिका,Rural Municipality,http://janaknandinimun.gov.np,दिपेशकुमार यादव,९८५४०२९२६०,dipesh.janaknandini@gmail.com,कमला सेढाई,९८४४०२९२५९,kamala.janaknandini@gmail.com
-मधेश प्रदेश,धनुषा,बटेश्वर गाउँपालिका,Rural Municipality,http://bateshwormun.gov.np,रामबाबु राणा,९८५११५MDMTA,rambabu.bateshwor@gmail.com,प्रमिलादेवी महतो,९८४११५MDMTA,pramila.bateshwor@gmail.com
-मधेश प्रदेश,धनुषा,मुखियापट्टि मुसहरमिया गाउँपालिका,Rural Municipality,http://mukhiyapattimusaharmiyamun.gov.np,जयकुमार यादव,९८५४०२९८ND,jaykumar.mukhiyapatti@gmail.com,मीरादेवी यादव,९८४४०२९८ND,meira.mukhiyapatti@gmail.com
-मधेश प्रदेश,धनुषा,लक्ष्मीनिया गाउँपालिका,Rural Municipality,http://laxminiyamun.gov.np,भोगेन्द्र मिश्र,९८५४०२९४२१,bhogendra.laxminiya@gmail.com,फुलकुमारी यादव,९८४४०२९४२०,phulkumari.laxminiya@gmail.com
-मधेश प्रदेश,धनुषा,धनौजी गाउँपालिका,Rural Municipality,http://dhanaujimun.gov.np,राजकुमार साह,९८४४०२६३६३,rajkumar.dhanauji@gmail.com,रामवती देवी,९८३४०२६३६२,ramawati.dhanauji@gmail.com
-मधेश प्रदेश,महोत्तरी,एकडारा गाउँपालिका,Rural Municipality,http://ekdaramun.gov.np,दीपनारायण मण्डल,९८१८७०OTNT,deepnarayan.ekdara@gmail.com,महरून्निसा खातुन,९८०८७०OTNT,maharunnisa.ekdara@gmail.com
-मधेश प्रदेश,महोत्तरी,पिपरा गाउँपालिका,Rural Municipality,http://pipramun.gov.np,रामकुमार दास,९८५४०३MDND,ramkumar.pipra@gmail.com,मनिषा कुमारी,९८४४०३MDND,manisha.pipra@gmail.com
-मधेश प्रदेश,महोत्तरी,महोत्तरी गाउँपालिका,Rural Municipality,http://mahottarimun.gov.np,दिलीपकुमार पाण्डे,९८५४०३२३०१,dilip.mahottari@gmail.com,ललितादेवी साह,९८४४०३२३००,lalita.mahottari@gmail.com
-मधेश प्रदेश,महोत्तरी,साम्सी गाउँपालिका,Rural Municipality,http://samsimun.gov.np,रामनाथ यादव,९८५४०३२०MT,ramnath.samsi@gmail.com,नगिना देवी,९८४४०३२०MT,nagina.samsi@gmail.com
-मधेश प्रदेश,महोत्तरी,सोनमा गाउँपालिका,Rural Municipality,http://sonmamun.gov.np,विशेश्वर यादव,९८१९६८MTNM,visheshwar.sonma@gmail.com,रश्मीदेवी यादव,९८०९६८MTNM,rashmi.sonma@gmail.com
-मधेश प्रदेश,सर्लाही,चक्रघट्टा गाउँपालिका,Rural Municipality,http://chakraghattamun.gov.np,कृष्णकुमार यादव,९८५१०३NDNTA,krishna.chakraghatta@gmail.com,मनीषाकुमारी यादव,९८४१०३NDNTA,manisha.chakraghatta@gmail.com
-मधेश प्रदेश,सर्लाही,बसबरीया गाउँपालिका,Rural Municipality,http://basbariyamun.gov.np,रामपुकार राय,९८५४०३८MDN,rampukar.basbariya@gmail.com,सरोजकुमारी देवी,९८४४०३८MDN,saroj.basbariya@gmail.com
-मधेश प्रदेश,सर्लाही,कौडेना गाउँपालिका,Rural Municipality,http://kaudenamun.gov.np,रुपेशकुमार यादव,९८०११३MDDD,rupesh.kaudena@gmail.com,सुनीताकुमारी यादव,९८००११३MDD,sunita.kaudena@gmail.com
-मधेश प्रदेश,सर्लाही,पर्सा गाउँपालिका,Rural Municipality,http://parsamun.gov.np,धरेन्द्र राय,९८५४०७MDTD,dharendra.parsa@gmail.com,इन्दुकुमारी साह,९८४४०७MDTD,indu.parsa@gmail.com
-मधेश प्रदेश,सर्लाही,विष्णु गाउँपालिका,Rural Municipality,http://bishnumun.gov.np,जवाहरलाल यादव,९८५४०३९NTM,jawaharlal.bishnu@gmail.com,उषादेवी यादव,९८४४०३९NTM,usha.bishnu@gmail.com
-मधेश प्रदेश,सर्लाही,रामनगर गाउँपालिका,Rural Municipality,http://ramnagarmun.gov.np,राजाबाबु यादव,९८४२७३८NDN,rajababu.ramnagar@gmail.com,गीतादेवी महतो,९८३२७३८NDN,geeta.ramnagar@gmail.com
-मधेश प्रदेश,सर्लाही,ब्रह्मपुरी गाउँपालिका,Rural Municipality,http://brahmapurimun.gov.np,रामआधार कापर,९८५४०४४MDT,ramadhar.brahmapuri@gmail.com,गायत्रीदेवी राय,९८४४०४४MDT,gayatri.brahmapuri@gmail.com
-मधेश प्रदेश,सर्लाही,धनकौल गाउँपालिका,Rural Municipality,http://dhankaulmun.gov.np,रामआश्रय साह,९८५४०४MDMS,ramashraya.dhankaul@gmail.com,संगीता कुमारी,९८४४०४MDMS,sangita.dhankaul@gmail.com
-मधेश प्रदेश,सर्लाही,चन्द्रनगर गाउँपालिका,Rural Municipality,http://chandranagarmun.gov.np,राजकुमार महतो,९८०२०४५MTA,rajkumar.chandranagar@gmail.com,गीतादेवी महतो,९८००२०४५MT,geeta.chandranagar@gmail.com
-मधेश प्रदेश,रौतहट,दुर्गाभगवती गाउँपालिका,Rural Municipality,http://durgabhagawatimun.gov.np,शम्भुकुमार सिंह,९८५५०४MTMT,shambhu.durgabhagawati@gmail.com,शीलादेवी खातुन,९८४५०४MTMT,sheela.durgabhagawati@gmail.com
-मधेश प्रदेश,रौतहट,यमुनामाई गाउँपालिका,Rural Municipality,http://yamunamaimun.gov.np,मोहम्मद साउद,९८५५०४४NTA,saud.yamunamai@gmail.com,गीतादेवी साह,९८४५०४४NTA,geeta.yamunamai@gmail.com
-मधेश प्रदेश,बारा,आदर्श कोतवाल गाउँपालिका,Rural Municipality,http://aadarshakotwalmun.gov.np,जवाहरप्रसाद यादव,९८५५०४९MTE,jawahar.aadarshakotwal@gmail.com,मीरादेवी यादव,९८४५०४९MTE,meira.aadarshakotwal@gmail.com
-मधेश प्रदेश,बारा,करैयामाई गाउँपालिका,Rural Municipality,http://karaiyamaimun.gov.np,शम्भुप्रसाद यादव,९८५५०४८NTE,shambhu.karaiyamai@gmail.com,सुनैनाकुमारी थरुनी,९८४५०४८NTE,sunaina.karaiyamai@gmail.com
-मधेश प्रदेश,बारा,देवताल गाउँपालिका,Rural Municipality,http://devtalmun.gov.np,उदयप्रसाद यादव,९८५५०४८MTA,uday.devtal@gmail.com,सरस्वतीदेवी पासवान,९८४५048MTA,saraswati.devtal@gmail.com
-मधेश प्रदेश,बारा,परवानीपुर गाउँपालिका,Rural Municipality,http://parwanipurmun.gov.np,रामछत्रीप्रसाद यादव,९८५५०४८NDN,ramchhatri.parwanipur@gmail.com,सुगन्धीदेवी कलवार,९८४५०४८NDN,sugandhi.parwanipur@gmail.com
-मधेश प्रदेश,बारा,प्रसौनी गाउँपालिका,Rural Municipality,http://prasaunimun.gov.np,विनोदप्रसाद जायसवाल,९८५५०४८MDT,vinod.prasauni@gmail.com,किरणदेवी कुशवाहा,९८४५०४८MDT,kiran.prasauni@gmail.com
-मधेश प्रदेश,पर्सा,जिराभवानी गाउँपालिका,Rural Municipality,http://jirabhawanimun.gov.np,अनोजकुमार थारु,९८५५०१NTAA,anoj.jirabhawani@gmail.com,रेखादेवी थरुनी,९८४५०१NTAA,rekha.jirabhawani@gmail.com
-मधेश प्रदेश,पर्सा,कालिकामाई गाउँपालिका,Rural Municipality,http://kalikamaimun.gov.np,वशिष्ठकुमार गुप्ता,९८५५०१MTEI,vashistha.kalikamai@gmail.com,राजमतीदेवी बरैनी,९८४५०१MTEI,rajmati.kalikamai@gmail.com
-मधेश प्रदेश,पर्सा,ठोरी गाउँपालिका,Rural Municipality,http://thorimun.gov.np,लालबाहादुर श्रेष्ठ,९८५५०३८MDT,lalbahadur.thori@gmail.com,गोकुलकुमारी रेग्मी,९८४५०३८MDT,gokul.thori@gmail.com
-मधेश प्रदेश,पर्सा,सखुवा प्रसौनी गाउँपालिका,Rural Municipality,http://sakhuwaprasaunimun.gov.np,जसवन्त यादव,९८५११५NTNE,jaswant.sakhuwaprasauni@gmail.com,शर्मिला महतो,९८४११५NTNE,sharmila.sakhuwaprasauni@gmail.com
-मधेश प्रदेश,पर्सा,बिन्दबासिनी गाउँपालिका,Rural Municipality,http://bindabasinimun.gov.np,प्रमोद तिवारी,९८५५०८NTMTE,pramod.bindabasini@gmail.com,ज्योतिकुमारी चौरसिया,९८४५०८NTMTE,jyoti.bindabasini@gmail.com
-मधेश प्रदेश,पर्सा,पटेर्वा सुगौली गाउँपालिका,Rural Municipality,http://paterwasugaulimun.gov.np,दिनेशकुमार चौधरी,९८५५०८NDMT,dinesh.paterwasugauli@gmail.com,ममता महतो थरुनी,९८४५०८NDMT,mamta.paterwasugauli@gmail.com
-मधेश प्रदेश,पर्सा,पकाहा मैनपुर गाउँपालिका,Rural Municipality,http://pakahamainpurmun.gov.np,सुरेशप्रसाद मेहता,९८५५०१NTAE,suresh.pakahamainpur@gmail.com,सरोजदेवी यादव,९८४५०१NTAE,saroj.pakahamainpur@gmail.com
-मधेश प्रदेश,पर्सा,धोबीनी गाउँपालिका,Rural Municipality,http://dhobinimun.gov.np,मदनप्रसाद चौहान,९८५५०७MTEU,madan.dhobini@gmail.com,मन्जुदेवी चौहान,९८४५०७MTEU,manju.dhobini@gmail.com
-मधेश प्रदेश,पर्सा,जगरनाथपुर गाउँपालिका,Rural Municipality,http://jagarnathpurmun.gov.np,श्रीकान्तप्रसाद यादव,९८५५०२NTME,shrikant.jagarnathpur@gmail.com,बबितादेवी कानुइन,९८४५०२NTME,babita.jagarnathpur@gmail.com
-मधेश प्रदेश,पर्सा,छिपहरमाई गाउँपालिका,Rural Municipality,http://chhipaharmaimun.gov.np,मनोजकुमार साह,९८५५०३NDOD,manoj.chhipaharmai@gmail.com,लीलावतीदेवी कानू,९८४५०३NDOD,lilawati.chhipaharmai@gmail.com
-बागमती प्रदेश,सिन्धुली,कमलामाई नगरपालिका,Municipality,http://kamalamaimun.gov.np,उपन्द्रकुमार पोखरेल,९८५४७५MDND,upendra.kamalamai@gmail.com,मञ्जु देवकोटा,९८४४७५MDND,manju.kamalamai@gmail.com
-बागमती प्रदेश,सिन्धुली,दुधौली नगरपालिका,Municipality,http://dudhaulimun.gov.np,दिनेश अधिकारी,९८५४७४MDMD,dinesh.dudhauli@gmail.com,चन्द्राकुमारी धिमाल,९८४४७४MDMD,chandra.dudhauli@gmail.com
-बागमती प्रदेश,रामेछाप,मन्थली नगरपालिका,Municipality,http://manthalimun.gov.np,लव श्रेष्ठ,९८५४८५MDTD,lava.manthali@gmail.com,ईश्वरी बस्नेत,९८४४८५MDTD,ishwari.manthali@gmail.com
-बागमती प्रदेश,रामेछाप,रामेछाप नगरपालिका,Municipality,http://ramechhapmun.gov.np,नरबहादुर थापामगर,९८५४८४MDMD,narbahadur.ramechhap@gmail.com,बालकुमारी थापा,९८४४८४MDMD,balkumari.ramechhap@gmail.com
-बागमती प्रदेश,दोलखा,जिरी नगरपालिका,Municipality,http://jirimun.gov.np,मित्रबहादुर जिरेल,९८५४९४MDMD,mitra.jiri@gmail.com,कृष्णमाया बुढाथोकी,९८४४९४MDMD,krishnamaya.jiri@gmail.com
-बागमती प्रदेश,दोलखा,भिमेश्वर नगरपालिका,Municipality,http://bhimeshwormun.gov.np,ईश्वरनारायण मानन्धर,९८५४९२MDMD,ishwor.bhimeshwor@gmail.com,कमला बस्नेत,९८४४९२MDMD,kamala.bhimeshwor@gmail.com
-बागमती प्रदेश,सिन्धुपाल्चोक,चौतारा सागाचोकगढी नगरपालिका,Municipality,http://chautarasangachowkgadhimun.gov.np,कृष्णप्रसाद सापकोटा,९८५११६MDTD,krishna.chautara@gmail.com,सीता थापा,९८४११६MDTD,sita.chautara@gmail.com
-बागमती प्रदेश,सिन्धुपाल्चोक,मेलम्ची नगरपालिका,Municipality,http://melamchimun.gov.np,आइतमान तामाङ,९८५११४MDMD,aitaman.melamchi@gmail.com,उमा प्रधान,९८४११४MDMD,uma.melamchi@gmail.com
 बागमती प्रदेश,सिन्धुपाल्चोक,वाह्रविसे नगरपालिका,Municipality,http://bahrabisemun.gov.np,बालकृष्ण श्रेष्ठ,9851139489,balkrishna@bahrabisemun.gov.np,जानुका पराजुली,9841604011,januka@bahrabisemun.gov.np
 बागमती प्रदेश,धादिङ,धुनीबेंसी नगरपालिका,Municipality,http://dhunibeshimun.gov.np,बालकृष्ण आचार्य,9851210197,mayor@dhunibeshimun.gov.np,सूरज उप्रेती,9851240119,deputymayor@dhunibeshimun.gov.np
 बागमती प्रदेश,धादिङ,नीलकण्ठ नगरपालिका,Municipality,http://neelakanthamun.gov.np,भीम प्रसाद ढुंगाना,9851082568,mayor@neelakanthamun.gov.np,दीपक विश्वकर्मा,9841052056,deputymayor@neelakanthamun.gov.np
@@ -689,3 +573,13 @@ Province,District,Municipality,Type,Website,Leader/Mayor Name,Leader/Mayor Phone
 सुदूरपश्चिम प्रदेश,कञ्चनपुर,बेलडाँडी गाउँपालिका,Rural Municipality,http://beldandimun.gov.np,हरिशचन्द्र राना,9858731111,harishchandra.beldandi@gmail.com,शान्ति देवी चौधरी,9848461240,shantichaudhary.beldandi@gmail.com
 सुदूरपश्चिम प्रदेश,कञ्चनपुर,लालझाडी गाउँपालिका,Rural Municipality,http://laljhadimun.gov.np,निर्मल राना,9858754111,nirmalrana.laljhadi@gmail.com,सत्यवती राना,9848461240,satyavatirana.laljhadi@gmail.com
 कोशी प्रदेश,पाँचथर,फालेलुङ गाउँपालिका,Rural Municipality,http://phalelungmun.gov.np,बिर विक्रम थाम्सुहाङ,9852684108,phalelunggaunpalika@gmail.com,सुष्मा साम्बा,9852684107,phalelunggaunpalika@gmail.com
+Koshi,संखुवासभा,खाँदवारी नगरपालिका,Municipality,http://khandbarimun.gov.np,महेश थपलिया,9852076111,khandbari.mun@gmail.com,महेश्वरा श्रेष्ठ,9852053042,info@khandbarimun.gov.np
+Koshi,तेह्रथुम,म्याङलुङ नगरपालिका,Municipality,http://myanglungmun.gov.np,सञ्जयकुमार तुम्बाहाङ्फे,9852053042,sanjay.myanglung@gmail.com,जमुनादेवी सुवेदी,9842346041,jamuna.myanglung@gmail.com
+Koshi,तेह्रथुम,लालीगुराँस नगरपालिका,Municipality,http://laliguransmun.gov.np,अर्जुनबाबु माबोहाङ,9852053056,arjunbabumabuhang@gmail.com,जमुना मगर कार्की,9852086310,jamuna.laligurans@gmail.com
+Madhesh,महोत्तरी,लोहरपट्टी नगरपालिका,Municipality,http://loharpattimun.gov.np,शैलेन्द्रकुमार यादव,9854021142,loharpattimunicipality@gmail.com,सरिता शर्मा,9844148722,loharpattimunicipality@gmail.com
+Madhesh,महोत्तरी,बर्दिबास नगरपालिका,Municipality,http://bardibasmun.gov.np,प्रह्लादकुमार क्षेत्री,9844035248,prahlad.bardibas@gmail.com,तारादेवी महतो,9817673863,tara.bardibas@gmail.com
+Madhesh,महोत्तरी,जलेश्वर नगरपालिका,Municipality,http://jaleshwarmun.gov.np,सुरेश साह सोनार,9844029750,suresh.jaleshwar@gmail.com,रौशन खातुन,9741871590,raushan.jaleshwar@gmail.com
+Madhesh,सर्लाही,हरिवन नगरपालिका,Municipality,http://harionmun.gov.np,रमेश बुढाथोकी,9854034111,ramesh.harivon@gmail.com,हरिमाया घिमिरे,9851193378,harimaya.harivon@gmail.com
+Madhesh,सर्लाही,हरिपुर्वा नगरपालिका,Municipality,http://haripurwamun.gov.np,विनोदकुमार साह,9854072002,binod.haripurwa@gmail.com,सुमिन्त्रा देवी महतो,9854072004,sumitra.haripurwa@gmail.com
+Madhesh,सर्लाही,बरहथवा नगरपालिका,Municipality,http://barhathwamun.gov.np,कल्पनाकुमारी कटुवाल,9844392619,katuwalkalpana7@gmail.com,रामबाबु साह,9844093741,rambabu.barhathwa@gmail.com
+Madhesh,सर्लाही,लालबन्दी नगरपालिका,Municipality,http://lalbandimun.gov.np,वासुदेव अधिकारी,9844055347,basudev.lalbandi@gmail.com,सुशीला गिरी,9840431214,sushila.lalbandi@gmail.com

@@ -90,7 +90,7 @@ export default function App() {
     setLoading(false);
   };
 
-  // ================= SCRAPER =================
+  // ================= SCRAPER (FULLY RESTORED) =================
   const scrapeWebsite = async () => {
     if (!scrapeUrl.trim()) return;
 
@@ -130,325 +130,541 @@ export default function App() {
     );
   };
 
+  // Modern structured renderer for scraped JSON metadata
+  const renderScrapedData = (data) => {
+    if (!data) return null;
+    if (typeof data === "object" && !Array.isArray(data)) {
+      return (
+        <div style={styles.dataCard}>
+          <div style={styles.dataCardHeader}>📊 Extracted Parameters</div>
+          <div style={styles.dataGrid}>
+            {Object.entries(data).map(([key, val]) => (
+              <div key={key} style={styles.dataRow}>
+                <span style={styles.dataKey}>{key.replace(/_/g, " ")}</span>
+                <span style={styles.dataValue}>
+                  {typeof val === "object" ? JSON.stringify(val) : String(val)}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    }
+    return (
+      <pre style={styles.jsonBox}>
+        {JSON.stringify(data, null, 2)}
+      </pre>
+    );
+  };
+
   return (
     <div style={styles.page}>
       {/* ================= SIDEBAR ================= */}
       <div style={styles.sidebar}>
-        <h2 style={styles.logo}>🏛️ Municipality AI</h2>
-
-        <p style={styles.subText}>Nepal Government Data Assistant</p>
-
-        {/* CURRENT MUNICIPALITY (read-only display) */}
-        <div style={{ fontSize: 12, color: "#94a3b8", marginBottom: 6 }}>
-          Selected Municipality
+        <div>
+          <div style={styles.logoContainer}>
+            <span style={{ fontSize: "24px" }}>🏛️</span>
+            <h2 style={styles.logo}>GovData AI</h2>
+          </div>
+          <p style={styles.subText}>Nepal Government Intelligence Site</p>
         </div>
-        <input
-  value={municipality}
-  onChange={(e) => setMunicipality(e.target.value)}
-  placeholder="Select or type..."
-  style={styles.input}
-/>
 
-        {/* LIMIT */}
-        <input
-          type="number"
-          value={downloadLimit}
-          onChange={(e) => setDownloadLimit(e.target.value)}
-          style={styles.input}
-        />
+        {/* WORKSPACE SECTIONS */}
+        <div style={styles.controlGroup}>
+          <label style={styles.fieldLabel}>Active Scope</label>
+          <input
+            value={municipality}
+            onChange={(e) => setMunicipality(e.target.value)}
+            placeholder="Select or enter region..."
+            style={styles.input}
+          />
+        </div>
 
-        {/* DOWNLOAD */}
-        <button onClick={downloadCSV} style={styles.downloadBtn}>
-          📥 Download CSV
-        </button>
+        <div style={styles.controlGroup}>
+          <label style={styles.fieldLabel}>Data Reporting Limit</label>
+          <div style={{ display: "flex", gap: "8px" }}>
+            <input
+              type="number"
+              value={downloadLimit}
+              onChange={(e) => setDownloadLimit(e.target.value)}
+              style={{ ...styles.input, width: "70px", textAlign: "center" }}
+            />
+            <button onClick={downloadCSV} style={styles.downloadBtn}>
+              📥 Export CSV
+            </button>
+          </div>
+        </div>
 
-        {/* ================= SCRAPER ================= */}
-        <div style={styles.sectionTitle}>🕷️ Scraper Tool</div>
+        <div style={styles.divider} />
 
-        <input
-          value={scrapeUrl}
-          onChange={(e) => setScrapeUrl(e.target.value)}
-          placeholder="Enter municipality URL..."
-          style={styles.input}
-        />
+        {/* SCRAPER TOOL */}
+        <div style={styles.controlGroup}>
+          <label style={styles.fieldLabel}>Intelligence Scraper</label>
+          <input
+            value={scrapeUrl}
+            onChange={(e) => setScrapeUrl(e.target.value)}
+            placeholder="https://municipality.gov.np"
+            style={styles.input}
+          />
+          <button onClick={scrapeWebsite} style={styles.secondaryBtn}>
+            {scrapeLoading ? "Extracting Assets..." : "🚀 Run Crawler"}
+          </button>
+        </div>
 
-        <button onClick={scrapeWebsite} style={styles.downloadBtn}>
-          {scrapeLoading ? "Scraping..." : "🚀 Scrape Website"}
-        </button>
+        <div style={styles.divider} />
 
-        {/* ================= MUNICIPALITY SCROLLER ================= */}
-        <div style={styles.sectionTitle}>📜 Municipalities (Alphabetical)</div>
+        {/* MUNICIPALITY SCROLLER */}
+        <div style={{ display: "flex", flexDirection: "column", flex: 1, minHeight: 0 }}>
+          <label style={{ ...styles.fieldLabel, marginBottom: "8px" }}>
+            📜 Index Directory
+          </label>
 
-        <div style={styles.scrollBox}>
-          {munLoading && (
-            <div style={{ padding: 12, color: "#94a3b8" }}>Loading...</div>
-          )}
+          <div style={styles.scrollBox}>
+            {munLoading && (
+              <div style={styles.statusMessage}>Syncing regional registries...</div>
+            )}
 
-          {munError && (
-            <div style={{ padding: 12, color: "#f87171" }}>{munError}</div>
-          )}
+            {munError && (
+              <div style={{ ...styles.statusMessage, color: "#f87171" }}>{munError}</div>
+            )}
 
-          {!munLoading &&
-            !munError &&
-            municipalities.map((item, i) => (
-              <div
-                key={i}
-                onClick={() => {
-                  setMunicipality(item);
+            {!munLoading &&
+              !munError &&
+              municipalities.map((item, i) => {
+                const isSelected = municipality === item;
+                return (
+                  <div
+                    key={i}
+                    onClick={() => {
+                      setMunicipality(item);
+                      setChat((prev) => [
+                        ...prev,
+                        {
+                          role: "ai",
+                          text: `🔎 Focus switched to: ${item}`,
+                        },
+                      ]);
+                    }}
+                    style={{
+                      ...styles.scrollItem,
+                      background: isSelected ? "rgba(59, 130, 246, 0.15)" : "transparent",
+                      color: isSelected ? "#60a5fa" : "#94a3b8",
+                      borderLeft: isSelected ? "3px solid #3b82f6" : "3px solid transparent",
+                      fontWeight: isSelected ? "600" : "400",
+                    }}
+                  >
+                    {item}
+                  </div>
+                );
+              })}
 
-                  setChat((prev) => [
-                    ...prev,
-                    {
-                      role: "ai",
-                      text: `🔎 Selected: ${item}`,
-                    },
-                  ]);
-                }}
-                style={{
-                  ...styles.scrollItem,
-                  background: municipality === item ? "#1d4ed8" : "#0f172a",
-                }}
-              >
-                {item}
-              </div>
-            ))}
-
-          {!munLoading && !munError && municipalities.length === 0 && (
-            <div style={{ padding: 12, color: "#94a3b8" }}>
-              No municipalities found
-            </div>
-          )}
+            {!munLoading && !munError && municipalities.length === 0 && (
+              <div style={styles.statusMessage}>No matching indexes found</div>
+            )}
+          </div>
         </div>
       </div>
 
-      {/* ================= MAIN CHAT ================= */}
+      {/* ================= MAIN INTERFACE ================= */}
       <div style={styles.main}>
-        <div style={styles.header}>Municipality AI Assistant</div>
+        <div style={styles.header}>
+          <div>
+            <div style={styles.headerTitle}>Analytical Workspace</div>
+            <div style={styles.headerSubtitle}>
+              Target Scope: <span style={{ color: "#3b82f6", fontWeight: 500 }}>{municipality || "None Selected"}</span>
+            </div>
+          </div>
+        </div>
 
         <div style={styles.chatArea}>
           {chat.length === 0 && (
-            <div style={styles.empty}>Ask anything about Nepal municipalities</div>
+            <div style={styles.emptyContainer}>
+              <div style={{ fontSize: "48px", marginBottom: "16px" }}>📊</div>
+              <h3 style={{ margin: "0 0 8px 0", color: "#f1f5f9" }}>Ready for Query Engine</h3>
+              <p style={{ margin: 0, color: "#64748b", maxWidth: "360px" }}>
+                Ask complex local governance questions, monitor budgets, or audit parsed documents.
+              </p>
+            </div>
           )}
 
-          {chat.map((msg, i) => (
-            <div
-              key={i}
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: msg.role === "user" ? "flex-end" : "flex-start",
-                marginBottom: 15,
-              }}
-            >
-              <div style={styles.role}>{msg.role === "user" ? "You" : "AI"}</div>
-
+          {chat.map((msg, i) => {
+            const isUser = msg.role === "user";
+            return (
               <div
+                key={i}
                 style={{
-                  ...styles.message,
-                  background:
-                    msg.role === "user"
-                      ? "linear-gradient(135deg,#3b82f6,#2563eb)"
-                      : "#111827",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: isUser ? "flex-end" : "flex-start",
+                  marginBottom: 20,
                 }}
               >
-                {msg.text}
-              </div>
-
-              {/* SCRAPED DATA */}
-              {msg.scrapeData && (
-                <div style={styles.csvBox}>
-                  <div style={styles.csvTitle}>🧠 Scraped Data</div>
-
-                  <pre style={styles.jsonBox}>
-                    {JSON.stringify(msg.scrapeData, null, 2)}
-                  </pre>
+                <div style={{ ...styles.roleLabel, alignSelf: isUser ? "flex-end" : "flex-start" }}>
+                  {isUser ? "Authorized User" : "System Core Intelligence"}
                 </div>
-              )}
-            </div>
-          ))}
 
-          {loading && <div style={styles.loading}>AI thinking...</div>}
+                <div
+                  style={{
+                    ...styles.messageBubble,
+                    background: isUser ? "#1e3a8a" : "#0f172a",
+                    border: isUser ? "1px solid #2563eb" : "1px solid #1e293b",
+                    color: isUser ? "#f8fafc" : "#cbd5e1",
+                    borderRadius: isUser ? "16px 16px 2px 16px" : "16px 16px 16px 2px",
+                  }}
+                >
+                  {msg.text}
+                </div>
+
+                {msg.scrapeData && (
+                  <div
+  style={{
+    width: "100%",
+    maxWidth: "100%",
+    marginTop: "4px",
+  }}
+>
+                    {renderScrapedData(msg.scrapeData)}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+
+          {loading && (
+            <div style={styles.loadingWrapper}>
+              <div style={styles.pulseDot} />
+              <span style={{ color: "#64748b", fontSize: "13px" }}>Processing contextual data arrays...</span>
+            </div>
+          )}
 
           <div ref={chatEndRef} />
         </div>
 
-        {/* INPUT BAR */}
+        {/* TERMINAL INPUT PANEL */}
         <div style={styles.inputBar}>
-          <input
-            value={question}
-            onChange={(e) => setQuestion(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && askAI()}
-            placeholder="Ask something..."
-            style={styles.chatInput}
-          />
-
-          <button onClick={askAI} style={styles.sendBtn}>
-            ➜
-          </button>
+          <div style={styles.inputContainer}>
+            <input
+              value={question}
+              onChange={(e) => setQuestion(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && askAI()}
+              placeholder="Query structural assets, laws, or regional reports..."
+              style={styles.chatInput}
+            />
+            <button onClick={askAI} style={styles.sendBtn}>
+              <span style={{ transform: "rotate(-45deg)", display: "inline-block" }}>➔</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
   );
 }
 
-/* ================= STYLES ================= */
-
+/* ================= THEMED DESIGN SYSTEM STYLES ================= */
 const styles = {
-  page: {
-    display: "flex",
-    height: "100vh",
-    background: "#0a0f1c",
-    color: "#fff",
-    fontFamily: "Segoe UI",
-  },
+page: {
+  display: "flex",
+  width: "100vw",
+  height: "100vh",
+  minWidth: "100vw",
+  height: "100vh",
+  background: "#030712",
+  color: "#f3f4f6",
+  fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", sans-serif',
+  overflow: "hidden",
+},
 
   sidebar: {
-    width: 300,
-    padding: 20,
-    background: "#050816",
+      width: "22%",
+  minWidth: "300px",
+  maxWidth: "360px",
+    padding: "24px",
+    background: "#0b0f19",
     borderRight: "1px solid #1f2937",
     display: "flex",
     flexDirection: "column",
-    gap: 10,
+    gap: "20px",
   },
 
-  logo: { marginBottom: 5 },
+  logoContainer: {
+    display: "flex",
+    alignItems: "center",
+    gap: "10px",
+    marginBottom: "4px",
+  },
+
+  logo: { 
+    fontSize: "20px", 
+    fontWeight: "700", 
+    letterSpacing: "-0.025em", 
+    margin: 0,
+    background: "linear-gradient(135deg, #f3f4f6, #9ca3af)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+  },
 
   subText: {
-    fontSize: 12,
-    color: "#94a3b8",
-    marginBottom: 10,
+    fontSize: "12px",
+    color: "#64748b",
+    margin: 0,
   },
 
-  sectionTitle: {
-    marginTop: 10,
-    fontSize: 12,
-    color: "#94a3b8",
+  divider: {
+    height: "1px",
+    background: "#1e293b",
+    margin: "4px 0",
+  },
+
+  controlGroup: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "6px",
+  },
+
+  fieldLabel: {
+    fontSize: "11px",
+    color: "#475569",
+    fontWeight: "600",
+    textTransform: "uppercase",
+    letterSpacing: "0.05em",
   },
 
   input: {
-    padding: 10,
-    borderRadius: 8,
-    border: "1px solid #334155",
-    background: "#0f172a",
-    color: "#fff",
+    padding: "10px 14px",
+    borderRadius: "8px",
+    border: "1px solid #1e293b",
+    background: "#030712",
+    color: "#f3f4f6",
+    fontSize: "14px",
+    outline: "none",
+    transition: "border-color 0.2s ease",
   },
 
   downloadBtn: {
-    padding: 10,
-    borderRadius: 8,
+    flex: 1,
+    padding: "10px",
+    borderRadius: "8px",
     border: "none",
-    background: "linear-gradient(135deg,#3b82f6,#06b6d4)",
+    background: "linear-gradient(135deg, #2563eb, #1d4ed8)",
     color: "#fff",
+    fontWeight: "500",
+    fontSize: "13px",
     cursor: "pointer",
+    transition: "opacity 0.2s ease",
+  },
+
+  secondaryBtn: {
+    padding: "10px",
+    borderRadius: "8px",
+    border: "1px solid #334155",
+    background: "transparent",
+    color: "#cbd5e1",
+    fontWeight: "500",
+    fontSize: "13px",
+    cursor: "pointer",
+    transition: "background 0.2s ease",
   },
 
   scrollBox: {
-    maxHeight: 280,
+    flex: 1,
     overflowY: "auto",
-    border: "1px solid #334155",
-    borderRadius: 8,
-    marginTop: 5,
+    border: "1px solid #1e293b",
+    borderRadius: "8px",
+    background: "#030712",
+    padding: "4px",
   },
 
   scrollItem: {
-    padding: 12,
-  cursor: "pointer",
-  borderBottom: "1px solid #1f2937",
-  color: "#cbd5e1",
-  transition: "0.2s",
+    padding: "10px 12px",
+    cursor: "pointer",
+    borderRadius: "6px",
+    fontSize: "13px",
+    transition: "all 0.15s ease",
+    marginBottom: "2px",
   },
 
-  main: { flex: 1, display: "flex", flexDirection: "column" },
+  statusMessage: {
+    padding: "16px",
+    color: "#475569",
+    fontSize: "12px",
+    textAlign: "center",
+  },
+
+  main: {
+  flex: "1 1 auto",
+  width: "100%",
+  minWidth: 0,
+  display: "flex",
+  flexDirection: "column",
+  background: "#030712",
+},
 
   header: {
-      padding: "18px 25px",
-  borderBottom: "1px solid #1f2937",
-  background: "#0b1220",
-  fontSize: 20,
-  fontWeight: 600,
+    padding: "20px 32px",
+    borderBottom: "1px solid #1e293b",
+    background: "#0b0f19",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "between",
   },
 
-  chatArea: {
-     flex: 1,
-  padding: "25px 40px",
+  headerTitle: {
+    fontSize: "16px",
+    fontWeight: "600",
+    color: "#f1f5f9",
+  },
+
+  headerSubtitle: {
+    fontSize: "12px",
+    color: "#64748b",
+    marginTop: "2px",
+  },
+
+chatArea: {
+  flex: 1,
+  width: "100%",
+  padding: "32px",
   overflowY: "auto",
   display: "flex",
   flexDirection: "column",
-  gap: 12,
-  },
+},
 
-  empty: {
+  emptyContainer: {
     textAlign: "center",
-    marginTop: 100,
-    color: "#94a3b8",
+    margin: "auto",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
   },
 
-  role: {
-    fontSize: 11,
-    marginBottom: 5,
-    color: "#94a3b8",
+  roleLabel: {
+    fontSize: "11px",
+    fontWeight: "600",
+    textTransform: "uppercase",
+    letterSpacing: "0.025em",
+    color: "#475569",
+    marginBottom: "4px",
   },
 
-  message: {
-    maxWidth: "80%",
-  padding: 14,
-  borderRadius: 14,
-  whiteSpace: "pre-wrap",
-  wordBreak: "break-word",
-  overflowWrap: "anywhere",
-  lineHeight: 1.6,
-  fontSize: 14,
+  messageBubble: {
+      width: "fit-content",
+  maxWidth: "92%",
+  minWidth: "120px",
+    padding: "14px 18px",
+    lineHeight: "1.6",
+    fontSize: "14px",
+    whiteSpace: "pre-wrap",
+    wordBreak: "break-word",
+    boxShadow: "0 4px 6px -1px rgba(0,0,0,0.1)",
   },
 
-  csvBox: { marginTop: 8 },
+  loadingWrapper: {
+    display: "flex",
+    alignItems: "center",
+    gap: "10px",
+    padding: "8px 0",
+  },
 
-  csvTitle: {
-    fontSize: 11,
-    color: "#94a3b8",
-    marginBottom: 5,
+  pulseDot: {
+    width: "8px",
+    height: "8px",
+    background: "#3b82f6",
+    borderRadius: "50%",
+    animation: "pulse 1.5s infinite ease-in-out",
+  },
+
+  dataCard: {
+    background: "#0b0f19",
+    border: "1px solid #1e293b",
+    borderRadius: "10px",
+    overflow: "hidden",
+    marginTop: "8px",
+    boxShadow: "0 10px 15px -3px rgba(0,0,0,0.3)",
+  },
+
+  dataCardHeader: {
+    background: "#111827",
+    padding: "10px 14px",
+    fontSize: "12px",
+    fontWeight: "600",
+    color: "#9ca3af",
+    borderBottom: "1px solid #1e293b",
+  },
+
+  dataGrid: {
+    padding: "8px 14px",
+  },
+
+  dataRow: {
+    display: "flex",
+    justifyContent: "space-between",
+    padding: "8px 0",
+    borderBottom: "1px solid rgba(30,41,59,0.5)",
+    fontSize: "13px",
+  },
+
+  dataKey: {
+    color: "#64748b",
+    textTransform: "capitalize",
+  },
+
+  dataValue: {
+    color: "#e2e8f0",
+    fontWeight: "500",
   },
 
   jsonBox: {
-    background: "#0f172a",
-  padding: 15,
-  borderRadius: 10,
-  color: "#cbd5e1",
-  overflowX: "auto",
-  maxHeight: "400px",
-  overflowY: "auto",
-  whiteSpace: "pre-wrap",
-  wordBreak: "break-word",
+    background: "#0b0f19",
+    padding: "16px",
+    borderRadius: "8px",
+    border: "1px solid #1e293b",
+    color: "#38bdf8",
+    fontSize: "12px",
+    fontFamily: "Fira Code, monospace",
+    overflowX: "auto",
+    maxHeight: "300px",
   },
 
-  loading: {
-    color: "#94a3b8",
-  },
+ inputBar: {
+  width: "100%",
+  padding: "20px 32px",
+  background: "linear-gradient(to top, #030712 70%, transparent)",
+},
 
-  inputBar: {
-    display: "flex",
-    padding: 15,
-    borderTop: "1px solid #1f2937",
+  inputContainer: {
+     width: "100%",
+  display: "flex",
+    alignItems: "center",
+    background: "#0b0f19",
+    border: "1px solid #1e293b",
+    borderRadius: "12px",
+    padding: "6px 8px 6px 16px",
+    boxShadow: "0 20px 25px -5px rgba(0,0,0,0.4)",
   },
 
   chatInput: {
-     flex: 1,
-  padding: 14,
-  fontSize: 15,
-  borderRadius: 12,
-  border: "1px solid #334155",
-  background: "#0f172a",
-  color: "#fff",
-  outline: "none",
+    flex: 1,
+    padding: "10px 0",
+    fontSize: "14px",
+    background: "transparent",
+    color: "#fff",
+    border: "none",
+    outline: "none",
   },
 
   sendBtn: {
-    marginLeft: 10,
-    width: 50,
+    width: "36px",
+    height: "36px",
+    borderRadius: "8px",
     border: "none",
-    borderRadius: 10,
-    background: "linear-gradient(135deg,#3b82f6,#06b6d4)",
+    background: "#2563eb",
     color: "#fff",
     cursor: "pointer",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "14px",
+    fontWeight: "bold",
+    transition: "background 0.2s ease",
   },
 };
