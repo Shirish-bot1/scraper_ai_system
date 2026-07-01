@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
-
+const API = import.meta.env.VITE_API_URL;
 export default function App() {
   const [municipality, setMunicipality] = useState("");
   const [question, setQuestion] = useState("");
@@ -30,7 +30,7 @@ export default function App() {
       setMunLoading(true);
       setMunError(null);
       try {
-         const res = await axios.get("http://127.0.0.1:8000/municipalities", {
+         const res = await axios.get(`${API}/municipalities`, {
   headers: {
     "Cache-Control": "no-cache",
     "Pragma": "no-cache",
@@ -83,12 +83,12 @@ export default function App() {
   setLoading(true);
 
   try {
-    const res = await axios.post("http://127.0.0.1:8000/chat/", {
+    const res = await axios.post(`${API}/chat/`, {
       municipality,
       question,
     });
 
-    // 🧹 BACKEND TRIGGER CLEAR (important)
+
     if (res.data.clear) {
       setChat([]);
       setQuestion("");
@@ -121,7 +121,7 @@ export default function App() {
     setScrapeLoading(true);
 
     try {
-      const res = await axios.post("http://127.0.0.1:8000/scrape", {
+      const res = await axios.post(`${API}/scrape`, {
         url: scrapeUrl,
       });
 
@@ -164,7 +164,7 @@ export default function App() {
     }
 
     window.open(
-      `http://127.0.0.1:8000/export-csv?limit=${limitValue}`,
+      `${API}/export-csv?limit=${limitValue}`,
       "_blank"
     );
   };
