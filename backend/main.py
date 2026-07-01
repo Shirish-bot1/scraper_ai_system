@@ -347,3 +347,9 @@ async def run_all_api():
         "status": "success",
         "message": "Full automation completed"
     }    
+
+from app.automations.scheduler import start_scheduler
+
+@app.on_event("startup")
+async def startup():
+    start_scheduler()

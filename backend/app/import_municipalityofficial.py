@@ -97,9 +97,8 @@ def import_officials_csv(csv_file_path):
     db.close()
     print("🎉 IMPORT COMPLETED SUCCESSFULLY")
 
+from pathlib import Path
 
-# -----------------------------
-# RUN SCRIPT
-# -----------------------------
 if __name__ == "__main__":
-    import_officials_csv(r"C:\Users\shiri\scraper_ai_system\backend\app\automations\municipality_official.csv")
+    csv_path = Path(__file__).parent / "automations" / "municipality_official.csv"
+    import_officials_csv(csv_path)

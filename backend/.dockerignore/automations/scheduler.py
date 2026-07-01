@@ -35,8 +35,6 @@ scheduler.add_job(
 
 
 def start_scheduler():
-    if not scheduler.running:
-        scheduler.start()
-        print("Scheduler Started")
-    else:
-        print("Scheduler already running")
+    scheduler.start()
+
+    print("Scheduler Started")

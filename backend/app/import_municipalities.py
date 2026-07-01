@@ -33,8 +33,8 @@ def import_csv_to_db(csv_file_path):
     db.commit()
     db.close()
     print("Import completed successfully!")
+from pathlib import Path
 
 if __name__ == "__main__":
-    # Point this to your CSV file
-    # Ensure municipalities.csv is in the same folder as this script
-    import_csv_to_db(r'C:\Users\shiri\scraper_ai_system\backend\app\automations\municipalities.csv')
+    csv_path = Path(__file__).parent / "automations" / "municipalities.csv"
+    import_csv_to_db(csv_path)
