@@ -29,10 +29,18 @@ def import_data():
 
     print("Import completed")
 
+def clean_data():
+    print("Cleaning the data")
 
+    subprocess.run(
+        ["python", "-m", "app.clean_db"],
+        check=True
+
+    )
 def full_automation():
     run_scraper()
     import_data()
+    clean_data()
 
 
 if __name__ == "__main__":

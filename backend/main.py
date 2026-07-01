@@ -217,6 +217,14 @@ class ChatRequest(BaseModel):
 @app.post("/chat/")
 async def chat_with_ai(request: ChatRequest):
     try:
+        query = request.question.lower().strip()
+
+        # ✅ CLEAR CHAT COMMAND
+        if query in ["/clear", "clear chat", "reset chat"]:
+            return {
+                "clear": True,
+                "message": "Chat cleared successfully"
+            }
         result = chat_with_agent(request.question, request.municipality)
 
         query = request.question.lower()

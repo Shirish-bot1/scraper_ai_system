@@ -30,7 +30,15 @@ export default function App() {
       setMunLoading(true);
       setMunError(null);
       try {
-        const res = await axios.get("http://127.0.0.1:8000/municipalities");
+         const res = await axios.get("http://127.0.0.1:8000/municipalities", {
+  headers: {
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+  },
+  params: {
+    t: Date.now(), 
+  },
+});
         if (!mounted) return;
         const list = Array.isArray(res.data) ? res.data : [];
         // sort alphabetically using Nepali locale if available
@@ -60,35 +68,51 @@ export default function App() {
 
   // ================= CHAT =================
   const askAI = async () => {
-    if (!question.trim()) return;
+  if (!question.trim()) return;
 
-    setChat((prev) => [...prev, { role: "user", text: question }]);
-    setLoading(true);
+  const q = question.trim().toLowerCase();
 
-    try {
-      const res = await axios.post("http://127.0.0.1:8000/chat/", {
-        municipality,
-        question,
-      });
+  // 🧹 FRONTEND INSTANT CLEAR (optional but recommended)
+  if (q === "clear chat" || q === "/clear" || q === "reset chat") {
+    setChat([]);
+    setQuestion("");
+    return;
+  }
 
-      setChat((prev) => [
-        ...prev,
-        {
-          role: "ai",
-          text: res.data.answer,
-          csvs: res.data.csv_files || [],
-        },
-      ]);
-    } catch (err) {
-      setChat((prev) => [
-        ...prev,
-        { role: "ai", text: "❌ Backend not reachable" },
-      ]);
+  setChat((prev) => [...prev, { role: "user", text: question }]);
+  setLoading(true);
+
+  try {
+    const res = await axios.post("http://127.0.0.1:8000/chat/", {
+      municipality,
+      question,
+    });
+
+    // 🧹 BACKEND TRIGGER CLEAR (important)
+    if (res.data.clear) {
+      setChat([]);
+      setQuestion("");
+      return;
     }
 
-    setQuestion("");
-    setLoading(false);
-  };
+    setChat((prev) => [
+      ...prev,
+      {
+        role: "ai",
+        text: res.data.answer,
+        csvs: res.data.csv_files || [],
+      },
+    ]);
+  } catch (err) {
+    setChat((prev) => [
+      ...prev,
+      { role: "ai", text: "❌ Backend not reachable" },
+    ]);
+  }
+
+  setQuestion("");
+  setLoading(false);
+};
 
   // ================= SCRAPER (FULLY RESTORED) =================
   const scrapeWebsite = async () => {
@@ -123,9 +147,24 @@ export default function App() {
   };
 
   // ================= CSV DOWNLOAD =================
+  // ================= CSV DOWNLOAD =================
   const downloadCSV = () => {
+    // Validate that the limit is a positive number
+    const limitValue = parseInt(downloadLimit, 10);
+    
+    if (isNaN(limitValue) || limitValue <= 0) {
+      setChat((prev) => [
+        ...prev,
+        { 
+          role: "ai", 
+          text: "❌ Export failed: Please enter a positive number greater than 0 for the report limit." 
+        },
+      ]);
+      return; // Stop the execution
+    }
+
     window.open(
-      `http://127.0.0.1:8000/export-csv?limit=${downloadLimit}`,
+      `http://127.0.0.1:8000/export-csv?limit=${limitValue}`,
       "_blank"
     );
   };
@@ -547,9 +586,9 @@ chatArea: {
   },
 
   messageBubble: {
-      width: "fit-content",
-  maxWidth: "92%",
-  minWidth: "120px",
+    width: "fit-content",
+    maxWidth: "92%",
+    minWidth: "120px",
     padding: "14px 18px",
     lineHeight: "1.6",
     fontSize: "14px",

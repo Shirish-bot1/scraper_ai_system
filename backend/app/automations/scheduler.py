@@ -2,7 +2,8 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 from app.automations.automation_runner import (
     run_scraper,
-    import_data
+    import_data,
+    clean_data
 )
 
 scheduler = BackgroundScheduler()
@@ -25,6 +26,24 @@ scheduler.add_job(
     minute=0,
     id="daily_import"
 )
+
+scheduler.add_job(
+    clean_data,
+    trigger="cron",
+    hour=2,
+    minute=0,
+    id="clean_data"
+
+)
+
+# scheduler.add_job(
+#     clean_data,
+#     trigger="interval",
+    
+#     minutes=1,
+#     id="clean_data"
+
+# )
 
 # scheduler.add_job(
 #     import_data,
