@@ -4,9 +4,6 @@ from app.models.municipality import Municipality
 from app.models.municipality_official import MunicipalityOfficial
 
 
-# -----------------------------
-# SAFE CSV CLEANING
-# -----------------------------
 def clean_row(row):
     """Remove None keys + strip headers safely"""
     return {
@@ -21,9 +18,6 @@ def safe_get(row, key):
     return (row.get(key) or "").strip()
 
 
-# -----------------------------
-# MAIN IMPORT FUNCTION
-# -----------------------------
 def import_officials_csv(csv_file_path):
     db = SessionLocal()
 
@@ -36,14 +30,14 @@ def import_officials_csv(csv_file_path):
                 mun_name = safe_get(row, "Municipality")
                 if not mun_name: continue
 
-                # 1. Find Municipality
+                
                 mun = db.query(Municipality).filter(Municipality.municipality_name == mun_name).first()
                 if not mun: continue
 
-                # 2. Get existing official record or create a new one
+           
                 official = db.query(MunicipalityOfficial).filter(MunicipalityOfficial.municipality_id == mun.id).first()
 
-                # Helper to update fields ONLY if new value exists and is different
+           
                 def update_if_new(attr, new_val):
                     if new_val and new_val != getattr(official, attr):
                         setattr(official, attr, new_val)
@@ -51,7 +45,7 @@ def import_officials_csv(csv_file_path):
                     return False
 
                 if official:
-                    # UPDATING EXISTING RECORD
+                  
                     updated = False
                     fields_to_check = {
                         "mayor_name": "Leader/Mayor Name",
@@ -72,7 +66,7 @@ def import_officials_csv(csv_file_path):
                         print(f"✅ No changes needed: {mun_name}")
 
                 else:
-                    # CREATING NEW RECORD
+                  
                     official = MunicipalityOfficial(
                         municipality_id=mun.id,
                         province=safe_get(row, "Province"),
@@ -95,7 +89,7 @@ def import_officials_csv(csv_file_path):
 
     db.commit()
     db.close()
-    print("🎉 IMPORT COMPLETED SUCCESSFULLY")
+    print(" IMPORT COMPLETED SUCCESSFULLY")
 
 from pathlib import Path
 

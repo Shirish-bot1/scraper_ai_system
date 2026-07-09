@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 const API = import.meta.env.VITE_API_URL;
+console.log("API URL =", API);
 export default function App() {
   const [municipality, setMunicipality] = useState("");
   const [question, setQuestion] = useState("");
