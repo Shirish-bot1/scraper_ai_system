@@ -15,7 +15,7 @@ def has_letters(phone):
 def clean_database():
     db = SessionLocal()
 
-    # Delete municipalities with empty names
+   
     deleted_municipalities = (
         db.query(Municipality)
         .filter(
@@ -25,7 +25,7 @@ def clean_database():
         .delete(synchronize_session=False)
     )
 
-    # Delete municipality officials with invalid phone numbers
+    
     officials = db.query(MunicipalityOfficial).all()
 
     deleted_officials = 0

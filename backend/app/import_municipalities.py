@@ -54,9 +54,7 @@ def import_csv_to_db(csv_file_path):
         reader = csv.DictReader(file)
         rows = list(reader)
 
-    # ===============================
-    # Delete municipalities removed from CSV
-    # ===============================
+  
     csv_names = {row["municipality"].strip() for row in rows}
 
     db_municipalities = db.query(Municipality).all()
@@ -68,9 +66,7 @@ def import_csv_to_db(csv_file_path):
 
     db.commit()
 
-    # ===============================
-    # Insert or Update municipalities
-    # ===============================
+  
     for row in rows:
 
         municipality = db.query(Municipality).filter_by(
